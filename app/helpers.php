@@ -6,7 +6,13 @@ if(!function_exists('get_asset'))
         return sprintf('%s/resources/images/%s', get_template_directory_uri(), $file);
     }
 }
-
+if(!function_exists('get_image'))
+{
+    function get_image($file)
+    {
+        return sprintf('%s/resources/images/%s', get_template_directory_uri(), $file);
+    }
+}
 if(!function_exists('get_user_role'))
 {
     function get_user_role($user_id = null)
