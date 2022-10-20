@@ -27,3 +27,11 @@ if(!function_exists('get_user_role'))
         return $user->roles[0];
     }
 }
+
+if(!function_exists('get_fustanella_scripts'))
+{
+    function get_fustanella_scripts($file)
+    {
+        return sprintf('%s/resources/js/fustanella-scripts/%s', get_template_directory_uri(), $file);
+    }
+}

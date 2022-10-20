@@ -1,5 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url(./fonts.css);
+@import url(./calendar.css);
+@import url(./inputs.css);
 @import url(./navbar.css);
 @import url(./footer.css);
