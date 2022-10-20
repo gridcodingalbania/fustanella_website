@@ -5,7 +5,7 @@
             <!-- -------------------------------------------------
                                                 DESKTOP NAVBAR
                                      ------------------------------------------------- -->
-<div class="2xl:flex lg:flex nav:hidden 2xl:pl-28 xl:pl-8 lg:pl-1.5 2xl:pr-14 xl:pr-2.5 lg:pr-1.5 pt-9 ">
+<div class="2xl:flex lg:flex nav:hidden 2xl:pl-28 xl:pl-8 lg:pl-1.5 2xl:pr-14 xl:pr-2.5 lg:pr-1.5 pt-9 absolute w-full">
     <div>
         <img src="<?php echo get_image('NavbarMainImage.png');?>">
     </div>
@@ -136,7 +136,6 @@
             init();
         }(); 
 </script>
-<link href="https://www.lasubida.it/wp-content/themes/lasubida/style.css?v=1642771296" rel="stylesheet" media="screen">  
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
 </head> 
 <style>#preloader { background-color:#F0F0F0; }</style>	
