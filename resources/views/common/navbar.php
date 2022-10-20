@@ -84,7 +84,7 @@
          </div>
     </div>
 </div>
-<div class="pages" id="farm" style=" ">ergver</div>
+
 <div class="pages" id="r&f" style="display:none;"> </div>
 <div class="pages" id="events" style="display:none;"></div>
 <div class="pages" id="gallery" style="display:none;"></div>
@@ -136,9 +136,9 @@
                 init();
             }(); 
 </script>
-<link href="https://www.lasubida.it/wp-content/themes/lasubida/style.css?v=1642771296" rel="stylesheet" media="screen">  
+<!-- <link href="https://www.lasubida.it/wp-content/themes/lasubida/style.css?v=1642771296" rel="stylesheet" media="screen">   -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
-</head> 
+
 <style>#preloader { background-color:#F0F0F0; }</style>	
 <div id="preloader">
 	<div class="status">
