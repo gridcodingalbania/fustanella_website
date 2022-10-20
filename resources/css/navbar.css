@@ -1,43 +1,7 @@
 .navbar:hover{
     background-color: white;
     transition: 0.4s; 
-} 
-.menuML{
-        margin-left:50px;
-}
-@media only screen and (max-width:1741px){
-        .menuML{
-                margin-left:30px;
-        }
-}
-@media only screen and (max-width:1633px){
-        .menuML{
-                margin-left:20px;
-        }
-}
-@media only screen and (max-width:1561px){
-        .menuML{
-                margin-left:10px;
-        }
-}
-@media only screen and (max-width: 1535px){
-        .menuML {
-        margin-left: 50px;
-        font-size: 22px;
-        }
-}
-@media only screen and (max-width: 1430px){
-        .menuML {
-        margin-left: 30px;
-        font-size: 20px;
-        }
-}
-@media only screen and (max-width: 1180px){
-        .menuML {
-        margin-left: 14px;
-        font-size: 17px;
-        }
-}
+}  
 @-webkit-keyframes rotating /* Safari and Chrome */ {
     from {
     -webkit-transform: rotate(0deg);
