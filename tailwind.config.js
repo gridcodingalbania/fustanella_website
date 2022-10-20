@@ -88,6 +88,7 @@ module.exports = {
         700: "#2f855a",
         800: "#276749",
         900: "#22543d",
+        1000:"#006838",
       },
       teal: {
         100: "#e6fffa",
@@ -166,6 +167,7 @@ module.exports = {
     extend: {
       screens: {
         xs: { max: "375px" },
+        nav: { max: "1023px" },
         "2xl": "1300px",
         print: { raw: "print" },
       },
