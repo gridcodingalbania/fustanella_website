@@ -165,11 +165,14 @@ module.exports = {
     },
     extend: {
       screens: {
-        xs: { max: "375px" },
+        xs: { max: "750px" },
         "2xl": "1300px",
         print: { raw: "print" },
       },
       colors: {
+        headingColor:"#006838",
+        gray94:"#F0F0F0",
+        egreen:"#137043",
         gray: {
           50: "#f9fafb",
           100: "#f4f5f7",

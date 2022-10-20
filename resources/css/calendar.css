@@ -1,0 +1,88 @@
+.calendar {
+    width: 900px;
+    /* height: 52rem; */
+    background-color: #F0F0F0;
+    margin: 0 auto;
+}
+
+.month {
+    width: 100%;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.month h1 {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+    line-height: 24px;
+    margin: 20px 0 20px 0;
+    color: #006838;
+}
+
+/* .month p {
+    font-size: 1.6rem;
+} */
+
+.weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+}
+
+.weekdays div {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0.2rem;
+    justify-items: center;
+
+}
+
+.days div {
+    font-size: 15px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+    border-radius: 50%;
+}
+
+.days div:hover:not(.today) {
+    background: #006838;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+    opacity: 0.5;
+}
+
+.today {
+    background-color: #167e56;
+    border-radius: 50%;
+    color: white;
+}
