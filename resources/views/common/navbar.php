@@ -83,12 +83,8 @@
         </select>
      </div>
 </div>
-<<<<<<< HEAD
-
-=======
 </div>
 <div class="pages" id="farm" style="display:none; "></div>
->>>>>>> f8ec0168ea534f4124846ce2d5ea5b1f93c7f078
 <div class="pages" id="r&f" style="display:none;"> </div>
 <div class="pages" id="events" style="display:none;"></div>
 <div class="pages" id="gallery" style="display:none;"></div>
