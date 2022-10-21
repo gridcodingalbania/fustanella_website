@@ -8,6 +8,8 @@ const weekDays = [
     'Fri',
     'Sat'
 ];
+
+
 const renderCalendar = () => {
     date.setDate(1);
 
@@ -60,21 +62,35 @@ const renderCalendar = () => {
     }
 
     for (let i = 1; i <= lastDay; i++) {
-        if (
-            i === new Date().getDate() &&
-            date.getMonth() === new Date().getMonth()
-        ) {
-            days += `<div class="today">${i}</div>`;
-            console.log(i);
-        } else {
-            days += `<div>${i}</div>`;
-        }
+        days += `<div>${i}</div>`;
     }
 
     for (let j = 1; j <= nextDays; j++) {
         days += `<div class="next-date">${j}</div>`;
-        monthDays.innerHTML = days;
     }
+    monthDays.innerHTML = days;
+
+    // Append Selected Day
+    $('#rendered-days div').not(".next-date, .prev-date").on('click', function () {
+        var that = $(this);
+        // Swap active day 
+        that.parent().find('.today').removeClass('today');
+        $(this).addClass('today');
+        // Add Chosen Year, Month & day
+        $('#selectedYear').text(date.getFullYear() + " - ").addClass('text-[22px]');
+        $("#selectedMonth").text(date.getMonth() + 1 + " - ").addClass('text-[22px]');
+        $("#selectedDay").text(this.innerText).addClass('text-[22px]');
+    });
+
+
+    // Append Selected Time to current context
+    var select_timer = document.getElementById('select-timer');
+    select_timer.addEventListener('change', function () {
+        var selected_time = document.getElementById('selectedTime');
+        selected_time.innerText = this.value;
+        selected_time.classList.add('text-[22px]')
+    })
+
 
 };
 
@@ -89,4 +105,6 @@ document.querySelector(".next").addEventListener("click", () => {
 });
 
 renderCalendar();
+
+
 
