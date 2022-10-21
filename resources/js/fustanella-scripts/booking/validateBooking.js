@@ -1,16 +1,28 @@
-let year_selected = $("#selectedYear").text().includes("_");
-let time_selected = $("#selectedTime").text().includes("_");
-let persons_selected = $("#selectedPersons").text().includes("0");
-
-$("#booking-form").hide();
+$("#user-details-form").hide();
 
 $("#show-appoint-form").on('click', () => {
-    if (year_selected || time_selected || persons_selected) {
-        alert("Please pick a date, time and number of persons");
+    let year_selected = $("#selectedYear").text().includes("_");
+    let time_selected = $("#selectedTime").text().includes("_");
+    let persons_selected = $("#selectedPersons").text().includes("0");
+
+    if (year_selected) {
+        alert("Please pick a date!");
         return;
     }
-    $("#booking-form").fadeIn();
+
+    if (time_selected) {
+        alert("Please choose time!");
+        return;
+    }
+
+
+    if (persons_selected) {
+        alert("Please select number of persons!");
+        return
+    }
+
+    $("#user-details-form").fadeIn();
     $('html, body').animate({
-        scrollTop: $("#booking-form").offset().top
+        scrollTop: $("#user-details-form").offset().top
     }, 1000);
 })

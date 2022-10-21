@@ -1,8 +1,7 @@
-
 import {
-    Test
+    BookingForm
 } from './modules'
 
-(function(){
-    new Test
+(function () {
+    new BookingForm
 })();

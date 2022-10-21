@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container pt-44">
     <div class="w-5/6 mx-auto mb-10">
         <div class="flex flex-col items-center justify-center">
-            <p class="text-center text-[40px] uppercase text-headingColor cormorant">Book A table</p>
+            <p class="text-center text-[40px] uppercase text-headingColor cormorant mb-8">Book A table</p>
 
             <div class="calendar">
                 <div class="month">
@@ -82,7 +82,7 @@
     </div>
 </div>
 
-<div class="w-full bg-gray94 pb-5" id="booking-form">
+<div class="w-full bg-gray94 pb-5" id="user-details-form">
     <div class="container p-5">
         <form id="user_details">
             <div class="flex flex-col w-1/2 mx-auto pb-5">
@@ -95,10 +95,10 @@
             </div>
             <div class="flex flex-col w-1/2 mx-auto pb-5">
                 <label for="phone" class="mb-5 mt-5 uppercase text-[22px] cormorant">Phone</label>
-                <input type="text" id="phone" placeholder="Write your number" class="bg-gray94 border-b border-black outline-none text-[16px]" />
+                <input type="text" id="phone" placeholder="Write your number" class="bg-gray94 border-b border-black outline-none text-[16px]" pattern="[0-9]+" />
             </div>
             <div class="bg-egreen text-center w-1/2 mx-auto mt-10">
-                <input type="submit" class="uppercase cormorant h-[50px] text-white cursor-pointer" value="Send" />
+                <button class="uppercase cormorant h-[50px] text-white cursor-pointer">Send</button>
             </div>
         </form>
     </div>

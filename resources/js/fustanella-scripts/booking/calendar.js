@@ -9,8 +9,6 @@ const weekDays = [
     'Sat'
 ];
 
-let set_selected_date = false;
-let set_selected_time = false;
 
 const renderCalendar = () => {
     date.setDate(1);
