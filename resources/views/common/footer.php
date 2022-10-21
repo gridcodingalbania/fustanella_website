@@ -1,7 +1,7 @@
                                         <!-- -------------------------------------------------
                                                     DESKTOP FOOTER
                                          ------------------------------------------------- -->
-<div class="2xl:flex xl:flex lg:flex nav:grid bg-green-1000 justify-evenly p-20 text-center text-white Cormorant-Regular">
+<div class="2xl:flex xl:flex lg:flex nav:grid bg-green-1000 justify-evenly p-20 text-center text-white cormorant">
     <div class="2xl:grid lg:grid nav:hidden">
         <a class="text-base leading-7" href="">CUSTOMER SERVICE</a>
         <a class="text-base leading-7" href="">Contact Us</a>
