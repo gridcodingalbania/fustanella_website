@@ -10,7 +10,7 @@
         <img src="<?php echo get_image('NavbarMainImage.png');?>">
     </div>
     <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold">
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="farmA" onClick="toggleDiv('farm')">Farm</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="r&fA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="eventsA" onClick="toggleDiv('events')">Events</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
@@ -85,12 +85,12 @@
     
 </div>
 </div>
-<div class="pages" id="farm" style="display:none; "></div>
+<!-- <div class="pages" id="farm" style="display:none; "></div>
 <div class="pages" id="r&f" style="display:none;"> </div>
 <div class="pages" id="events" style="display:none;"></div>
 <div class="pages" id="gallery" style="display:none;"></div>
 <div class="pages" id="contact" style="display:none;"></div>
-<div class="pages" id="wWs" style="display:none;"></div>
+<div class="pages" id="wWs" style="display:none;"></div> -->
 <script>
   function openNav() {
     document.getElementById("myNav").style.display = "block";
@@ -98,22 +98,22 @@
   function closeNav() {
     document.getElementById("myNav").style.display = "none";
   }
-  function toggleDiv(target){
-        hideAllPages();
-        document.getElementById(target).style.display = 'block';
-        document.getElementById(target + 'A').style.color = 'green';
-        document.getElementById(target + 'A').style.borderBottom = '1px solid green';
-        return false;
-    }
-    function hideAllPages(){
-        var pages = document.getElementsByClassName("pages");
-        console.log(pages);
-        for(var i = 0; i < pages.length; i++){
-            pages[i].style.display = 'none';
-            document.getElementById(pages[i].id + 'A').style.color = 'black';
-            document.getElementById(pages[i].id + 'A').style.borderBottom = 'hidden';
-        }
-    }
+//   function toggleDiv(target){
+//         hideAllPages();
+//         document.getElementById(target).style.display = 'block';
+//         document.getElementById(target + 'A').style.color = 'green';
+//         document.getElementById(target + 'A').style.borderBottom = '1px solid green';
+//         return false;
+//     }
+//     function hideAllPages(){
+//         var pages = document.getElementsByClassName("pages");
+//         console.log(pages);
+//         for(var i = 0; i < pages.length; i++){
+//             pages[i].style.display = 'none';
+//             document.getElementById(pages[i].id + 'A').style.color = 'black';
+//             document.getElementById(pages[i].id + 'A').style.borderBottom = 'hidden';
+//         }
+//     }
         //Navigation
 
         var app = function () {

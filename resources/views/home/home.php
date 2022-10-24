@@ -129,4 +129,9 @@
     </div>
    
 </div>  
- 
+ <script>
+     setTimeout(() => {
+            $('.sp-arrow').append('<div style="background: rgba(245, 245, 245, 0.45);" class="mt-[-10px] ml-[-45px] w-[100px] h-[100px]"></div>')
+                console.log( $('.sp-previous-arrow.sp-arrow'));
+        }, 100);
+ </script>
