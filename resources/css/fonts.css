@@ -8,6 +8,13 @@
 .red-hat {
     font-family: 'Red Hat Display', sans-serif;
 }
-
+@font-face {
+    font-family: 'WITTER';
+    src: url(../fonts/WITTER.TTF) format('truetype');
+    font-weight: 400;
+}
+.witter {
+    font-family: 'WITTER', sans-serif;
+}
 /* font-family: 'Cormorant', serif; */
 /* font-family: 'Red Hat Display', sans-serif; */

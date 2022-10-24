@@ -5,24 +5,24 @@
             <!-- -------------------------------------------------
                                                 DESKTOP NAVBAR
                                      ------------------------------------------------- -->
-<div class="2xl:flex lg:flex nav:hidden 2xl:pl-28 xl:pl-8 lg:pl-1.5 2xl:pr-14 xl:pr-2.5 lg:pr-1.5 pt-9 absolute w-full">
+<div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:pl-24 xl:pl-8 lg:pl-1.5 2xl:pr-8 xl:pr-2.5 lg:pr-1.5 pt-7  w-full z-20 pb-4">
     <div>
         <img src="<?php echo get_image('NavbarMainImage.png');?>">
     </div>
-    <div class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold">
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant" href="#" id="farmA" onClick="toggleDiv('farm')">Farm</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant" href="#" id="r&fA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant" href="#" id="eventsA" onClick="toggleDiv('events')">Events</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant" href="#" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant" href="#" id="contactA" onClick="toggleDiv('contact')">Contact us</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant" href="#" id="wWsA" onClick="toggleDiv('wWs')">Work With us</a>
+    <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold">
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="farmA" onClick="toggleDiv('farm')">Farm</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="r&fA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="eventsA" onClick="toggleDiv('events')">Events</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
     </div>
     <div class="flex my-auto">
-        <a href=""><img src="<?php echo get_image('NavbarDineImage.png');?>"></a>
-        <a class="2xl:ml-8 lg:ml-2" href=""><img src="<?php echo get_image('NavbarStayImage.png');?>"></a>
+        <a href=""><img class="hoverEffect"src="<?php echo get_image('NavbarDineImage.png');?>"></a>
+        <a class="2xl:ml-[31px] lg:ml-2" href=""><img class="hoverEffect"src="<?php echo get_image('NavbarStayImage.png');?>"></a>
     </div> 
-    <div class="my-auto 2xl:ml-14 xl:ml-8">
-        <select class="  ">
+    <div class="my-auto 2xl:ml-10  ml-8">
+        <select >
             <option lang="en" value="english" selected>💶</option>
             <option lang="al" value="albania">💶</option>
         </select>
@@ -31,8 +31,8 @@
      <!-- -------------------------------------------------
                                                 MOBILE NAVBAR
                                      ------------------------------------------------- -->
-<div class="2xl:hidden lg:hidden nav:flex   justify-between ">
-        <header class="cd-header">
+<div class="2xl:hidden lg:hidden nav:flex   justify-between absolute w-full">
+        <header class="cd-header flex  justify-between w-full">
             <div class="header-wrapper"> 
                 <div class="nav-but-wrap">
                     <div class="menu-icon hover-target">
@@ -41,7 +41,13 @@
                         <span class="menu-icon__line menu-icon__line-right"></span>
                     </div>					
                 </div>					
-            </div>				
+            </div>	
+            <div class="my-auto pr-[80px] pt-[80px]">
+                <select class="">
+                    <option lang="en" value="english" selected>💶</option>
+                    <option lang="al" value="albania">💶</option>
+                </select>
+            </div>			
         </header>
         <div class="nav">
             <div class="nav__content">
@@ -76,12 +82,7 @@
         </div>
         <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="<?php echo get_image('HamNavIcon.png');?>"></span>
      </div> -->
-     <div class="my-auto pr-[80px] pt-[80px]">
-        <select class="">
-            <option lang="en" value="english" selected>💶</option>
-            <option lang="al" value="albania">💶</option>
-        </select>
-     </div>
+    
 </div>
 </div>
 <div class="pages" id="farm" style="display:none; "></div>
@@ -136,8 +137,8 @@
             init();
         }(); 
 </script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
+</head> 
 <style>#preloader { background-color:#F0F0F0; }</style>	
 <div id="preloader">
 <div class="status">
@@ -152,4 +153,16 @@
         $('#preloader').delay(500).fadeOut('slow');
         $('body').delay(500).css({'overflow':'visible'});
     })
-</script>  
+    $( document ).ready(function() {
+        if(window.location.href.includes('home') || window.location.href.includes('gallery')) {
+            if(!$('#navbar').hasClass('absolute')) {
+                $('#navbar').addClass('absolute');
+                $('#navbar').removeClass('relative');
+            }
+            else {
+                $('#navbar').addClass('relative');
+                $('#navbar').removeClass('absolute');
+            }
+        }
+    });
+</script>
