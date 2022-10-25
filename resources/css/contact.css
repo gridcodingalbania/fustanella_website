@@ -1,0 +1,8 @@
+
+
+.make-svg-white:hover a svg path{
+    stroke: white !important;
+}
+.make-svg-white:hover a svg rect{
+    stroke: white !important;
+}

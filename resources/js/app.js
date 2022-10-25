@@ -1,7 +1,10 @@
 import {
-    BookingForm
+    BookingForm,
+    ContactForm
 } from './modules'
+
 
 (function () {
     new BookingForm
+    new ContactForm
 })();
