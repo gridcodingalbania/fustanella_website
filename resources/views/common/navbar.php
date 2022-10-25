@@ -7,13 +7,13 @@
                                      ------------------------------------------------- -->
 <div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:pl-24 xl:pl-8 lg:pl-1.5 2xl:pr-8 xl:pr-2.5 lg:pr-1.5 pt-7  w-full z-20 pb-4">
     <div>
-        <img src="<?php echo get_image('NavbarMainImage.png');?>">
+        <a href="home"><img src="<?php echo get_image('NavbarMainImage.png');?>"></a>
     </div>
     <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold">
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="RestaurantFood" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="eventsA" onClick="toggleDiv('events')">Events</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="gallery" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
     </div>
