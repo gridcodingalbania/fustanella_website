@@ -3,4 +3,6 @@
  * Template Name: Contact
  */
 ?>
-contact
+<?php get_header();?>
+<?php view('contact.contact') ;?>
+<?php get_footer();?>

@@ -1,4 +1,4 @@
-<div class="container pt-44">
+<div class="container pt-12">
     <div class="w-5/6 mx-auto mb-10">
         <div class="flex flex-col items-center justify-center">
             <p class="text-center text-[40px] uppercase text-headingColor cormorant mb-8">Book A table</p>

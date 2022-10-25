@@ -175,6 +175,7 @@ module.exports = {
         headingColor:"#006838",
         gray94:"#F0F0F0",
         egreen:"#137043",
+        fYellow:'rgba(144, 176, 62, 1)',
         gray: {
           50: "#f9fafb",
           100: "#f4f5f7",
