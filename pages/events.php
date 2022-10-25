@@ -59,7 +59,6 @@
                 <p class="red-hat font-normal text-[20px] leading-[29px] mt-[24px]"><?php the_field('sixth_image_paragraph_text'); ?></p>
             </div>
         </div>
-        
     </div>
  </div>
 <?php get_footer(); ?>
@@ -69,4 +68,4 @@
         $('#eventsA').css('borderBottom', '1px solid green')
     })
 
-</script>=
+</script>
