@@ -11,7 +11,7 @@
     </div>
     <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold">
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="r&fA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="RestaurantFood" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="eventsA" onClick="toggleDiv('events')">Events</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
@@ -154,6 +154,10 @@
         $('body').delay(500).css({'overflow':'visible'});
     })
     $( document ).ready(function() {
+        setTimeout(() => { 
+        $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
+    }, 1000);
+    
         if(window.location.href.includes('home') || window.location.href.includes('gallery')) {
             if(!$('#navbar').hasClass('absolute')) {
                 $('#navbar').addClass('absolute');
@@ -166,3 +170,13 @@
         }
     });
 </script>
+<style>
+      .sp-buttons{
+        margin-top: -4.5%!important;
+    }
+    @media only screen and (max-width:700px){
+        .sp-buttons{
+            margin-top: -15%!important;
+        }
+    }
+</style>
