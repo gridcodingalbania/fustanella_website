@@ -7,7 +7,7 @@
 <?php get_header(); ?>
     <div>
         <?php echo do_shortcode( '[URIS id=156]' ); ?>
-        <p class="absolute text-center mt-[-30%] left-auto right-auto w-full text-white witter 2xl:text-[96px] nav:text-[50px]">Some of our captured moments...</p>
+        <p class="absolute text-center mt-[-30%] left-auto right-auto w-full text-white witter 2xl:text-[96px] xl:text-[50px] md:text-[50px] sm:text-[20px] text-[20px]">Some of our captured moments...</p>
     </div>
 <?php get_footer(); ?>
 <script>
@@ -22,16 +22,3 @@
     })
 
 </script>
-<style>
-    .sp-arrow{
-        margin-top: 19%!important;
-    }
-    .sp-horizontal .sp-next-arrow {
-        right: 50px;
-        left: auto;
-    }
-    .sp-horizontal .sp-previous-arrow {
-        right: 200px!important;
-        left: auto!important;
-    }
-</style>
