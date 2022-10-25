@@ -7,13 +7,13 @@
                                      ------------------------------------------------- -->
 <div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:pl-24 xl:pl-8 lg:pl-1.5 2xl:pr-8 xl:pr-2.5 lg:pr-1.5 pt-7  w-full z-20 pb-4">
     <div>
-        <img src="<?php echo get_image('NavbarMainImage.png');?>">
+        <a href="home"><img src="<?php echo get_image('NavbarMainImage.png');?>"></a>
     </div>
     <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold">
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="farmA" onClick="toggleDiv('farm')">Farm</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="r&fA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="eventsA" onClick="toggleDiv('events')">Events</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="RestaurantFood" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="events" id="eventsA" onClick="toggleDiv('events')">Events</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="gallery" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
     </div>
@@ -85,12 +85,12 @@
     
 </div>
 </div>
-<div class="pages" id="farm" style="display:none; "></div>
+<!-- <div class="pages" id="farm" style="display:none; "></div>
 <div class="pages" id="r&f" style="display:none;"> </div>
 <div class="pages" id="events" style="display:none;"></div>
 <div class="pages" id="gallery" style="display:none;"></div>
 <div class="pages" id="contact" style="display:none;"></div>
-<div class="pages" id="wWs" style="display:none;"></div>
+<div class="pages" id="wWs" style="display:none;"></div> -->
 <script>
   function openNav() {
     document.getElementById("myNav").style.display = "block";
@@ -98,22 +98,22 @@
   function closeNav() {
     document.getElementById("myNav").style.display = "none";
   }
-  function toggleDiv(target){
-        hideAllPages();
-        document.getElementById(target).style.display = 'block';
-        document.getElementById(target + 'A').style.color = 'green';
-        document.getElementById(target + 'A').style.borderBottom = '1px solid green';
-        return false;
-    }
-    function hideAllPages(){
-        var pages = document.getElementsByClassName("pages");
-        console.log(pages);
-        for(var i = 0; i < pages.length; i++){
-            pages[i].style.display = 'none';
-            document.getElementById(pages[i].id + 'A').style.color = 'black';
-            document.getElementById(pages[i].id + 'A').style.borderBottom = 'hidden';
-        }
-    }
+//   function toggleDiv(target){
+//         hideAllPages();
+//         document.getElementById(target).style.display = 'block';
+//         document.getElementById(target + 'A').style.color = 'green';
+//         document.getElementById(target + 'A').style.borderBottom = '1px solid green';
+//         return false;
+//     }
+//     function hideAllPages(){
+//         var pages = document.getElementsByClassName("pages");
+//         console.log(pages);
+//         for(var i = 0; i < pages.length; i++){
+//             pages[i].style.display = 'none';
+//             document.getElementById(pages[i].id + 'A').style.color = 'black';
+//             document.getElementById(pages[i].id + 'A').style.borderBottom = 'hidden';
+//         }
+//     }
         //Navigation
 
         var app = function () {
@@ -154,6 +154,10 @@
         $('body').delay(500).css({'overflow':'visible'});
     })
     $( document ).ready(function() {
+        setTimeout(() => { 
+        $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
+    }, 1000);
+    
         if(window.location.href.includes('home') || window.location.href.includes('gallery')) {
             if(!$('#navbar').hasClass('absolute')) {
                 $('#navbar').addClass('absolute');
@@ -166,3 +170,13 @@
         }
     });
 </script>
+<style>
+      .sp-buttons{
+        margin-top: -4.5%!important;
+    }
+    @media only screen and (max-width:700px){
+        .sp-buttons{
+            margin-top: -15%!important;
+        }
+    }
+</style>
