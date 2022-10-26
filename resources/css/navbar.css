@@ -5,6 +5,9 @@
 #menuNav{
         margin-left: 15.5%;
 }
+#menuNav a:hover{
+        color: green;
+}
 .hoverEffect:hover{
         transform: scale(1.2); 
 }
