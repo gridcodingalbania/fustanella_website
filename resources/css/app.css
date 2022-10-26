@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(./work-with-us.css);
+@import url(./modal.css);
 @import url(./contact.css);
 @import url(./fonts.css);
 @import url(./calendar.css);

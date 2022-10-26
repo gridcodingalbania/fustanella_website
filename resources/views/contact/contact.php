@@ -32,8 +32,9 @@
                 </a>
             </div>
         </div>
-        <div class="grid grid-cols-2 justify-items-center items-end pt-10 pb-10">
-            <form id="contact-form" class="w-full">
+
+        <div class="flex flex-row justify-around items-end pt-10 pb-10 mx-auto">
+            <form id="contact-form" class="w-[50%]">
                 <div class="flex flex-col w-4/5 mx-auto pb-5">
                     <label for="full_name" class="mb-5 mt-5 uppercase text-[22px] cormorant">Name</label>
                     <input required type="text" id="full_name" placeholder="Write your name" class="bg-gray94 border-b border-black outline-none text-[16px]" />
@@ -46,11 +47,12 @@
                     <label for="message" class="mb-5 mt-5 uppercase text-[22px] cormorant">Message</label>
                     <input required type="text" id="message" placeholder="Write your number" class="bg-gray94 border-b border-black outline-none text-[16px]" />
                 </div>
-                <div class="text-center">
+                <div class="text-center items-end">
                     <button class="uppercase cormorant h-[50px] text-white cursor-pointer bg-egreen text-center w-4/5 mx-auto mt-10">Send</button>
                 </div>
             </form>
-            <img src="<?php echo get_image('contact-form-image.png'); ?>" />
+            <img src="<?php echo get_image('contact-form-image.png'); ?>" class="w-[500px]"/>
         </div>
     </div>
+
 </div>
