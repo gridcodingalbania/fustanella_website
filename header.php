@@ -3,6 +3,9 @@
         <meta charset="<?php bloginfo('charset'); ?>" />
         <meta name="viewport" content="width=device-width" />
         <title><?php bloginfo('name') ?></title>
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <?php wp_head(); ?>
     </head>
     <body>
