@@ -17,8 +17,8 @@
                         <input required type="text" id="full_name" placeholder="Write your name" class="bg-gray94 border-b border-black outline-none text-[16px]" />
                     </div>
                     <div class="flex flex-col w-4/5 mx-auto pb-5">
-                        <label for="email" class="mb-5 mt-5 uppercase text-[22px] cormorant">Phone</label>
-                        <input required type="email" id="email" placeholder="Write your e-mail" class="bg-gray94 border-b border-black outline-none text-[16px]" />
+                        <label for="phone" class="mb-5 mt-5 uppercase text-[22px] cormorant">Phone</label>
+                        <input required type="text" id="phone" placeholder="Write your e-mail" class="bg-gray94 border-b border-black outline-none text-[16px]" />
                     </div>
                     <div class="flex flex-col w-4/5 mx-auto">
                         <p class="mb-5 mt-5 uppercase text-[22px] cormorant">Upload CV</p>
@@ -33,6 +33,7 @@
                             <input id="file" type="file" class="hidden" />
                         </label>
                     </div>
+                    <input type="hidden" id="application-position" />
                     <div class="text-center items-end">
                         <button class="uppercase cormorant h-[65px] text-white cursor-pointer bg-egreen text-center w-4/5 mx-auto mt-10">Send</button>
                     </div>

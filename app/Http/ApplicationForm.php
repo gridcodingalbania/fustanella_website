@@ -13,20 +13,41 @@ class ApplicationForm extends Ajax
     {
         $data = request()->get('data');
 
-        if (!$data) {
-            return;
+        dump($data);
+        die;
+        if (isset($_FILES) && $_FILES) {
+            if ($response = $this->save_file($_FILES)) {
+                $response['error'] == false ?  wp_send_json_success($response) : wp_send_json_error($response);
+            }
         }
+
+
+
+        wp_send_json([
+            'error' => false,
+            'message' => '',
+        ]);
     }
 
-    public function saveApplication($date, $time, $persons, $name, $surname, $phone_no)
+
+    public function save_file()
     {
-        global $wpdb;
-        $wpdb->insert(
-            'table_name',
-            [
-            
-            ]
-        );
-        return $wpdb->insert_id;
+        if (empty($_FILES)) {
+            return;
+        }
+        foreach ($_FILES as $file) {
+            $attachment_id = media_handle_upload($file, 0);
+        }
+
+        if (is_int($attachment_id)) {
+            return [
+                'error' => false,
+                'message' => __('Foto e profilit u ngarkua me sukses.', 'app'),
+            ];
+        }
+        return [
+            'error' => true,
+            'message' => __('Something went wrong', 'app')
+        ];
     }
 }
