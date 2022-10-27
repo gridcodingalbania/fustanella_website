@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="flex flex-col justify-center items-center mt-5">
-                <form id="application-form" class="w-[90%]">
+                <form id="application-form" enctype="multipart/form-data" class="w-[90%]">
                     <div class="flex flex-col w-4/5 mx-auto pb-5">
                         <label for="full_name" class="mb-5 mt-5 uppercase text-[22px] cormorant">Full Name</label>
                         <input required type="text" id="full_name" placeholder="Write your name" class="bg-gray94 border-b border-black outline-none text-[16px]" />

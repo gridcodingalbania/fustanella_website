@@ -20,15 +20,13 @@ class BookingForm {
             phone: this.form.querySelector('#phone').value,
             position: this.form.querySelector('#application-position').value,
             file_name: this.form.querySelector('#file').files[0].name,
-            uploaded_file: this.form.querySelector('#file').files[0]
+            // uploaded_file: this.form.querySelector('#file').files[0]
+            // uploaded_file: this.form.querySelector('#file').value
         }
 
         wp_ajax('application_form')
             .post({
-                headers: {
-                    'Content-Type': 'multipart/form-data'
-                },
-                data: formData,
+                data: data,
             });
     }
 
