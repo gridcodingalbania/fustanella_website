@@ -5,13 +5,15 @@ namespace App\Http;
 use App\Base\Ajax;
 use Symfony\Component\HttpFoundation\Request;
 
-class ApplicationForm extends Ajax
+class AApplicationForm extends Ajax
 {
     public $protection = ['public', 'private'];
 
     public function handle(Request $request)
     {
+        dump($request->files);die; 
         $data = request()->get('data');
+
 
         dump($data);
         die;
@@ -20,7 +22,7 @@ class ApplicationForm extends Ajax
                 $response['error'] == false ?  wp_send_json_success($response) : wp_send_json_error($response);
             }
         }
-
+        
 
 
         wp_send_json([

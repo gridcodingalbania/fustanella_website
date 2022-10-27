@@ -18,7 +18,7 @@
                     </div>
                     <div class="flex flex-col w-4/5 mx-auto pb-5">
                         <label for="phone" class="mb-5 mt-5 uppercase text-[22px] cormorant">Phone</label>
-                        <input required type="text" id="phone" placeholder="Write your e-mail" class="bg-gray94 border-b border-black outline-none text-[16px]" />
+                        <input required type="text" id="phone" placeholder="Write your phone" class="bg-gray94 border-b border-black outline-none text-[16px]" />
                     </div>
                     <div class="flex flex-col w-4/5 mx-auto">
                         <p class="mb-5 mt-5 uppercase text-[22px] cormorant">Upload CV</p>
