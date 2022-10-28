@@ -86,3 +86,16 @@
     border-radius: 50%;
     color: white;
 }
+
+@media only screen and (max-width: 1024px) {
+    .calendar{
+        width: 100% !important;
+    }
+    .month h1{
+        font-size: 18px;
+    }
+    .days div{
+        width: 40px;
+        height: 40px;
+    }
+}
