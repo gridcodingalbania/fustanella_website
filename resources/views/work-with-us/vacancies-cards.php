@@ -11,7 +11,7 @@
                 <?php if ($image) : ?>
                     <img src="<?php echo $picture ?>" class="w-[74px]">
                 <?php endif; ?>
-                <p class="cormorant text-[24px] border-b-2 uppercase border-headingColor text-headingColor cursor-pointer" id="position-btn" data-value="<?php echo get_sub_field('opened_position'); ?>">Apply</p>
+                <p class="cormorant text-[24px] border-b-2 uppercase border-headingColor text-headingColor cursor-pointer hover:pb-[2px] hover:transition-all" id="position-btn" data-value="<?php echo get_sub_field('opened_position'); ?>">Apply</p>
             </div>
 
         <?php endwhile; ?>

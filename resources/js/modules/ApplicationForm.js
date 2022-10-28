@@ -12,23 +12,6 @@ class ApplicationForm {
 	handleForm(e) {
 		e.preventDefault();
 
-        // let formData = new FormData();
-		// var file_input = this.form.querySelector('#file');
-        // formData.append('file', file_input.files[0]);
-        // console.log('form DATA');
-        // console.log(formData.getAll('file')[0]);
-
-		//console.log(document.getElementById('file').files[0]);
-
-		// const data = {
-		// 	name: this.form.querySelector('#full_name').value,
-		// 	phone: this.form.querySelector('#phone').value,
-		// 	position: this.form.querySelector('#application-position').value,
-		// 	//file_name: this.form.querySelector('#file').files[0],
-		// 	file_input: file_input,
-		// 	// uploaded_file: this.form.querySelector('#file').files[0]
-		// 	// uploaded_file: this.form.querySelector('#file').value
-		// };
         let formData = new FormData();
         formData.append('file', document.getElementById('file').files[0]);
         formData.append('name', this.form.querySelector('#full_name').value);

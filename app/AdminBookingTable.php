@@ -6,7 +6,7 @@ if (!class_exists('WP_List_Table')) {
     require_once(ABSPATH . 'wp-admin/includes/class-wp-list-table.php');
 }
 
-class AdminApplicationTable extends \WP_List_Table
+class AdminBookingTable extends \WP_List_Table
 {
 
     public function __construct()
@@ -14,8 +14,8 @@ class AdminApplicationTable extends \WP_List_Table
         global $status, $page;
 
         parent::__construct(array(
-            'singular' => 'subscription',
-            'plural'   => 'subscriptions',
+            'singular' => 'booking',
+            'plural'   => 'bookings',
             'ajax'     => false
         ));
     }
@@ -23,14 +23,12 @@ class AdminApplicationTable extends \WP_List_Table
     public function column_default($item, $column_name)
     {
         switch ($column_name) {
-            case 'full_name':
+            case 'name':
                 return $item[$column_name];
-            case 'phone':
+            case 'surname':
                 return $item[$column_name];
-            case 'position':
+            case 'phone_number':
                 return $item[$column_name];
-            case 'file_name':
-                return '<a href=' . $item[$column_name] . ' download>' . $item['full_name'] . '</a>';
             default:
                 return false;
         }
@@ -49,10 +47,10 @@ class AdminApplicationTable extends \WP_List_Table
     {
         $columns = array(
             'cb' => '<input type="checkbox" />',
-            'full_name' => __('Full Name', 'app'),
-            'phone' => __('Phone', 'app'),
-            'position' => __('Position', 'app'),
-            'file_name' => __('CV', 'app')
+            'name' => __('Name', 'app'),
+            'surname' => __('Surname', 'app'),
+            'phone_number' => __('Phone No.', 'app'),
+            // 'file_name' => __('CV', 'app')
         );
 
         return $columns;
@@ -61,10 +59,9 @@ class AdminApplicationTable extends \WP_List_Table
     public function get_sortable_columns()
     {
         $sortable_columns = array(
-            'full_name' => array('full_name', false),
-            'phone' => array('phone', false),
-            'position' => array('position', false),
-            'file_name' => array('file_name', false)
+            'name' => array('name', false),
+            'surname' => array('surname', false),
+            'phone_number' => array('phone_number', false),
         );
 
         return $sortable_columns;
@@ -83,8 +80,8 @@ class AdminApplicationTable extends \WP_List_Table
     public function process_bulk_action()
     {
         global $wpdb;
-        $table_name = 'application';
-        $email_list = @$_GET['application'];
+        $table_name = 'booking';
+        $email_list = @$_GET['booking'];
 
         // delete email
         if ('delete' === $this->current_action()) {
@@ -169,7 +166,7 @@ class AdminApplicationTable extends \WP_List_Table
     {
         global $wpdb;
 
-        $table_name = 'application';
+        $table_name = 'booking';
         $main_query = sprintf('select * from ', $table_name);
 
 
@@ -184,7 +181,7 @@ class AdminApplicationTable extends \WP_List_Table
         global $wpdb;
         $per_page = 50;
 
-        $table_name = 'application';
+        $table_name = 'booking';
         $hidden = array();
 
         $columns = $this->get_columns();
