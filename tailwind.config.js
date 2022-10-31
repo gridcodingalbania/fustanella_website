@@ -88,7 +88,7 @@ module.exports = {
         700: "#2f855a",
         800: "#276749",
         900: "#22543d",
-        1000:"#006838",
+        1000: "#006838",
       },
       teal: {
         100: "#e6fffa",
@@ -172,12 +172,13 @@ module.exports = {
         print: { raw: "print" },
       },
       colors: {
-        headingColor:"#006838",
-        gray94:"#F0F0F0",
-        egreen:"#137043",
-        fYellow:'rgba(144, 176, 62, 1)',
+        headingColor: "#006838",
+        gray94: "#f0f0f0",
+        egreen: "#137043",
+        fYellow: 'rgba(144, 176, 62, 1)',
         gray: {
           50: "#f9fafb",
+          94: '#f0f0f0',
           100: "#f4f5f7",
           200: "#e5e7eb",
           300: "#d2d6dc",
@@ -190,10 +191,10 @@ module.exports = {
         },
       },
       maxHeight: {
-       
+
       },
       maxWidth: {
-       
+
       },
       boxShadow: {
 
@@ -218,7 +219,7 @@ module.exports = {
     }
   },
   variants: {
-   
+
   },
 
   plugins: [

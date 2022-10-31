@@ -20,7 +20,7 @@ $("#show-appoint-form").on('click', () => {
         alert("Please select number of persons!");
         return
     }
-
+    $("#show-appoint-form").fadeOut();
     $("#user-details-form").fadeIn();
     $('html, body').animate({
         scrollTop: $("#user-details-form").offset().top
