@@ -77,9 +77,9 @@ const renderCalendar = () => {
         that.parent().find('.today').removeClass('today');
         $(this).addClass('today');
         // Add Chosen Year, Month & day
-        $('#selectedYear').text(date.getFullYear() + " - ").addClass('text-[22px]');
-        $("#selectedMonth").text(date.getMonth() + 1 + " - ").addClass('text-[22px]');
-        $("#selectedDay").text(this.innerText).addClass('text-[22px]');
+        $('#selectedYear').text(date.getFullYear() + " - ").addClass('text-[25px]');
+        $("#selectedMonth").text(date.getMonth() + 1 + " - ").addClass('text-[25px]');
+        $("#selectedDay").text(this.innerText).addClass('text-[25px]');
     });
 
 
@@ -88,7 +88,7 @@ const renderCalendar = () => {
     select_timer.addEventListener('change', function () {
         var selected_time = document.getElementById('selectedTime');
         selected_time.innerText = this.value;
-        selected_time.classList.add('text-[22px]')
+        selected_time.classList.add('text-[25px]')
     })
 
 

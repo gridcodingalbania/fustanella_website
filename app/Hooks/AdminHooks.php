@@ -14,7 +14,7 @@ class AdminHooks extends Singleton
     public function admin_menu()
     {
         add_menu_page('Applications', 'Applications', 'manage_options', 'applications', [$this, 'subscription_table_view_menu' ], 'dashicons-chart-line');
-        add_menu_page('Bookings', 'Bookings', 'manage_options', 'bookings', [$this, 'booking_table_view_menu' ], 'dashicons-archive');
+        add_menu_page('Bookings', 'Bookings', 'manage_options', 'bookings', [$this, 'booking_table_view_menu' ], 'dashicons-calendar-alt');
     }
 
     public function subscription_table_view_menu()

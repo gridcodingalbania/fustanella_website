@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(./booking.css);
 @import url(./work-with-us.css);
 @import url(./modal.css);
 @import url(./contact.css);

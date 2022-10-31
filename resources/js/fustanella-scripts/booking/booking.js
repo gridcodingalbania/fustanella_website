@@ -15,7 +15,7 @@ function handleIncrement() {
     count++;
     currentnumber.innerText = count;
     no_of_persons.innerText = count;
-    no_of_persons.classList.add('text-[22px]');
+    no_of_persons.classList.add('text-[25px]');
 }
 function handleDecrement() {
     if (count <= 0) {
@@ -24,7 +24,7 @@ function handleDecrement() {
     count--;
     currentnumber.innerText = count;
     no_of_persons.innerText = count;
-    no_of_persons.classList.add('text-[22px]');
+    no_of_persons.classList.add('text-[25px]');
 
 }
 

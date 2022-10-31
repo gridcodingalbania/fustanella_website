@@ -1,7 +1,7 @@
 <div class="xs:w-full sm:w-full lg:container pt-12">
     <div class="xs:w-full sm:w-full lg:w-5/6 mx-auto mb-10">
         <div class="flex flex-col items-center justify-center">
-            <p class="text-center text-[40px] uppercase text-headingColor cormorant mb-8">Book A table</p>
+            <p class="text-center text-[40px] uppercase text-headingColor cormorant mb-3">Book A table</p>
 
             <div class="calendar">
                 <div class="month">
@@ -33,7 +33,7 @@
                 <div class="days mt-2 mb-5" id="rendered-days">
                 </div>
             </div>
-            <div class="grid xs:grid-rows-2 sm:grid-rows-2 lg:grid-cols-2 gap-3 justify-items-stretch xs:w-full sm:w-full lg:w-[900px] mx-auto pt-5">
+            <div class="grid xs:grid-rows-2 sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-none gap-3 justify-items-stretch xs:w-full sm:w-full lg:w-[900px] mx-auto pt-5">
                 <div class="flex xs:flex-col sm:flex-col lg:flex-row xs:items-start sm:items-start lg:items-center xs:justify-around sm:justify-around lg:justify-between bg-gray94 xs:h-[120px] sm:h-auto  lg:h-[100px] p-5">
                     <p class="red-hat xs:text-[16px] sm:text-[16px] lg:text-[20px]">Choose Time</p>
                     <input type="time" class="border border-black bg-transparent text-[20px] p-2" id="select-timer" min="10:00" max="23:00" required />
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-shadows xs:w-full sm:w-full lg:w-[900px] grid xs:grid-rows-3 sm:grid-rows-3  lg:grid-rows-none lg:grid-cols-3 lg:justify-items-center items-center p-3 mt-5 bg-egreen cormorant">
+            <div class="card-shadows xs:w-full sm:w-full lg:w-[900px] grid xs:grid-rows-3 sm:grid-rows-3  lg:grid-rows-none lg:grid-cols-3 lg:justify-items-center items-center p-3 mt-8 bg-egreen cormorant">
                 <div class="flex flex-row xs:justify-start mx-auto sm:justify-start xs:border-b xs:border-[#D9D9D9] xs:w-full sm:w-full lg:w-[unset] lg:justify-between items-center text-white xs:pb-2 sm:pb-2 lg:pb-0">
                     <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="10.4902" y="12.7336" width="39.6205" height="39.6205" rx="2" stroke="white" />
@@ -82,20 +82,20 @@
     </div>
 </div>
 
-<div class="w-full xs:bg-transparent sm:bg-transparent lg:bg-gray94 pb-5" id="user-details-form">
+<div class="w-full xs:bg-white sm:bg-white lg:bg-[#F0F0F0] pb-5" id="user-details-form">
     <div class="container p-5">
         <form id="user_details">
             <div class="flex flex-col xs:w-full sm:w-full lg:w-1/2 mx-auto pb-5">
                 <label for="name" class="mb-5 mt-5 uppercase text-[22px] cormorant">Name</label>
-                <input type="text" id="name" placeholder="Write your name" class="xs:bg-transparent sm:bg-transparent lg:bg-gray94 border-b border-black outline-none text-[16px]" />
+                <input type="text" id="name" placeholder="Write your name" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" />
             </div>
             <div class="flex flex-col xs:w-full sm:w-full lg:w-1/2 mx-auto pb-5">
                 <label for="surname" class="mb-5 mt-5 uppercase text-[22px] cormorant">Surname</label>
-                <input type="text" id="surname" placeholder="Write your surname" class="xs:bg-transparent sm:bg-transparent lg:bg-gray94 border-b border-black outline-none text-[16px]" />
+                <input type="text" id="surname" placeholder="Write your surname" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" />
             </div>
             <div class="flex flex-col xs:w-full sm:w-full lg:w-1/2 mx-auto pb-5">
                 <label for="phone" class="mb-5 mt-5 uppercase text-[22px] cormorant">Phone</label>
-                <input type="text" id="phone" placeholder="Write your number" class="xs:bg-transparent sm:bg-transparent lg:bg-gray94 border-b border-black outline-none text-[16px]" pattern="[0-9]+" />
+                <input type="text" id="phone" placeholder="Write your number" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9]+" />
             </div>
             <div class="bg-egreen text-center xs:w-[300px] sm:w-[300px] lg:w-1/2 mx-auto mt-10">
                 <button class="uppercase cormorant  h-[50px] text-white cursor-pointer">Send</button>
