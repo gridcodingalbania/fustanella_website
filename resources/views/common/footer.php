@@ -28,7 +28,7 @@
     <div class="grid w-fit">
         <a class="text-base leading-7" href="">FIND US</a>
         <a class="text-base leading-7" href=""> Phone: +355 69 448 4000</a>
-        <a class="text-base leading-7" href="">Email: fustanellafarm@gmail.com</a>
+        <a class="text-base leading-7 mx-[-15%]" href="">Email: fustanellafarm@gmail.com</a>
         <a class="text-base leading-7" href="">Petrele, Tirana, Albania</a>
         <div class="flex justify-between mt-10">
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterFBicon.png');?>" /></a>
@@ -36,4 +36,6 @@
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterWhatsappIcon.png');?>" /></a>
         </div>
     </div>
+    <p class="2xl:hidden lg:hidden nav:block text-[15px] red-hat mt-[50px] font-[300] mx-[-10%]">Copyright gridcoding.com © 2022. <br>
+            All Rights Reserved.</p>
 </div>
