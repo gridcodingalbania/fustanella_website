@@ -32,7 +32,7 @@
                                                 MOBILE NAVBAR
                                      ------------------------------------------------- -->
 <div id="navbar2" class="overflow-hidden z-20 2xl:hidden lg:hidden nav:flex mb-[30px]"> 
-  <div id="myLinks" class="hidden bg-gray94 w-full h-full fixed">
+  <div id="myLinks" class="hidden bg-gray94 w-full h-full fixed z-20">
     <div class="text-center">
         <div>
             <ul class="hoverHamNav">
@@ -95,6 +95,10 @@
                 $('#navbar').addClass('relative');
                 $('#navbar').removeClass('absolute');
             }
+        }
+    });
+    $( document ).ready(function() { 
+        if(window.location.href.includes('home')){ 
             if(!$('#navbar2').hasClass('absolute')) {
                 $('#navbar2').addClass('absolute');
                 $('#navbar2').removeClass('relative');
