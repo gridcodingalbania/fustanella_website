@@ -31,7 +31,7 @@
      <!-- -------------------------------------------------
                                                 MOBILE NAVBAR
                                      ------------------------------------------------- -->
-<div class="absolute overflow-hidden z-20 2xl:hidden lg:hidden nav:flex absolute "> 
+<div id="navbar2" class="overflow-hidden z-20 2xl:hidden lg:hidden nav:flex mb-[30px]"> 
   <div id="myLinks" class="hidden bg-gray94 w-full h-full fixed">
     <div class="text-center">
         <div>
@@ -94,6 +94,14 @@
             else {
                 $('#navbar').addClass('relative');
                 $('#navbar').removeClass('absolute');
+            }
+            if(!$('#navbar2').hasClass('absolute')) {
+                $('#navbar2').addClass('absolute');
+                $('#navbar2').removeClass('relative');
+            }
+            else {
+                $('#navbar2').addClass('relative');
+                $('#navbar2').removeClass('absolute');
             }
         }
     });
