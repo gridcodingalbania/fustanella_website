@@ -12,7 +12,7 @@
             <p class="2xl:mx-[400px] xl:mx-[300px] lg:mx-[200px] md:mx-[200px] sm:mx-[100px] mx-[45px] m-auto mt-[25px]  red-hat 2xl:text-[20px] lg:text-[19px] sm:text-[18px] text-[16px] 2xl:leading-[29px] md:leading-[29px] sm:leading-[24px] leading-[24px]"><?php the_field('restaurant_first_paragraph'); ?></p>
             <p class="2xl:mx-[400px] xl:mx-[300px] lg:mx-[200px] md:mx-[200px] sm:mx-[100px] mx-[45px] m-auto mt-[25px]  red-hat 2xl:text-[20px] lg:text-[19px] sm:text-[18px] text-[16px] 2xl:leading-[29px] md:leading-[29px] sm:leading-[24px] leading-[24px]"><?php the_field('restaurant_second_paragraph'); ?></p>
             <div class="2xl:flex sm:flex grid justify-center gap-[16px] mt-[80px]">
-            <a href=""><button class="2xl:px-[65px] sm:px-[65px] px-[69px] 2xl:py-[15px] sm:py-[15px] py-[16px] border  border-black pulse2"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px] font-semibold"><?php the_field('book_a_table_button'); ?></span></button></a>
+            <a href="book-a-table"><button class="2xl:px-[65px] sm:px-[65px] px-[69px] 2xl:py-[15px] sm:py-[15px] py-[16px] border  border-black pulse2"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px] font-semibold"><?php the_field('book_a_table_button'); ?></span></button></a>
             </div>
         </div>
     </div>

@@ -14,8 +14,8 @@
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="RestaurantFood" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="events" id="eventsA" onClick="toggleDiv('events')">Events</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="gallery" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="#" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="contact" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="work-with-us" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
     </div>
     <div class="flex my-auto">
         <a href=""><img class="hoverEffect"src="<?php echo get_image('NavbarDineImage.png');?>"></a>
@@ -43,7 +43,7 @@
                 <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="gallery" class="hover-target ">Gallery</a></li>
                 <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="#" class="hover-target ">Contact us </a></li>
                 <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="#" class="hover-target ">Work With us</a></li>
-                <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="#" class="hover-target ">Book a Table</a></li>
+                <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="book-a-table" class="hover-target ">Book a Table</a></li>
                 <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="#" class="hover-target">Book a Room</a></li>
             </ul>
         </div>
