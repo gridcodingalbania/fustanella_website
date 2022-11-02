@@ -9,7 +9,7 @@
     <div>
         <a href="home"><img src="<?php echo get_image('NavbarMainImage.png');?>"></a>
     </div>
-    <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold">
+    <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold z-20">
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="RestaurantFood" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="events" id="eventsA" onClick="toggleDiv('events')">Events</a>
