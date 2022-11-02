@@ -2,15 +2,15 @@ import $ from 'jquery';
 import { wp_ajax } from '../wp';
 
 class ApplicationForm {
-	constructor() {
-		this.form = document.querySelector('#application-form');
-		if (this.form) {
-			this.form.addEventListener('submit', (e) => this.handleForm(e));
-		}
-	}
+    constructor() {
+        this.form = document.querySelector('#application-form');
+        if (this.form) {
+            this.form.addEventListener('submit', (e) => this.handleForm(e));
+        }
+    }
 
-	handleForm(e) {
-		e.preventDefault();
+    handleForm(e) {
+        e.preventDefault();
 
         let formData = new FormData();
         formData.append('file', document.getElementById('file').files[0]);
@@ -20,14 +20,15 @@ class ApplicationForm {
         formData.append('action', 'application_form');
         $.ajax({
             url: window.APP_DATA.ajax_url,
-            type:"POST",
+            type: "POST",
             processData: false,
             contentType: false,
             data: formData,
-            success : function( response ){
-               alert(response.data.message);
+            success: function (response) {
+                alert(response.data.message);
+                window.location.reload();
             },
         });
-	}
+    }
 }
 export default ApplicationForm;

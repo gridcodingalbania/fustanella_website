@@ -7,9 +7,9 @@
 <?php get_header(); ?>
 <div class="background: #F5F5F5;">
     <div class="text-center">
-        <p style="color:#90B03E;" class="witter text-[55px] leading-[48px] mr-[260px] pt-[105px]">Cheers...</p>
-        <p class="cormorant text-green-1000 text-[45px] leading-[39px] font-medium uppercase">Our Events</p>
-        <p class="2xl:mx-[400px] xl:mx-[300px] lg:mx-[200px] md:mx-[200px] sm:mx-[100px] mx-[50px] m-auto mt-[25px]  red-hat text-[20px] leading-[29px]"><?php the_field('header_text'); ?></p>
+        <p style="color:#90B03E;" class="witter text-[55px] leading-[48px] mr-[260px] pt-[105px]"><?php the_field('cheers_word')?></p>
+        <p class="cormorant text-green-1000 text-[45px] leading-[39px] font-medium uppercase"><?php the_field('our_events_word')?></p>
+        <p class="2xl:mx-[400px] xl:mx-[300px] lg:mx-[200px] md:mx-[200px] sm:mx-[100px] mx-[50px] m-auto mt-[25px]  red-hat text-[20px] leading-[29px]"><?php the_field('cheers_paragraph'); ?></p>
     </div>
     <div class="grid 2xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[92px] mx-[210px] text-center my-[150px]">
 
