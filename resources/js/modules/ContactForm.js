@@ -26,6 +26,7 @@ class ContactForm {
 
     handleResponse(response) {
         alert(response.data.message);
+        window.location.reload();
     }
 
 

@@ -16,7 +16,6 @@ class BookingForm {
         var selected_year = document.getElementById('selectedYear').innerText.split(' ');
         var selected_month = document.getElementById('selectedMonth').innerText.split(' ');
         var selected_day = document.getElementById('selectedDay').innerText;
-        var selected_time_split = selected_time.split(":");
 
 
         const data = {
@@ -37,6 +36,7 @@ class BookingForm {
 
     handleResponse(response) {
         alert(response.data.message);
+        window.location.reload();
     }
 
 
