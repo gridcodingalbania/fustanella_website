@@ -67,7 +67,7 @@
     <div class="mt-[157px] text-center">
         <p style="color:#90B03E;" class="witter text-[55px] font-[400] leading-[48px] mr-[140px] 2xl:block sm:block hidden"><?php the_field('cheers_word'); ?></p>
         <p class="cormorant text-green-1000 2xl:text-[45px] lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] 2xl:leading-[39px] sm:leading-[39px] leading-[25px] 2xl:font-[500] sm:font-[500] font-[400] uppercase"><?php the_field('our_events_word'); ?></p>
-        <p class=" 2xl:w-[600px] sm:w-[500px] w-[200px] m-auto 2xl:mt-[73px] lg:mt-[73px] md:mt-[60px] sm:mt-[60px] mt-[53px] 2xl:font-[400] sm:font-[400] font-[300] red-hat 2xl:text-[22px] lg:text-[22px] md:text-[20px] sm:text-[20px] text-[16px] 2xl:leading-[33px] sm:leading-[33px] leading-[24px]"><?php the_field('cheers_paragraph'); ?></p>
+        <p class=" 2xl:w-[600px] sm:w-[500px] w-[260px] m-auto 2xl:mt-[73px] lg:mt-[73px] md:mt-[60px] sm:mt-[60px] mt-[53px] 2xl:font-[400] sm:font-[400] font-[300] red-hat 2xl:text-[22px] lg:text-[22px] md:text-[20px] sm:text-[20px] text-[16px] 2xl:leading-[33px] sm:leading-[33px] leading-[24px]"><?php the_field('cheers_paragraph'); ?></p>
         <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] lg:text-[22px] md:text-[19px] sm:text-[19px] text-[16px] 2xl:my-[80px] lg:my-[80px] md:my-[70px] sm:my-[70px] my-[50px] 2xl:font-[500] sm:font-[500] font-[400] ">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image2'); ?>" alt=""></button></a>
     </div>
     <div class="2xl:grid xl:grid lg:grid grid-cols-3 md:hidden hidden   2xl:px-[210px] xl:px-[100px] lg:px-[70px] 2xl:gap-[91px] xl:gap-[70px] lg:gap-[50px] nav:block">
@@ -130,9 +130,10 @@
         <?php echo do_shortcode( '[URIS id=238]' ); ?>        
     </div>
     <div class="mt-[157px] text-center">
-        <p style="color:#90B03E;" class="witter text-[55px] leading-[48px]"><?php the_field('you_re_welcome_word'); ?></p>
-        <p class="cormorant text-green-1000 text-[45px] leading-[39px] "><?php the_field('direction_word'); ?></p>
-        <p class="m-auto mt-[44px]  red-hat text-[22px] leading-[33px]"><?php the_field('location_paragraph'); ?></p>
+        <p style="color:#90B03E;" class="witter text-[55px] font-[400] leading-[48px] mr-[140px] 2xl:block sm:block hidden"><?php the_field('you_re_welcome_word'); ?></p>
+        <p class="cormorant text-green-1000 2xl:text-[45px] lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] 2xl:leading-[39px] sm:leading-[39px] leading-[25px] 2xl:font-[500] sm:font-[500] font-[400] uppercase"><?php the_field('direction_word'); ?></p>
+        <p style="color:#90B03E;" class="witter text-[24px] font-[400] leading-[35px] ml-[140px] 2xl:hidden sm:hidden block"><?php the_field('you_re_welcome_word'); ?></p>
+        <p class="m-auto 2xl:mt-[44px] sm:mt-[44px] mt-[30px] red-hat 2xl:text-[22px] sm:text-[22px] text-[18px] leading-[33px]"><?php the_field('location_paragraph'); ?></p>
     </div>
     <div class="mt-[30px]" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1400">
      <?php the_field('main_page_maps'); ?> 
