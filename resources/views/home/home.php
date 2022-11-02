@@ -29,19 +29,19 @@
         <div class="bgimg-2" style=" background-image: url('<?php the_field('about_us_image'); ?>');">
             
             <div>
-                <div style="background: rgba(0, 104, 56, 0.9);" class="absolute 2xl:mr-[51%] xl:mr-[40%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[10%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-150px] 2xl:ml-[170px] lg:ml-[120px] md:ml-[50px] ml-[10%]">
-                <p class="text-white 2xl:text-[45px] sm:text-[45px] text-[40px] cormorant text-center uppercase 2xl:mt-[80px] sm:mt-[80px] mt-[30px]"><?php the_field('about_us_first_line'); ?></p>
-                <p class="text-white red-hat 2xl:text-[22px] sm:text-[22px] text-[19px] text-center mt-[70px] 2xl:px-[70px] md:px-[30px] px-[15px] leading-[32px]"><?php the_field('about_us_paragraph'); ?></p>
-                <a href=""><button class="flex m-auto red-hat text-[22px] my-[80px] buttonHover">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
+                <div style="background: rgba(0, 104, 56, 0.81);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
+                <p class="text-white 2xl:text-[43px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[25px] 2xl:mx-auto sm:mx-auto mx-[4%] cormorant text-center uppercase 2xl:mt-[38px] sm:mt-[35px] mt-[30px]"><?php the_field('about_us_first_line'); ?></p>
+                <p class="text-white red-hat 2xl:text-[20px] sm:text-[20px] text-[16px] text-center 2xl:mt-[50px] md:mt-[50px] mt-[30px] 2xl:px-[70px] md:px-[30px] px-[25px] 2xl:leading-[32px] sm:leading-[32px] leading-[23px] 2xl:font-[400] md:font-[400] font-[300]"><?php the_field('about_us_paragraph'); ?></p>
+                <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] md:text-[22px] sm:text-[20px] text-[16px] 2xl:my-[60px] md:my-[50px] sm:my-[50px] my-[30px] ">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
                 </div>
             </div>
         </div>  
         <div class="bgimg-3" style=" background-image: url('<?php the_field('restorant&food_image'); ?>');">
             <div>
-                <div style="background: rgba(0, 104, 56, 0.9);" class="absolute 2xl:mr-[51%] xl:mr-[40%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[10%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-150px] 2xl:ml-[170px] lg:ml-[120px] md:ml-[50px] ml-[10%]">
-                <p class="text-white 2xl:text-[45px] sm:text-[45px] text-[40px] cormorant text-center uppercase 2xl:mt-[80px] sm:mt-[80px] mt-[30px]"><?php the_field('restorant_first_line'); ?></p>
-                <p class="text-white red-hat 2xl:text-[22px] sm:text-[22px] text-[19px] text-center mt-[70px] 2xl:px-[70px] md:px-[30px] px-[15px] leading-[32px]"><?php the_field('restorant_paragraph'); ?></p>
-                <a href=""><button class="flex m-auto red-hat text-[22px] my-[80px] buttonHover">See more <img class="m-auto pl-[10px] " src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
+                <div style="background: rgba(0, 104, 56, 0.81);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
+                <p class="text-white 2xl:text-[43px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[25px] 2xl:mx-auto sm:mx-auto mx-[4%] cormorant text-center uppercase 2xl:mt-[38px] sm:mt-[35px] mt-[30px]"><?php the_field('restorant_first_line'); ?></p>
+                <p class="text-white red-hat 2xl:text-[20px] sm:text-[20px] text-[16px] text-center 2xl:mt-[50px] md:mt-[50px] mt-[30px] 2xl:px-[70px] md:px-[30px] px-[25px] 2xl:leading-[32px] sm:leading-[32px] leading-[23px] 2xl:font-[400] md:font-[400] font-[300]"><?php the_field('restorant_paragraph'); ?></p>
+                <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] md:text-[22px] sm:text-[20px] text-[16px] 2xl:my-[60px] md:my-[50px] sm:my-[50px] my-[30px] ">See more <img class="m-auto pl-[10px] " src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
                 </div>
             </div>
         </div>
@@ -65,12 +65,12 @@
         </div>
     </div>  -->
     <div class="mt-[157px] text-center">
-        <p style="color:#90B03E;" class="witter text-[60px] leading-[55px] mr-[140px]"><?php the_field('cheers_word'); ?></p>
-        <p class="cormorant text-green-1000 text-[45px] leading-[39px] font-medium uppercase"><?php the_field('our_events_word'); ?></p>
-        <p class=" 2xl:w-[600px] sm:w-[500px] w-[320px] m-auto mt-[73px]  red-hat text-[22px] leading-[33px]"><?php the_field('cheers_paragraph'); ?></p>
-        <a href=""><button class="flex m-auto red-hat text-[22px] my-[80px]  font-medium buttonHover2">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image2'); ?>" alt=""></button></a>
+        <p style="color:#90B03E;" class="witter text-[55px] font-[400] leading-[48px] mr-[140px] 2xl:block sm:block hidden"><?php the_field('cheers_word'); ?></p>
+        <p class="cormorant text-green-1000 2xl:text-[45px] lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] 2xl:leading-[39px] sm:leading-[39px] leading-[25px] 2xl:font-[500] sm:font-[500] font-[400] uppercase"><?php the_field('our_events_word'); ?></p>
+        <p class=" 2xl:w-[600px] sm:w-[500px] w-[200px] m-auto 2xl:mt-[73px] lg:mt-[73px] md:mt-[60px] sm:mt-[60px] mt-[53px] 2xl:font-[400] sm:font-[400] font-[300] red-hat 2xl:text-[22px] lg:text-[22px] md:text-[20px] sm:text-[20px] text-[16px] 2xl:leading-[33px] sm:leading-[33px] leading-[24px]"><?php the_field('cheers_paragraph'); ?></p>
+        <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] lg:text-[22px] md:text-[19px] sm:text-[19px] text-[16px] 2xl:my-[80px] lg:my-[80px] md:my-[70px] sm:my-[70px] my-[50px] 2xl:font-[500] sm:font-[500] font-[400] ">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image2'); ?>" alt=""></button></a>
     </div>
-    <div class="2xl:grid xl:grid lg:grid grid-cols-3  2xl:px-[210px] xl:px-[100px] lg:px-[70px] 2xl:gap-[91px] xl:gap-[70px] lg:gap-[50px] nav:block">
+    <div class="2xl:grid xl:grid lg:grid grid-cols-3 md:hidden hidden   2xl:px-[210px] xl:px-[100px] lg:px-[70px] 2xl:gap-[91px] xl:gap-[70px] lg:gap-[50px] nav:block">
 	   <div class="Box" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">
 	   	<div class="FlipBox 2xl:mt-0 nav:mt-10">
 	   		<div class="Front">
@@ -117,9 +117,17 @@
 	   	</div>
 	   </div>
 	</div>
-    <div class="mt-[215px]">
+    <div class="2xl:hidden lg:hidden block mx-[50px]">
+        <?php echo do_shortcode( '[URIS id=236]' ); ?>
+    </div>
+    <div class="mt-[215px] 2xl:block lg:block md:block sm:hidden hidden">
         <?php echo do_shortcode( '[URIS id=88]' ); ?>
-        <p class="absolute text-center mt-[-30%] left-auto right-auto w-full text-white witter 2xl:text-[96px] nav:text-[50px]"  data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">Some of our captured moments...</p>
+        <p class="absolute text-center mt-[-30%] left-auto right-auto w-full text-white witter 2xl:text-[96px] lg:text-[96px]  nav:text-[50px]"  data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">Some of our captured moments...</p>
+    </div>
+    <div class="mt-[100px] 2xl:hidden lg:hidden md:hidden sm:block block text-center">
+        <p class="cormorant text-green-1000 lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] leading-[32px] font-[400]">Gallery</p>
+        <p class="mt-[5px] mb-[20px] text-black witter text-28px font-[400]"  data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">some of our captured moments...</p>
+        <?php echo do_shortcode( '[URIS id=238]' ); ?>        
     </div>
     <div class="mt-[157px] text-center">
         <p style="color:#90B03E;" class="witter text-[55px] leading-[48px]"><?php the_field('you_re_welcome_word'); ?></p>
@@ -134,7 +142,7 @@
 </div>  
  <script>
      setTimeout(() => {
-            $('.sp-arrow').append('<div style="background: rgba(245, 245, 245, 0.45);" class="mt-[-10px] ml-[-45px] w-[100px] h-[100px]"></div>')
+            $('.sp-arrow').append('<div style="background: rgba(245, 245, 245, 0.45);" class="mt-[-10px] 2xl:ml-[-45px] lg:ml-[-45px] md:ml-[-30px] ml-[-30px] 2xl:w-[100px] lg:w-[100px] md:w-[80px] w-[80px] 2xl:h-[100px] lg:h-[100px] md:h-[102px] h-[80px]"></div>')
                 console.log( $('.sp-previous-arrow.sp-arrow'));
         }, 100);
         
@@ -181,3 +189,24 @@
             }
         }
  </script>
+ <style>
+    .sp-arrow {
+        margin-top: 23%!important;
+    }
+@media only screen and (max-width:1330px){
+    .sp-arrow {
+        margin-top: 22%!important;
+    }
+}
+@media only screen and (max-width:767px){
+    .sp-arrow {
+        margin-top: 79%!important; 
+        width: 5px!important; 
+        height: 60px!important;
+    }
+    .sp-horizontal .sp-previous-arrow {
+        right: 130px!important;
+        left: auto!important;
+    }
+}
+ </style>
