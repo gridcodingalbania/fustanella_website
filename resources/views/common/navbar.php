@@ -86,7 +86,7 @@
         $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
     }, 1000);
     
-        if(window.location.href.includes('home') || window.location.href.includes('gallery')) {
+        if(window.location.pathname === ('/fustanella/') || window.location.pathname === ('/fustanella/gallery')) {
             if(!$('#navbar').hasClass('absolute')) {
                 $('#navbar').addClass('absolute');
                 $('#navbar').removeClass('relative');
@@ -98,7 +98,7 @@
         }
     });
     $( document ).ready(function() { 
-        if(window.location.href.includes('home')){ 
+        if(window.location.pathname === ('/fustanella/')){ 
             if(!$('#navbar2').hasClass('absolute')) {
                 $('#navbar2').addClass('absolute');
                 $('#navbar2').removeClass('relative');
