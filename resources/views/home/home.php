@@ -144,7 +144,7 @@
         function frameLooper () {
             if (array.length > 0) {
                 document.getElementById("firstAn").innerHTML += array.shift();
-            loopTimer = setTimeout('frameLooper()',100); /* change 70 for speed */
+            loopTimer = setTimeout('frameLooper()',50); /* change 70 for speed */
             } else {
                 clearTimeout(timer);
                 frameLooper2();
@@ -161,7 +161,7 @@
         function frameLooper2 () {
             if (array2.length > 0) {
                 document.getElementById("secondAn").innerHTML += array2.shift();
-                loopTimer2 = setTimeout('frameLooper2()',70);
+                loopTimer2 = setTimeout('frameLooper2()',40);
             } else {
                 clearTimeout(timer2);
                 frameLooper3();
@@ -173,11 +173,11 @@
         function frameLooper3 () {
             if (array3.length > 0) {
                 document.getElementById("thirdAn").innerHTML += array3.shift();
-                loopTimer3 = setTimeout('frameLooper3()',70);
+                loopTimer3 = setTimeout('frameLooper3()',40);
             } else {
                 clearTimeout(timer3);
                 document.getElementById("buttonMainMob").style.opacity = "1";
-                document.getElementById("buttonMainMob").style.transition = "2s";
+                document.getElementById("buttonMainMob").style.transition = "1s";
             }
         }
  </script>
