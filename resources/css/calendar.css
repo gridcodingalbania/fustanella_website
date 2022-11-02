@@ -69,7 +69,7 @@
     border-radius: 50%;
 }
 
-.days div:hover:not(.today) {
+.days div:hover:not(.prev-date):not(.next-date):not(.disabled-date) {
     background: #006838;
     color: white;
     border-radius: 30px;
@@ -79,6 +79,7 @@
 .prev-date,
 .next-date {
     opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .today {
