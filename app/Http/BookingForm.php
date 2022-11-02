@@ -26,7 +26,7 @@ class BookingForm extends Ajax
 
         if ($id = $this->saveBooking($selected_date, $selected_time, $selected_persons, $selected_name, $selected_surname, $selected_phoneNumber)) {
             wp_send_json_success([
-                'message' => 'Appointment Saved Succesfully!'
+                'message' => 'Booking Saved Succesfully!'
             ]);
         }
     }
