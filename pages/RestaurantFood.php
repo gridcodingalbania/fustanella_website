@@ -23,7 +23,7 @@
         <p class="cormorant text-green-1000 2xl:text-[45px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[28px] leading-[39px] font-medium uppercase"><?php the_field('lorem_organic_word'); ?></p>
         <p class="2xl:mx-[400px] xl:mx-[300px] lg:mx-[200px] md:mx-[200px] sm:mx-[100px] mx-[45px] m-auto mt-[25px]  red-hat 2xl:text-[20px] lg:text-[19px] sm:text-[18px] text-[16px] 2xl:leading-[29px] md:leading-[29px] sm:leading-[24px] leading-[24px]"><?php the_field('organic_paragraph'); ?></p>
     </div>
-    <div class="pb-[150px] 2xl:block md:block sm:hidden hidden">
+    <div class="pb-[150px] 2xl:mx-[200px] lg:mx-[100px] md:mx-[50px] mx-0 2xl:block md:block sm:hidden hidden">
         <?php echo do_shortcode( '[URIS id=149]' ); ?>
     </div>
     <div class="pb-[150px] 2xl:hidden md:hidden sm:block block">
