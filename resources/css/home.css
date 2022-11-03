@@ -9,7 +9,14 @@
 		margin-top: 50px;
 	}
 }
-
+.hoverS:hover{
+	border-bottom: 1px solid white;
+	transition: 2s;
+}
+.hoverSm:hover{
+	border-bottom: 1px solid black;
+	transition: 1s;
+}
 .sp-button{
     width: 20px!important;
     height: 5px!important;
