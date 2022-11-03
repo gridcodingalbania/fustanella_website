@@ -23,7 +23,7 @@ class ContactForm extends Ajax
 
         if ($id = $this->saveContact($name, $email, $message)) {
             wp_send_json_success([
-                'message' => 'Thank you for contacting us! We will let you know shortly.'
+                'message' => 'for contacting us!'
             ]);
         }
     }

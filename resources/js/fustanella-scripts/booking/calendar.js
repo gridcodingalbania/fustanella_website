@@ -69,7 +69,7 @@ const renderCalendar = () => {
     }
 
     for (let i = 1; i <= lastDay; i++) {
-        if ((i == firstDayIndex + 1 || i == firstDayIndex + 2) && current_month == date.getMonth() + 1) {
+        if ((i <= firstDayIndex || i == firstDayIndex + 1 || i == firstDayIndex + 2) && current_month == date.getMonth() + 1) {
             days += `<div class="disabled-date cursor-not-allowed"><del>${i}</del></div>`;
         } else {
             days += `<div>${i}</div>`;

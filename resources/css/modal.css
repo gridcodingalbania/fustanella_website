@@ -43,6 +43,22 @@
     margin: 0 auto;
 }
 
+.thank-you-modal {
+    width: 795px;
+    height: 173px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(0.9);
+    transform: translate(-50%, -50%) scale(0.9);
+    overflow-y: auto;
+    background-color: #F0F0F0;
+    -webkit-transition: all 0.3s;
+    /* padding: 50px; */
+    transition: all 0.3s;
+    z-index: 101;
+}
 
 
 @media screen and (max-width:1024px) {
@@ -50,11 +66,21 @@
         width: 100vw;
         height: 85vh;
     }
+
+    .thank-you-modal {
+        width: 95vw;
+        height: auto;
+    }
 }
 
 @media screen and (max-width:375px) {
     .modal-content {
         width: 100vw;
         height: 100vh;
+    }
+
+    .thank-you-modal {
+        width: 90vw;
+        height: auto;
     }
 }

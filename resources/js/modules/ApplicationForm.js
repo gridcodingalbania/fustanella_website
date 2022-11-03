@@ -25,8 +25,14 @@ class ApplicationForm {
             contentType: false,
             data: formData,
             success: function (response) {
-                alert(response.data.message);
-                window.location.reload();
+                document.getElementById('app_modal').classList.add('hidden');
+                document.getElementById("thank_you_modal").classList.remove('hidden');
+                var response_text = document.getElementById('pop-up-response-text');
+                response_text.innerText = response.data.message;
+                setTimeout(() => {
+                    window.location.reload();
+                }, "1200")
+
             },
         });
     }

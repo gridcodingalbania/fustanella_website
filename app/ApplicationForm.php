@@ -29,7 +29,7 @@ class ApplicationForm extends Singleton
                 $id = $wpdb->insert_id;
                 if($id){
                     wp_send_json_success([
-                        'message' => 'Success'
+                        'message' => 'for your application!'
                     ]);
                 }
             }

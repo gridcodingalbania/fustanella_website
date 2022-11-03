@@ -5,10 +5,12 @@
     </div>
 </div>
 
-<div class="container xs:-translate-y-12 sm:-translate-y-12 lg:-translate-y-24">
+<div class="xs:w-[90%] sm:w-[90%] xl:w-[70%] 2xl:w-[66%] mx-auto xs:-translate-y-12 sm:-translate-y-12 lg:-translate-y-28">
     <?php view('work-with-us.vacancies-cards'); ?>
 </div>
 
 <?php view('work-with-us.application-modal'); ?>
+
+<?php view('common.pop-up'); ?>
 
 <script src="<?php echo get_fustanella_scripts("application/index.js"); ?>"></script>
