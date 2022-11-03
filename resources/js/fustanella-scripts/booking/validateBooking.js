@@ -23,6 +23,6 @@ $("#show-appoint-form").on('click', () => {
     $("#show-appoint-form").fadeOut();
     $("#user-details-form").fadeIn();
     $('html, body').animate({
-        scrollTop: $("#user-details-form").offset().top
+        scrollTop: $("#user-details-form").offset().top - 70
     }, 1000);
 })
