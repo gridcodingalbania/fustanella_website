@@ -103,6 +103,8 @@
         </form>
     </div>
 </div>
+<?php view('common.pop-up'); ?>
+
 
 
 <script src="<?php echo get_fustanella_scripts("booking/calendar.js"); ?>"></script>

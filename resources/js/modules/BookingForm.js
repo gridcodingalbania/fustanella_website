@@ -19,7 +19,7 @@ class BookingForm {
 
 
         const data = {
-            date: selected_year[0] + "-" +  selected_month[0] + "-" +  selected_day,
+            date: selected_year[0] + "-" + selected_month[0] + "-" + selected_day,
             time: selected_time,
             persons: no_of_persons,
             name: this.form.querySelector('#name').value,
@@ -35,8 +35,14 @@ class BookingForm {
     }
 
     handleResponse(response) {
-        alert(response.data.message);
-        window.location.reload();
+        if (response.data.message) {
+            document.getElementById("thank_you_modal").classList.remove('hidden');
+            var response_text = document.getElementById('pop-up-response-text');
+            response_text.innerText = response.data.message;
+            setTimeout(() => {
+                window.location.reload();
+            }, "1200")
+        }
     }
 
 

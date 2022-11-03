@@ -45,7 +45,7 @@
                 </div>
                 <div class="flex flex-col xs:w-full sm:w-full lg:w-[90%] xl:w-[95%] 2xl:w-full mx-auto pb-5">
                     <label for="message" class="mb-5 mt-5 uppercase xs:text-[16px] sm:text-[16px] lg:text-[22px] cormorant">Message</label>
-                    <input required type="text" id="message" placeholder="Write your message" class="xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]" />
+                    <textarea required type="text" id="message" placeholder="Write your message" class="xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]"></textarea>
                 </div>
                 <div class="text-center items-end">
                     <button class="uppercase cormorant h-[50px] text-white cursor-pointer bg-egreen text-center xs:w-full sm:w-full lg:w-[90%] xl:w-[95%] 2xl:w-full mx-auto mt-10 hover:bg-[#f0f0f0] hover:text-egreen hover:transition-all">Send</button>
@@ -73,3 +73,5 @@
 
     <iframe src="<?php the_field("contact_location_url"); ?>" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+
+<?php view('common.pop-up'); ?>
