@@ -27,7 +27,7 @@
         <?php echo do_shortcode( '[URIS id=149]' ); ?>
     </div>
     <div class="pb-[150px] 2xl:hidden md:hidden sm:block block">
-        <?php echo do_shortcode( '[URIS id=234]' ); ?>
+        <?php echo do_shortcode( '[URIS id=265]' ); ?>
     </div>
  </div>
 <?php get_footer(); ?>

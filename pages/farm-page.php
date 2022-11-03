@@ -29,7 +29,7 @@
         <?php echo do_shortcode( '[URIS id=130]' ); ?>
     </div>
     <div class="2xl:hidden md:hidden sm:block block">
-        <?php echo do_shortcode( '[URIS id=226]' ); ?>
+        <?php echo do_shortcode( '[URIS id=269]' ); ?>
     </div>
     <div class="text-center 2xl:pb-[100px] md:pb-[80px] sm:pb-[45px] pb-[40px]">
         <p style="color:#90B03E;" class="witter 2xl:text-[55px] lg:text-[50px] md:text-[50px] sm:text-[40px] text-[32px] leading-[48px] 2xl:mr-[140px] lg:mr-[120px] sm:mr-[50px] mr-[35px] 2xl:pt-[105px] lg:pt-[90px] md:pt-[80px] sm:pt-[70px] pt-[62px]"><?php the_field('accommodation_word'); ?></p>
@@ -40,7 +40,7 @@
         <?php echo do_shortcode( '[URIS id=132]' ); ?>
     </div>
     <div class="pb-[110px] 2xl:hidden md:hidden sm:block block">
-        <?php echo do_shortcode( '[URIS id=228]' ); ?>
+        <?php echo do_shortcode( '[URIS id=267]' ); ?>
     </div>
  </div>
 <?php get_footer(); ?>
