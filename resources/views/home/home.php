@@ -69,7 +69,7 @@
                 <div style="background: rgba(0, 104, 56, 0.81);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
                 <p class="text-white 2xl:text-[43px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[25px] 2xl:mx-auto sm:mx-auto mx-[4%] cormorant text-center uppercase 2xl:mt-[38px] sm:mt-[35px] mt-[30px]"><?php the_field('about_us_first_line'); ?></p>
                 <p class="text-white red-hat 2xl:text-[20px] sm:text-[20px] text-[16px] text-center 2xl:mt-[50px] md:mt-[50px] mt-[30px] 2xl:px-[70px] md:px-[30px] px-[25px] 2xl:leading-[32px] sm:leading-[32px] leading-[23px] 2xl:font-[400] md:font-[400] font-[300]"><?php the_field('about_us_paragraph'); ?></p>
-                <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] md:text-[22px] sm:text-[20px] text-[16px] 2xl:my-[60px] md:my-[50px] sm:my-[50px] my-[30px] ">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
+                <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] md:text-[22px] sm:text-[20px] text-[16px] 2xl:my-[60px] md:my-[50px] sm:my-[50px] my-[30px] hoverS">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
                 </div>
             </div>
         </div>  
@@ -78,7 +78,7 @@
                 <div style="background: rgba(0, 104, 56, 0.81);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
                 <p class="text-white 2xl:text-[43px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[25px] 2xl:mx-auto sm:mx-auto mx-[4%] cormorant text-center uppercase 2xl:mt-[38px] sm:mt-[35px] mt-[30px]"><?php the_field('restorant_first_line'); ?></p>
                 <p class="text-white red-hat 2xl:text-[20px] sm:text-[20px] text-[16px] text-center 2xl:mt-[50px] md:mt-[50px] mt-[30px] 2xl:px-[70px] md:px-[30px] px-[25px] 2xl:leading-[32px] sm:leading-[32px] leading-[23px] 2xl:font-[400] md:font-[400] font-[300]"><?php the_field('restorant_paragraph'); ?></p>
-                <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] md:text-[22px] sm:text-[20px] text-[16px] 2xl:my-[60px] md:my-[50px] sm:my-[50px] my-[30px] ">See more <img class="m-auto pl-[10px] " src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
+                <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] md:text-[22px] sm:text-[20px] text-[16px] 2xl:my-[60px] md:my-[50px] sm:my-[50px] my-[30px] hoverS">See more <img class="m-auto pl-[10px] " src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
         <p style="color:#90B03E;" class="witter text-[55px] font-[400] leading-[48px] mr-[140px] 2xl:block sm:block hidden"><?php the_field('cheers_word'); ?></p>
         <p class="cormorant text-green-1000 2xl:text-[45px] lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] 2xl:leading-[39px] sm:leading-[39px] leading-[25px] 2xl:font-[500] sm:font-[500] font-[400] uppercase"><?php the_field('our_events_word'); ?></p>
         <p class=" 2xl:w-[600px] sm:w-[500px] w-[260px] m-auto 2xl:mt-[73px] lg:mt-[73px] md:mt-[60px] sm:mt-[60px] mt-[53px] 2xl:font-[400] sm:font-[400] font-[300] red-hat 2xl:text-[22px] lg:text-[22px] md:text-[20px] sm:text-[20px] text-[16px] 2xl:leading-[33px] sm:leading-[33px] leading-[24px]"><?php the_field('cheers_paragraph'); ?></p>
-        <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] lg:text-[22px] md:text-[19px] sm:text-[19px] text-[16px] 2xl:my-[80px] lg:my-[80px] md:my-[70px] sm:my-[70px] my-[50px] 2xl:font-[500] sm:font-[500] font-[400] ">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image2'); ?>" alt=""></button></a>
+        <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] lg:text-[22px] md:text-[19px] sm:text-[19px] text-[16px] 2xl:my-[80px] lg:my-[80px] md:my-[70px] sm:my-[70px] my-[50px] 2xl:font-[500] sm:font-[500] font-[400] hoverSm">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image2'); ?>" alt=""></button></a>
     </div>
     <div class="2xl:grid xl:grid lg:grid grid-cols-3 md:hidden hidden   2xl:px-[210px] xl:px-[100px] lg:px-[70px] 2xl:gap-[91px] xl:gap-[70px] lg:gap-[50px] nav:block">
 	   <div class="Box" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">
