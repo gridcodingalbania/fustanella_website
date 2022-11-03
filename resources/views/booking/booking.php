@@ -87,15 +87,15 @@
         <form id="user_details">
             <div class="flex flex-col xs:w-full sm:w-full lg:w-1/2 mx-auto pb-5">
                 <label for="name" class="mb-5 mt-5 uppercase text-[22px] cormorant">Name</label>
-                <input type="text" id="name" placeholder="Write your name" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" />
+                <input type="text" required id="name" placeholder="Write your name" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" />
             </div>
             <div class="flex flex-col xs:w-full sm:w-full lg:w-1/2 mx-auto pb-5">
                 <label for="surname" class="mb-5 mt-5 uppercase text-[22px] cormorant">Surname</label>
-                <input type="text" id="surname" placeholder="Write your surname" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" />
+                <input type="text" required id="surname" placeholder="Write your surname" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" />
             </div>
             <div class="flex flex-col xs:w-full sm:w-full lg:w-1/2 mx-auto pb-5">
                 <label for="phone" class="mb-5 mt-5 uppercase text-[22px] cormorant">Phone</label>
-                <input type="text" id="phone" placeholder="Write your number" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9]+" />
+                <input type="text" required id="phone" placeholder="Write your number" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9]+" />
             </div>
             <div class="bg-egreen text-center xs:w-[300px] sm:w-[300px] lg:w-1/2 mx-auto mt-10">
                 <button class="uppercase cormorant  h-[50px] text-white cursor-pointer">Send</button>
