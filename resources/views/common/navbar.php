@@ -7,7 +7,7 @@
                                      ------------------------------------------------- -->
 <div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:pl-24 xl:pl-8 lg:pl-1.5 2xl:pr-8 xl:pr-2.5 lg:pr-1.5 pt-7  w-full z-20 pb-4">
     <div>
-        <a href="home"><img src="<?php echo get_image('NavbarMainImage.png');?>"></a>
+        <a href="home"><img src="<?php echo get_image('NavbarMainImage.svg');?>"></a>
     </div>
     <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold z-20">
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
@@ -18,8 +18,8 @@
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="work-with-us" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
     </div>
     <div class="flex my-auto">
-        <a href=""><img class="hoverEffect"src="<?php echo get_image('NavbarDineImage.png');?>"></a>
-        <a class="2xl:ml-[31px] lg:ml-2" href=""><img class="hoverEffect"src="<?php echo get_image('NavbarStayImage.png');?>"></a>
+        <a href=""><img class="hoverEffect"src="<?php echo get_image('NavbarDineImage.svg');?>"></a>
+        <a class="2xl:ml-[31px] lg:ml-2" href=""><img class="hoverEffect"src="<?php echo get_image('NavbarStayImage.svg');?>"></a>
     </div> 
     <div class="my-auto 2xl:ml-10  ml-8">
         <select >
