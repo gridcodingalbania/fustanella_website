@@ -164,7 +164,7 @@
     <div class="mt-[100px] 2xl:hidden lg:hidden md:hidden sm:block block text-center">
         <p class="cormorant text-green-1000 lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] leading-[32px] font-[400]">Gallery</p>
         <p class="mt-[5px] mb-[20px] text-black witter text-28px font-[400]"  data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">some of our captured moments...</p>
-        <?php echo do_shortcode( '[URIS id=238]' ); ?>        
+        <?php echo do_shortcode( '[URIS id=261]' ); ?>        
     </div>
     <div class="mt-[157px] text-center">
         <p style="color:#90B03E;" class="witter text-[55px] font-[400] leading-[48px] mr-[140px] 2xl:block sm:block hidden"><?php the_field('you_re_welcome_word'); ?></p>
