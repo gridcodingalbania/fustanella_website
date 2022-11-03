@@ -37,15 +37,15 @@
             <form id="contact-form" class="xs:w-full sm:w-full xl:w-[35%] 2xl:w-[40%] xs:pt-5 sm:pt-5 lg:pt-0 xs:mx-auto sm:mx-auto lg:mx-auto 2xl:ml-auto">
                 <div class="flex flex-col xs:w-full sm:w-full lg:w-[90%] xl:w-[95%] 2xl:w-full mx-auto pb-5">
                     <label for="full_name" class="mb-5 mt-5 uppercase xs:text-[16px] sm:text-[16px] lg:text-[22px] cormorant">Full Name</label>
-                    <input required type="text" id="full_name" placeholder="Write your name" class="xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]" />
+                    <input required type="text" id="full_name" placeholder="Write your name" class="cormorant xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]" />
                 </div>
                 <div class="flex flex-col xs:w-full sm:w-full lg:w-[90%] xl:w-[95%] 2xl:w-full mx-auto pb-5">
                     <label for="email" class="mb-5 mt-5 uppercase xs:text-[16px] sm:text-[16px] lg:text-[22px] cormorant">Email</label>
-                    <input required type="email" id="email" placeholder="Write your e-mail" class="xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]" />
+                    <input required type="email" id="email" placeholder="Write your e-mail" class="cormorant xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]" />
                 </div>
                 <div class="flex flex-col xs:w-full sm:w-full lg:w-[90%] xl:w-[95%] 2xl:w-full mx-auto pb-5">
                     <label for="message" class="mb-5 mt-5 uppercase xs:text-[16px] sm:text-[16px] lg:text-[22px] cormorant">Message</label>
-                    <textarea required type="text" id="message" placeholder="Write your message" class="xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]"></textarea>
+                    <textarea required type="text" id="message" placeholder="Write your message" class="cormorant xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]"></textarea>
                 </div>
                 <div class="text-center items-end">
                     <button class="uppercase cormorant h-[50px] text-white cursor-pointer bg-egreen text-center xs:w-full sm:w-full lg:w-[90%] xl:w-[95%] 2xl:w-full mx-auto mt-10 hover:bg-[#f0f0f0] hover:text-egreen hover:transition-all">Send</button>
