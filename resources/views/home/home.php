@@ -23,7 +23,44 @@
     
    </div>
    <div class="mt-[100px] mb-[184px] mx-[50px]"  data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-        <?php echo do_shortcode( '[URIS id=60]' ); ?>
+        <p class="2xl:text-green-2000 md:text-green-2000 text-green-1000 witter 2x:text-[64px] md:text-[64px] sm:text-[30px] text-[30px] font-[400] 2xl:leading-[73px] md:leading-[73px] sm:leading-[34px] leading-[34px] text-center">Testimonials</p>
+ 
+        <div class="testimonial_slider_2 pb-[30px] overflow-hidden	mt-[35px]">
+				<input class="hidden" type="radio" name="slider_2" id="slide_2_1" checked />
+				<input class="hidden" type="radio" name="slider_2" id="slide_2_2" />
+				<input class="hidden" type="radio" name="slider_2" id="slide_2_3" />
+				<input class="hidden" type="radio" name="slider_2" id="slide_2_4" />
+				<div class="boo_inner clearfix">
+					<div class="slide_content w-[25%] float-left">
+						<div class="testimonial_2 2xl:text-[21px] md:text-[18px] sm:text-[18px] text-[16px] xl:mx-[350px] xl:mx-[100px] lg:mx-[70px] md:mx-[70px] sm:mx-[60px] mx-[2px] red-hat 2xl:font-[400] sm:font-[400] font-[300] 2xl:leading-[32px] sm:leading-[32px] leading-[24px]">
+							<div class="content_2 relative  mb-[30px]">
+								<p class="text-center">Great place, great food, tasty and natural, house made, I would come to have the most Albanian experience possible with high quality products, it's not cheap but it's not going to break the bank,  with lots of traditional dishes and deer meat and tasty things like that. Overall I would recommend and come back. The menu is handwritten since they change it every other day.</p>
+							</div>
+							<div class="author_2">
+								<h3 class="text-center">- Mati B -</h3>
+							</div>
+						</div>
+					</div> 
+					<div class="slide_content w-[25%] float-left">
+						<div class="testimonial_2 2xl:text-[21px] md:text-[18px] sm:text-[18px] text-[16px] 2xl:mx-[350px] xl:mx-[100px] lg:mx-[70px] md:mx-[70px] sm:mx-[60px] mx-[2px] red-hat 2xl:font-[400] sm:font-[400] font-[300] 2xl:leading-[32px] sm:leading-[32px] leading-[24px]">
+							<div class="content_2 relative  mb-[30px]">
+                            <p class="text-center">Great place, great food, tasty and natural, house made, I would come to have the most Albanian experience possible with high quality products, it's not cheap but it's not going to break the bank,  with lots of traditional dishes and deer meat and tasty things like that. Overall I would recommend and come back. The menu is handwritten since they change it every other day.</p>
+
+							</div>
+							<div class="author_2">
+								<h3 class="text-center">- Mati B -</h3>
+							</div>
+						</div>
+					</div> 
+				</div>
+				<div id="controls text-center">
+					<label for="slide_2_1"></label>
+					<label for="slide_2_2"></label>
+					<label for="slide_2_3"></label>
+					<label for="slide_2_4"></label>
+				</div>
+			</div>
+
     </div>
     <div> 
         <div class="bgimg-2" style=" background-image: url('<?php the_field('about_us_image'); ?>');">
@@ -189,6 +226,26 @@
                 document.getElementById("buttonMainMob").style.transition = "1s";
             }
         }
+        $(document).ready(function(){
+		pagenum = 1;
+		function AutoRotate() {
+		   var myele = null;
+		   var allElements = document.getElementsByTagName('label');
+		   for (var i = 0, n = allElements.length; i < n; i++) {
+			   var myfor = allElements[i].getAttribute('for');
+			   if ((myfor !== null) && (myfor == ('slide_2_' + pagenum))) {
+				   allElements[i].click();
+				   break;
+			   }
+		   }
+		   if (pagenum == 2) {
+			   pagenum = 1;
+		   } else {
+			   pagenum++;
+		   }
+		}
+		setInterval(AutoRotate, 5000);
+	});
  </script>
  <style>
     .sp-arrow {
