@@ -53,7 +53,8 @@
         </a>
   </div>
         <a href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
-        <?php 
+        <div class="HAMNAVBAR"></div>
+        <!-- <?php 
             $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
             if(str_contains($url, 'fustanella')) { ?>
                 <img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png');?>">
@@ -61,7 +62,7 @@
             else{ ?>
               <img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png');?>">
             <?php }
-         ?>
+         ?> -->
             
         </a>
 </div>  
@@ -99,6 +100,7 @@
     });
     $( document ).ready(function() { 
         if(window.location.pathname === ('/fustanella/')){ 
+            $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png');?>">')
             if(!$('#navbar2').hasClass('absolute')) {
                 $('#navbar2').addClass('absolute');
                 $('#navbar2').removeClass('relative');
@@ -107,6 +109,9 @@
                 $('#navbar2').addClass('relative');
                 $('#navbar2').removeClass('absolute');
             }
+        }
+        else{
+            $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png');?>">')
         }
     });
 </script>
