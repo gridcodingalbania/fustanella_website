@@ -11,7 +11,7 @@
     </div>
     <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold z-20">
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
-        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="RestaurantFood" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
+        <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="restaurant-food" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="events" id="eventsA" onClick="toggleDiv('events')">Events</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="gallery" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="contact" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
@@ -22,10 +22,10 @@
         <a class="2xl:ml-[31px] lg:ml-2" href=""><img class="hoverEffect"src="<?php echo get_image('NavbarStayImage.svg');?>"></a>
     </div> 
     <div class="my-auto 2xl:ml-10  ml-8 z-30">
-        <select >
+        <!-- <select >
             <option lang="en" value="english" selected>💶</option>
             <option lang="al" value="albania">💶</option>
-        </select>
+        </select> -->
     </div>
 </div>
      <!-- -------------------------------------------------
@@ -38,7 +38,7 @@
             <ul class="hoverHamNav">
                 <li class="pt-[50px] cormorant text-[20px] font-bold leading-[25px]"><a href="home" class="hover-target ">Home</a></li>
                 <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="farm-page" class="hover-target ">About us</a></li>
-                <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="RestaurantFood" class="hover-target ">Restaurant & Food</a></li>
+                <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="restaurant-food" class="hover-target ">Restaurant & Food</a></li>
                 <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="events" class="hover-target ">Events</a></li>
                 <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="gallery" class="hover-target ">Gallery</a></li>
                 <li class="pt-[35px] cormorant text-[20px] font-bold leading-[25px]"><a href="#" class="hover-target ">Contact us </a></li>
