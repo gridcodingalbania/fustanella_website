@@ -5,7 +5,7 @@
     </div>
 </div>
 
-<div class="xs:w-[90%] sm:w-[90%] xl:w-[70%] 2xl:w-[66%] mx-auto xs:-translate-y-12 sm:-translate-y-12 lg:-translate-y-28">
+<div class="xs:w-[90%] sm:w-[90%] xl:w-[80%] 2xl:w-[65%] mx-auto xs:-translate-y-12 sm:-translate-y-12 lg:-translate-y-28">
     <?php view('work-with-us.vacancies-cards'); ?>
 </div>
 
