@@ -15,8 +15,8 @@
             <span id="thirdAn"></span>
         </div>
          <div id="buttonMainMob" class="2xl:flex nav:grid justify-center text-white gap-[16px] 2xl:mt-[100px] xl:mt-[80px] md:mt-[50px] mt-[80px] opacity-0 ">
-           <a class="pulse" href="book-a-table"><button class="px-[65px] py-[15px]  border  border-white"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
-           <a class="pulse" href=""><button class="px-[65px] py-[15px]  border  border-white 2xl:mt-0 nav:mt-[5%] mt-0"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
+           <a class="pulse" style="background: rgba(0, 104, 56, 0.9);" href="book-a-table"><button class="px-[65px] py-[15px]  border  border-white "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
+           <a class="pulse" style="background: rgba(0, 104, 56, 0.9);" href=""><button class="px-[65px] py-[15px]  border  border-white 2xl:mt-0 nav:mt-[5%] mt-0 "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
          </div>
     </div>
     </div>
