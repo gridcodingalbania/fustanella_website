@@ -55,7 +55,7 @@
         <a href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
         <?php 
             $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-            if(str_contains($url, 'home')) { ?>
+            if(str_contains($url, 'fustanella')) { ?>
                 <img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png');?>">
             <?php }
             else{ ?>
