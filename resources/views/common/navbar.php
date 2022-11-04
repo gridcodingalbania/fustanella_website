@@ -5,9 +5,9 @@
             <!-- -------------------------------------------------
                                                 DESKTOP NAVBAR
                                      ------------------------------------------------- -->
-<div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:pl-24 xl:pl-8 lg:pl-1.5 2xl:pr-8 xl:pr-2.5 lg:pr-1.5 pt-7  w-full z-20 pb-4">
-    <div>
-        <a href="home"><img src="<?php echo get_image('NavbarMainImage.svg');?>"></a>
+<div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:pl-24 xl:pl-8 lg:pl-1.5 2xl:pr-8 xl:pr-2.5 lg:pr-1.5 pt-3  w-full z-30 pb-2">
+    <div class="z-30">
+        <a href="home"><img src="<?php echo get_image('NavbarMainImage2.svg');?>"></a>
     </div>
     <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold z-20">
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
@@ -17,11 +17,11 @@
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="contact" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
         <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="work-with-us" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
     </div>
-    <div class="flex my-auto">
+    <div class="flex my-auto z-30">
         <a href=""><img class="hoverEffect"src="<?php echo get_image('NavbarDineImage.svg');?>"></a>
         <a class="2xl:ml-[31px] lg:ml-2" href=""><img class="hoverEffect"src="<?php echo get_image('NavbarStayImage.svg');?>"></a>
     </div> 
-    <div class="my-auto 2xl:ml-10  ml-8">
+    <div class="my-auto 2xl:ml-10  ml-8 z-30">
         <select >
             <option lang="en" value="english" selected>💶</option>
             <option lang="al" value="albania">💶</option>
@@ -77,16 +77,16 @@
         $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
     }, 1000);
     
-        if(window.location.pathname === ('/fustanella/') || window.location.pathname === ('/fustanella/gallery')) {
-            if(!$('#navbar').hasClass('absolute')) {
-                $('#navbar').addClass('absolute');
-                $('#navbar').removeClass('relative');
-            }
-            else {
-                $('#navbar').addClass('relative');
-                $('#navbar').removeClass('absolute');
-            }
-        }
+        // if(window.location.pathname === ('/fustanella/') || window.location.pathname === ('/fustanella/gallery')) {
+        //     if(!$('#navbar').hasClass('absolute')) {
+        //         $('#navbar').addClass('absolute');
+        //         $('#navbar').removeClass('relative');
+        //     }
+        //     else {
+        //         $('#navbar').addClass('relative');
+        //         $('#navbar').removeClass('absolute');
+        //     }
+        // }
     });
     $( document ).ready(function() { 
         if(window.location.pathname === ('/fustanella/')){ 
