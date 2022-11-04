@@ -9,7 +9,7 @@
         <div class="2xl:hidden xl:hidden lg:hidden block">
             <img class="m-auto" src="<?php the_field('fustanella_main_mobile_image'); ?>" alt="">
         </div>
-        <div id="MobMain" class="text-white cormorant font-[600] 2xl:text-[70px] xl:text-[50px] nav:text-[60px] sm:text-[60px] text-[40px] 2xl:leading-[106px] xl:leading-[80px] md:leading-[70px] sm:leading-[70px] leading-[70px] 2xl:mt-0 nav:mt-[200px] md:mt-[100px] sm:mt-[100px] mt-[120px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[80px]">
+        <div id="MobMain" class="text-white cormorant font-[600] 2xl:text-[70px] xl:text-[50px] nav:text-[60px] sm:text-[60px] text-[40px] 2xl:leading-[106px] xl:leading-[80px] md:leading-[70px] sm:leading-[70px] leading-[70px] 2xl:mt-[500px] nav:mt-[500px] md:mt-[400px] sm:mt-[100px] mt-[120px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[80px]">
             <span id="firstAn"></span> 
             <span id="secondAn" class="ml-[35px] witter 2xl:text-[96px] lg:text-[80px] sm:text-[80px] text-[70px] font-[400] leading-[84px]" style="-webkit-text-stroke: 1px;"></span> 
             <span id="thirdAn"></span>
