@@ -9,7 +9,9 @@
         color: green;
 }
 .hoverEffect:hover{
-        transform: scale(1.2); 
+    filter: invert(30%) sepia(43%) saturate(1085%) hue-rotate(107deg) brightness(90%) contrast(103%);
+    transition: 0.1s;
+
 }
 @media only screen and (max-width:1700px){
         #menuNav{

@@ -9,14 +9,14 @@
         <div class="2xl:hidden xl:hidden lg:hidden block">
             <img class="m-auto" src="<?php the_field('fustanella_main_mobile_image'); ?>" alt="">
         </div>
-        <div id="MobMain" class="text-white cormorant 2xl:text-[70px] xl:text-[50px] nav:text-[60px] sm:text-[60px] text-[40px] 2xl:leading-[106px] xl:leading-[80px] md:leading-[70px] sm:leading-[70px] leading-[70px] 2xl:mt-0 nav:mt-[200px] md:mt-[100px] sm:mt-[100px] mt-[120px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[80px]">
-            <span id="firstAn"></span><br>
-            <span id="secondAn" class="witter 2xl:text-[128px] sm:text-[100px] text-[70px]"> </span> 
+        <div id="MobMain" class="text-white cormorant font-[600] 2xl:text-[70px] xl:text-[50px] nav:text-[60px] sm:text-[60px] text-[40px] 2xl:leading-[106px] xl:leading-[80px] md:leading-[70px] sm:leading-[70px] leading-[70px] 2xl:mt-0 nav:mt-[200px] md:mt-[100px] sm:mt-[100px] mt-[120px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[80px]">
+            <span id="firstAn"></span> 
+            <span id="secondAn" class="ml-[35px] witter 2xl:text-[96px] lg:text-[80px] sm:text-[80px] text-[70px] font-[400] leading-[84px]" style="-webkit-text-stroke: 1px;"></span> 
             <span id="thirdAn"></span>
         </div>
          <div id="buttonMainMob" class="2xl:flex nav:grid justify-center text-white gap-[16px] 2xl:mt-[100px] xl:mt-[80px] md:mt-[50px] mt-[80px] opacity-0 ">
-           <a class="pulse" style="background: rgba(0, 104, 56, 0.9);" href="book-a-table"><button class="px-[65px] py-[15px]  border  border-white "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
-           <a class="pulse" style="background: rgba(0, 104, 56, 0.9);" href=""><button class="px-[65px] py-[15px]  border  border-white 2xl:mt-0 nav:mt-[5%] mt-0 "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
+           <a class="pulse" style="background: rgba(0, 104, 56, 0.9);" href="book-a-table"><button class="px-[65px] py-[15px]"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
+           <a class="pulse" style="background: rgba(0, 104, 56, 0.9);" href=""><button class="px-[65px] py-[15px] 2xl:mt-0 nav:mt-[5%] mt-0 "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
          </div>
     </div>
     </div>
@@ -32,9 +32,10 @@
 				<input class="hidden" type="radio" name="slider_2" id="slide_2_4" />
 				<div class="boo_inner clearfix">
 					<div class="slide_content w-[25%] float-left">
-						<div class="testimonial_2 2xl:text-[21px] md:text-[18px] sm:text-[18px] text-[16px] xl:mx-[350px] xl:mx-[100px] lg:mx-[70px] md:mx-[70px] sm:mx-[60px] mx-[2px] red-hat 2xl:font-[400] sm:font-[400] font-[300] 2xl:leading-[32px] sm:leading-[32px] leading-[24px]">
+						<div class="testimonial_2 2xl:text-[21px] md:text-[18px] sm:text-[18px] text-[16px] 2xl:mx-[350px] xl:mx-[100px] lg:mx-[70px] md:mx-[70px] sm:mx-[60px] mx-[2px] red-hat 2xl:font-[400] sm:font-[400] font-[300] 2xl:leading-[32px] sm:leading-[32px] leading-[24px]">
 							<div class="content_2 relative  mb-[30px]">
-								<p class="text-center">Great place, great food, tasty and natural, house made, I would come to have the most Albanian experience possible with high quality products, it's not cheap but it's not going to break the bank,  with lots of traditional dishes and deer meat and tasty things like that. Overall I would recommend and come back. The menu is handwritten since they change it every other day.</p>
+                            <p class="text-center">Great place, great food, tasty and natural, house made, I would come to have the most Albanian experience possible with high quality products, it's not cheap but it's not going to break the bank,  with lots of traditional dishes and deer meat and tasty things like that. Overall I would recommend and come back. The menu is handwritten since they change it every other day.</p>
+
 							</div>
 							<div class="author_2">
 								<h3 class="text-center">- Mati B -</h3>
@@ -44,11 +45,11 @@
 					<div class="slide_content w-[25%] float-left">
 						<div class="testimonial_2 2xl:text-[21px] md:text-[18px] sm:text-[18px] text-[16px] 2xl:mx-[350px] xl:mx-[100px] lg:mx-[70px] md:mx-[70px] sm:mx-[60px] mx-[2px] red-hat 2xl:font-[400] sm:font-[400] font-[300] 2xl:leading-[32px] sm:leading-[32px] leading-[24px]">
 							<div class="content_2 relative  mb-[30px]">
-                            <p class="text-center">Great place, great food, tasty and natural, house made, I would come to have the most Albanian experience possible with high quality products, it's not cheap but it's not going to break the bank,  with lots of traditional dishes and deer meat and tasty things like that. Overall I would recommend and come back. The menu is handwritten since they change it every other day.</p>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium ea ullam non amet dignissimos id quibusdam atque minus reprehenderit ratione adipisci inventore incidunt, quidem laboriosam, nihil enim asperiores deserunt deleniti omnis voluptas quia eius libero possimus. Necessitatibus, molestias cum!</p>
 
 							</div>
 							<div class="author_2">
-								<h3 class="text-center">- Mati B -</h3>
+								<h3 class="text-center">- Mati -</h3>
 							</div>
 						</div>
 					</div> 
