@@ -54,16 +54,6 @@
   </div>
         <a href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
         <div class="HAMNAVBAR"></div>
-        <!-- <?php 
-            $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-            if(str_contains($url, 'fustanella')) { ?>
-                <img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png');?>">
-            <?php }
-            else{ ?>
-              <img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png');?>">
-            <?php }
-         ?> -->
-            
         </a>
 </div>  
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
