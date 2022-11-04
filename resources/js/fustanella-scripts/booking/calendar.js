@@ -30,11 +30,11 @@ const renderCalendar = () => {
 
     const firstDayIndex = date.getDay();
 
-    let current_day = new Date();
-    let current_month = current_day.getMonth() + 1;
 
-    console.log("current month")
-    console.log(current_month)
+    let new_date = new Date();
+    let current_month = new_date.getMonth() + 1;
+    let current_day = new_date.getDate();
+
 
     const lastDayIndex = new Date(
         date.getFullYear(),
@@ -69,7 +69,7 @@ const renderCalendar = () => {
     }
 
     for (let i = 1; i <= lastDay; i++) {
-        if ((i <= firstDayIndex || i == firstDayIndex + 1 || i == firstDayIndex + 2) && current_month == date.getMonth() + 1) {
+        if ((i <= current_day || i == current_day + 1) && current_month == date.getMonth() + 1) {
             days += `<div class="disabled-date cursor-not-allowed"><del>${i}</del></div>`;
         } else {
             days += `<div>${i}</div>`;
@@ -101,7 +101,6 @@ const renderCalendar = () => {
         selected_time.innerText = this.value;
         selected_time.classList.add('text-[25px]')
     })
-    console.log(date.getMonth() + 1)
 
 };
 
