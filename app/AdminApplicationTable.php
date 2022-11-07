@@ -61,10 +61,10 @@ class AdminApplicationTable extends \WP_List_Table
     public function get_sortable_columns()
     {
         $sortable_columns = array(
-            'full_name' => array('full_name', false),
-            'phone' => array('phone', false),
-            'position' => array('position', false),
-            'file_name' => array('file_name', false)
+            // 'full_name' => array('full_name', false),
+            // 'phone' => array('phone', false),
+            // 'position' => array('position', false),
+            // 'file_name' => array('file_name', false)
         );
 
         return $sortable_columns;

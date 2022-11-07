@@ -29,6 +29,12 @@ class AdminBookingTable extends \WP_List_Table
                 return $item[$column_name];
             case 'phone_number':
                 return $item[$column_name];
+            case 'date':
+                return $item[$column_name];
+            case 'time':
+                return $item[$column_name];
+            case 'number_of_persons':
+                return $item[$column_name];
             default:
                 return false;
         }
@@ -50,6 +56,9 @@ class AdminBookingTable extends \WP_List_Table
             'name' => __('Name', 'app'),
             'surname' => __('Surname', 'app'),
             'phone_number' => __('Phone No.', 'app'),
+            'date' => __('Date', 'app'),
+            'time' => __('Time', 'app'),
+            'number_of_persons' => __('No. Of Persons','app')
             // 'file_name' => __('CV', 'app')
         );
 
@@ -59,9 +68,10 @@ class AdminBookingTable extends \WP_List_Table
     public function get_sortable_columns()
     {
         $sortable_columns = array(
-            'name' => array('name', false),
-            'surname' => array('surname', false),
-            'phone_number' => array('phone_number', false),
+            // 'name' => array('name', false),
+            // 'surname' => array('surname', false),
+            // 'phone_number' => array('phone_number', false),
+            // 'date' => array('date', false)
         );
 
         return $sortable_columns;
