@@ -1,4 +1,4 @@
-
+/* 
     .sp-arrow{
         margin-top: 17%!important;
     }
@@ -14,4 +14,9 @@
         .sp-arrow{
             margin-top: 13%!important;
         }
-    }
+    } */ 
+    @media only screen and (min-width:1925px){
+        .margin{ 
+            margin: auto!important; 
+        }
+    } 
