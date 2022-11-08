@@ -1,17 +1,6 @@
-
-    .sp-arrow{
-        margin-top: 17%!important;
-    }
-    .sp-horizontal .sp-next-arrow {
-        right: 50px;
-        left: auto;
-    }
-    .sp-horizontal .sp-previous-arrow {
-        right: 200px!important;
-        left: auto!important;
-    }
-    @media only screen and (max-width:1515px){
-        .sp-arrow{
-            margin-top: 13%!important;
+    @media only screen and (min-width:1925px){
+        .gallery-table-container{ 
+            margin: auto!important; 
+            width: fit-content;
         }
-    }
+    } 

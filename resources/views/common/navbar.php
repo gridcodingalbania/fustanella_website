@@ -63,7 +63,7 @@
                 <img class="m-auto md:mt-[150px] sm:mt-[100px] mt-[80px]" src="<?php echo get_image('HamNavCloseIcon.png'); ?>">
             </a>
         </div>
-        <a href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
+        <a  class="z-[99999]" href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
             <div class="HAMNAVBAR"></div>
         </a>
     </div>
