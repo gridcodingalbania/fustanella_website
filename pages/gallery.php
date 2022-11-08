@@ -7,66 +7,127 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <?php get_header(); ?> 
     <div class="mt-[40px]">
-        <table class="margin 2xl:mx-[50px]xl:mx-[40px] lg:mx-[30px] md:mx-[20px] sm:mx-[10px] mx-0 mt-[-40px] border-separate 2xl:border-spacing-y-[30px] lg:border-spacing-y-[20px] md:border-spacing-y-[20px] border-spacing-y-[18px]  2xl:border-spacing-x-[25px] lg:border-spacing-x-[15px] md:border-spacing-x-[15px] border-spacing-x-[8px]">
+        <table class="2xl:block sm:block hidden gallery-table-container 2xl:mx-[50px]xl:mx-[40px] lg:mx-[30px] md:mx-[20px] sm:mx-[10px] mx-0 mt-[-40px] border-separate 2xl:border-spacing-y-[30px] lg:border-spacing-y-[20px] md:border-spacing-y-[20px] border-spacing-y-[18px]  2xl:border-spacing-x-[25px] lg:border-spacing-x-[15px] md:border-spacing-x-[15px] border-spacing-x-[8px]">
             <tr>
-                <td colspan=2 rowspan=4 ><img onclick="onClick(this)" class="test 2xl:w-[704.47px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[986.17px]" src="<?php the_field('table_1_first_image')?>"></td>
-                <td rowspan=2 ><img onclick="onClick(this)" class=" test 2xl:w-[327.05px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_1_second_image')?>"></td>
-                <td ><img onclick="onClick(this)" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_1_third_image')?>"></td>
-                <td rowspan=2 ><img onclick="onClick(this)" class="2xl:w-[330.8px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_1_fourth_image')?>"></td>
+                <td colspan=2 rowspan=4 ><img onclick="onClick(this)" class="test 2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[986.17px]" src="<?php the_field('table_1_first_image')?>"></td>
+                <td rowspan=2 ><img onclick="onClick(this)" class=" test 2xl:w-[327.05px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_1_second_image')?>"></td>
+                <td ><img onclick="onClick(this)" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_1_third_image')?>"></td>
+                <td rowspan=2 ><img onclick="onClick(this)" class="2xl:w-[330.8px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_1_fourth_image')?>"></td>
             </tr>
             <tr> 
-                <td><img onclick="onClick(this)" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_1_fifth_image')?>"></td> 
+                <td><img onclick="onClick(this)" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_1_fifth_image')?>"></td> 
             </tr>
             <tr>
-                <td colspan=2 rowspan=2><img onclick="onClick(this)" class="2xl:w-[704.47px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[476px]" src="<?php the_field('table_1_sixth_image')?>"></td>
-                <td><img onclick="onClick(this)" class="2xl:w-[330px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_1_seventh_image')?>"></td> 
+                <td colspan=2 rowspan=2><img onclick="onClick(this)" class="2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[476px]" src="<?php the_field('table_1_sixth_image')?>"></td>
+                <td><img onclick="onClick(this)" class="2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_1_seventh_image')?>"></td> 
             </tr>
             <tr>
-                <td><img onclick="onClick(this)" class="2xl:w-[330px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_1_eighth_image')?>"></td>  
+                <td><img onclick="onClick(this)" class="2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_1_eighth_image')?>"></td>  
             </tr> 
         </table>
-        <table class="margin 2xl:mx-[30px] xl:mx-[30px] lg:mx-[30px] md:mx-[20px] sm:mx-[10px] mx-0 mt-[-40px] border-separate 2xl:border-spacing-y-[30px] lg:border-spacing-y-[20px] md:border-spacing-y-[20px] border-spacing-y-[18px]  2xl:border-spacing-x-[25px] lg:border-spacing-x-[15px] md:border-spacing-x-[15px] border-spacing-x-[8px] scale-x-[-1]">
+        <table class="2xl:block sm:block hidden gallery-table-container 2xl:mx-[30px] xl:mx-[30px] lg:mx-[30px] md:mx-[20px] sm:mx-[10px] mx-0 mt-[-40px] border-separate 2xl:border-spacing-y-[30px] lg:border-spacing-y-[20px] md:border-spacing-y-[20px] border-spacing-y-[18px]  2xl:border-spacing-x-[25px] lg:border-spacing-x-[15px] md:border-spacing-x-[15px] border-spacing-x-[8px] scale-x-[-1]">
             <tr>
-                <td colspan=2 rowspan=4 ><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[704.47px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[995.83px]" src="<?php the_field('table_2_first_image')?>"></td>
-                <td rowspan=2 ><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[327.05px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[479.83px]" src="<?php the_field('table_2_fifth_image')?>"></td>
-                <td colspan=2 rowspan=2><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[704.47px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[476px]" src="<?php the_field('table_2_sixth_image')?>"></td>
+                <td colspan=2 rowspan=4 ><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[995.83px]" src="<?php the_field('table_2_first_image')?>"></td>
+                <td rowspan=2 ><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[327.05px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[479.83px]" src="<?php the_field('table_2_fifth_image')?>"></td>
+                <td colspan=2 rowspan=2><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[476px]" src="<?php the_field('table_2_sixth_image')?>"></td>
             </tr>
             <tr> 
             </tr>
             <tr>
-                <td ><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[340.18px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_2_third_image')?>"></td>
-                <td rowspan=2 rowspan=2 ><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[327.05px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_2_second_image')?>"></td>
-                <td><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[330px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_2_seventh_image')?>"></td> 
+                <td ><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_2_third_image')?>"></td>
+                <td rowspan=2 rowspan=2 ><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[327.05px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_2_second_image')?>"></td>
+                <td><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_2_seventh_image')?>"></td> 
             
             </tr>
             <tr>
-                <td><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[340.18px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_2_fourth_image')?>"></td> 
-                <td><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[330px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_2_eighth_image')?>"></td>  
+                <td><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_2_fourth_image')?>"></td> 
+                <td><img onclick="onClick(this)"  class="scale-x-[-1] 2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_2_eighth_image')?>"></td>  
             </tr> 
         </table> 
-        <table class="margin 2xl:mx-[50px] xl:mx-[40px] lg:mx-[30px] md:mx-[20px] sm:mx-[10px] mx-0 mt-[-40px] border-separate 2xl:border-spacing-y-[30px] lg:border-spacing-y-[20px] md:border-spacing-y-[20px] border-spacing-y-[18px]  2xl:border-spacing-x-[25px] lg:border-spacing-x-[15px] md:border-spacing-x-[15px] border-spacing-x-[8px]">
+        <table class="2xl:block sm:block hidden gallery-table-container 2xl:mx-[50px] xl:mx-[40px] lg:mx-[30px] md:mx-[20px] sm:mx-[10px] mx-0 mt-[-40px] border-separate 2xl:border-spacing-y-[30px] lg:border-spacing-y-[20px] md:border-spacing-y-[20px] border-spacing-y-[18px]  2xl:border-spacing-x-[25px] lg:border-spacing-x-[15px] md:border-spacing-x-[15px] border-spacing-x-[8px]">
             <tr>
-                <td colspan=2 rowspan=4 ><img onclick="onClick(this)"  class="2xl:w-[704.47px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[986.17px]" src="<?php the_field('table_3_first_image')?>"></td>
-                <td rowspan=2 ><img onclick="onClick(this)"  class="2xl:w-[327.05px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_3_second_image')?>"></td>
-                <td ><img onclick="onClick(this)"  class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_3_third_image')?>"></td>
-                <td rowspan=2 ><img onclick="onClick(this)"  class="2xl:w-[330.8px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_3_fourth_image')?>"></td>
+                <td colspan=2 rowspan=4 ><img onclick="onClick(this)"  class="2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[986.17px]" src="<?php the_field('table_3_first_image')?>"></td>
+                <td rowspan=2 ><img onclick="onClick(this)"  class="2xl:w-[327.05px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_3_second_image')?>"></td>
+                <td ><img onclick="onClick(this)"  class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_3_third_image')?>"></td>
+                <td rowspan=2 ><img onclick="onClick(this)"  class="2xl:w-[330.8px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_3_fourth_image')?>"></td>
             </tr>
             <tr> 
-                <td><img onclick="onClick(this)"  class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_3_fifth_image')?>"></td> 
+                <td><img onclick="onClick(this)" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_3_fifth_image')?>"></td> 
             </tr>
             <tr>
-                <td colspan=2 rowspan=2><img onclick="onClick(this)"  class="2xl:w-[704.47px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[476px]" src="<?php the_field('table_3_sixth_image')?>"></td>
-                <td><img onclick="onClick(this)"  class="2xl:w-[330px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_3_seventh_image')?>"></td> 
+                <td colspan=2 rowspan=2><img onclick="onClick(this)"  class="2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[476px]" src="<?php the_field('table_3_sixth_image')?>"></td>
+                <td><img onclick="onClick(this)" class="2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_3_seventh_image')?>"></td> 
             </tr>
             <tr>
-                <td><img onclick="onClick(this)"  class="2xl:w-[330px] xl:w-auto xl:h-auto h-autow-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_3_eighth_image')?>"></td>  
+                <td><img onclick="onClick(this)"  class="2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_3_eighth_image')?>"></td>  
             </tr> 
         </table>
+        <!-- mobile gallery -->
+        <div class="2xl:hidden sm:hidden block">
+            <h1 class="text-center font-semibold text-[28px] leading-[24.5px] cormorant text-green-1000 uppercase">Gallery</h1>
+            <p class="mt-[12px] mb-[24px] text-center text-green-2000 witter text-[32px] font-[400] leading-[36px]">some of our captured moments...</p>
+            <div class="border-separate border-spacing-y-[22px] mb-[22px]">
+                <div>
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_first_image')?>">
+                </div>
+                <div class="flex my-[20px] gap-[20px]">
+                    <span>
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_second_image')?>">
+                    </span>
+                    <span class="block grid gap-y-3">
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_third_image')?>">
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_fifth_image')?>">
+                    </span>
+                </div>
+                <div class="block grid gap-y-6 mb-[20px]">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_sixth_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_fourth_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_seventh_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_eighth_image')?>">
+                </div>
+                <div>
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_2_first_image')?>">
+                </div>
+                <div class="flex my-[20px] gap-[20px]">
+                    <span>
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_2_fifth_image')?>">
+                    </span>
+                    <span class="block grid gap-y-3">
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_2_third_image')?>">
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_2_eighth_image')?>">
+                    </span>
+                </div>
+                <div class="block grid gap-y-6  mb-[20px]">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_2_sixth_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_2_fourth_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_2_seventh_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_2_second_image')?>">
+                </div>
+                <div>
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_3_first_image')?>">
+                </div>
+                <div class="flex my-[20px] gap-[20px]">
+                    <span>
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_3_second_image')?>">
+                    </span>
+                    <span class="block grid gap-y-3">
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_3_third_image')?>">
+                        <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_3_fifth_image')?>">
+                    </span>
+                </div>
+                <div class="block grid gap-y-6">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_3_sixth_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_3_fourth_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_3_seventh_image')?>">
+                    <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_3_eighth_image')?>">
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="modal01" class="w3-modal bg-white pt-[150px]">
+    <div id="modal01" class="w3-modal bg-white 2xl:pt-[150px] lg:pt-[120px] sm:pt-[120px] pt-[70px]">
        <div class="flex gap-10 float-right">
             <button class="float-right" onclick="openFullscreen();">
-                <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="2xl:block sm:block hidden" width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M26.6904 8.22437C26.1381 8.22437 25.6904 8.67208 25.6904 9.22437C25.6904 9.77665 26.1381 10.2244 26.6904 10.2244L26.6904 8.22437ZM43.9292 9.22436L44.9292 9.22436C44.9292 8.67208 44.4815 8.22436 43.9292 8.22436L43.9292 9.22436ZM42.9292 26.4632C42.9292 27.0154 43.3769 27.4632 43.9292 27.4632C44.4815 27.4632 44.9292 27.0154 44.9292 26.4632L42.9292 26.4632ZM26.6904 10.2244L43.9292 10.2244L43.9292 8.22436L26.6904 8.22437L26.6904 10.2244ZM42.9292 9.22436L42.9292 26.4632L44.9292 26.4632L44.9292 9.22436L42.9292 9.22436Z" fill="black"/>
                     <path d="M26.6904 44.7019C27.2427 44.7019 27.6904 44.2542 27.6904 43.7019C27.6904 43.1496 27.2427 42.7019 26.6904 42.7019L26.6904 44.7019ZM9.45164 43.7019L8.45164 43.7019C8.45164 44.2542 8.89935 44.7019 9.45164 44.7019L9.45164 43.7019ZM10.4516 26.4631C10.4516 25.9108 10.0039 25.4631 9.45164 25.4631C8.89935 25.4631 8.45163 25.9108 8.45164 26.4631L10.4516 26.4631ZM26.6904 42.7019L9.45164 42.7019L9.45164 44.7019L26.6904 44.7019L26.6904 42.7019ZM10.4516 43.7019L10.4516 26.4631L8.45164 26.4631L8.45164 43.7019L10.4516 43.7019Z" fill="black"/>
                 </svg>
@@ -80,9 +141,9 @@
        </div>
         <div class="m-auto w-auto w3-animate-zoom">
             <!-- <img id="img01" class="m-auto" > -->
-            <img id="img01" class="m-auto w-[1200px] h-[818px] object-scale-down" >
+            <img id="img01" class="m-auto 2xl:w-[1200px] lg:w-[1000px] sm:w-[1000px] w-[800px] 2xl:h-[818px] lg:h-[718px] sm:h-[718px] h-[490px] object-scale-down" >
         </div>
-            <div class="flex justify-between ml-[88px] mr-[280px] mt-[-5%]" >
+            <div class="flex justify-between 2xl:ml-[88px] lg:ml-[70px] sm:ml-[70px] ml-[20px]  2xl:mr-[280px] lg:mr-[240px] sm:mr-[240px] mr-[20px] 2xl:mt-[-5%] sm:mt-[-5%] mt-[-9%]" >
                 <button onclick='callPrevious();' >
                     <svg width="76" height="115" viewBox="0 0 76 115" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="74.448" height="114.229" transform="matrix(-1 0 0 1 75.2041 0.104004)" fill="white" fill-opacity="0.3"/>
