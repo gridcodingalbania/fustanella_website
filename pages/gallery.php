@@ -124,7 +124,7 @@
             </div>
         </div>
     </div>
-    <div id="modal01" class="w3-modal bg-white 2xl:pt-[150px] lg:pt-[120px] sm:pt-[120px] pt-[70px]">
+    <div id="modal01" class="pt-[20px] w3-modal bg-white z-50">
        <div class="flex gap-10 float-right">
             <button class="float-right" onclick="openFullscreen();">
                 <svg class="2xl:block sm:block hidden" width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
