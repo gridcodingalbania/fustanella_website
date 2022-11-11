@@ -18,7 +18,7 @@
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="work-with-us" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
         </div>
         <div class="flex my-auto z-30">
-            <a href=""><img class="hoverEffect" src="<?php echo get_image('NavbarDineImage.svg'); ?>"></a>
+            <a href="book-a-table"><img class="hoverEffect" src="<?php echo get_image('NavbarDineImage.svg'); ?>"></a>
             <a class="2xl:ml-[31px] lg:ml-2" href=""><img class="hoverEffect" src="<?php echo get_image('NavbarStayImage.svg'); ?>"></a>
         </div>
         <div class="my-auto 2xl:ml-10  ml-8 z-30 flex flex-col flex-wrap">

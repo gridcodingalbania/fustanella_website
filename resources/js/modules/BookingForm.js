@@ -17,6 +17,8 @@ class BookingForm {
         var selected_month = document.getElementById('selectedMonth').innerText.split(' ');
         var selected_day = document.getElementById('selectedDay').innerText;
 
+        var dial_code = document.getElementById("dial-code").value;
+
 
         const data = {
             date: selected_year[0] + "-" + selected_month[0] + "-" + selected_day,
@@ -24,7 +26,7 @@ class BookingForm {
             persons: no_of_persons,
             name: this.form.querySelector('#name').value,
             surname: this.form.querySelector('#surname').value,
-            phone_number: this.form.querySelector('#phone').value
+            phone_number: dial_code + this.form.querySelector('#phone').value
         }
 
         wp_ajax('booking_form')
