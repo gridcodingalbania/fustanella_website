@@ -95,7 +95,10 @@
             </div>
             <div class="flex flex-col xs:w-full sm:w-full lg:w-1/2 mx-auto pb-5">
                 <label for="phone" class="mb-5 mt-5 uppercase text-[22px] cormorant">Phone</label>
-                <input type="text" required id="phone" placeholder="Write your number" class="xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9]+" />
+                <div class="flex flex-row">
+                    <input type="text" maxlength="4" required id="dial-code" placeholder="+355" class="w-[7%] text-center xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9|+]+" />
+                    <input type="text" required id="phone" placeholder="Write your number" class="ml-2 w-[90%] xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9]+" />
+                </div>
             </div>
             <div class="bg-egreen text-center xs:w-[300px] sm:w-[300px] lg:w-1/2 mx-auto mt-10">
                 <button class="uppercase cormorant  h-[50px] text-white cursor-pointer">Send</button>

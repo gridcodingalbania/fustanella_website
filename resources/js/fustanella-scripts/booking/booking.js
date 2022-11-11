@@ -1,6 +1,7 @@
 //decrement
 //currentnumber
 //increment
+
 var decrement = document.getElementById("decrement");
 var increment = document.getElementById("increment");
 var currentnumber = document.getElementById('currentnumber');
@@ -30,6 +31,4 @@ function handleDecrement() {
 
 increment.addEventListener('click', handleIncrement);
 decrement.addEventListener('click', handleDecrement);
-
-
 
