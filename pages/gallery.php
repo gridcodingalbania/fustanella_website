@@ -9,20 +9,20 @@
     <div class="mt-[40px]">
         <table class="2xl:block sm:block hidden gallery-table-container 2xl:mx-[50px]xl:mx-[40px] lg:mx-[30px] md:mx-[20px] sm:mx-[10px] mx-0 mt-[-40px] border-separate 2xl:border-spacing-y-[30px] lg:border-spacing-y-[20px] md:border-spacing-y-[20px] border-spacing-y-[18px]  2xl:border-spacing-x-[25px] lg:border-spacing-x-[15px] md:border-spacing-x-[15px] border-spacing-x-[8px]">
             <tr>
-                <td colspan=2 rowspan=4 ><img onclick="onClick(this)" data-aos="zoom-in" data-aos-duration="1500" class="test 2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[986.17px]" src="<?php the_field('table_1_first_image')?>"></td>
-                <td rowspan=2 ><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1500" class=" test 2xl:w-[327.05px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_1_second_image')?>"></td>
-                <td ><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1500" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_1_third_image')?>"></td>
-                <td rowspan=2 ><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1500" class="2xl:w-[330.8px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_1_fourth_image')?>"></td>
+                <td colspan=2 rowspan=4 ><img  data-aos="zoom-in" data-aos-duration="1700" onclick="onClick(this)" class="test 2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[986.17px]" src="<?php the_field('table_1_first_image')?>"></td>
+                <td rowspan=2 ><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1700" class=" test 2xl:w-[327.05px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_1_second_image')?>"></td>
+                <td ><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1700" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_1_third_image')?>"></td>
+                <td rowspan=2 ><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1700" class="2xl:w-[330.8px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[475px]" src="<?php the_field('table_1_fourth_image')?>"></td>
             </tr>
             <tr> 
-                <td><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1500" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_1_fifth_image')?>"></td> 
+                <td><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1700" class="2xl:w-[340.18px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_1_fifth_image')?>"></td> 
             </tr>
             <tr>
-                <td colspan=2 rowspan=2><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1500" class="2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[476px]" src="<?php the_field('table_1_sixth_image')?>"></td>
-                <td><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1500" class="2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_1_seventh_image')?>"></td> 
+                <td colspan=2 rowspan=2><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1700" class="2xl:w-[704.47px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[476px]" src="<?php the_field('table_1_sixth_image')?>"></td>
+                <td><img onclick="onClick(this)"  data-aos="zoom-in" data-aos-duration="1700" class="2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[216.93px]" src="<?php the_field('table_1_seventh_image')?>"></td> 
             </tr>
-            <tr>
-                <td><img onclick="onClick(this)" data-aos="zoom-in" data-aos-duration="1500"  class="2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_1_eighth_image')?>"></td>  
+            <tr  data-aos="zoom-in" data-aos-duration="1700" >
+                <td><img onclick="onClick(this)"  class="2xl:w-[330px] xl:w-auto xl:h-auto h-auto w-auto xl:h-auto h-auto 2xl:h-[227.58px]" src="<?php the_field('table_1_eighth_image')?>"></td>  
             </tr> 
         </table>
         <table class="2xl:block sm:block hidden gallery-table-container 2xl:mx-[30px] xl:mx-[30px] lg:mx-[30px] md:mx-[20px] sm:mx-[10px] mx-0 mt-[-40px] border-separate 2xl:border-spacing-y-[30px] lg:border-spacing-y-[20px] md:border-spacing-y-[20px] border-spacing-y-[18px]  2xl:border-spacing-x-[25px] lg:border-spacing-x-[15px] md:border-spacing-x-[15px] border-spacing-x-[8px] scale-x-[-1]">
