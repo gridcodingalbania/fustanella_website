@@ -2,7 +2,7 @@
 <div>
    <div class="fotofullscreencontent">
     <span class="2xl:block nav:hidden fotofullscreen"><span><?php echo do_shortcode( '[URIS id=65]' ); ?></span></span>
-    <span class="2xl:hidden xl:hidden lg:hidden nav:block"><?php echo do_shortcode( '[URIS id=102]' ); ?></span>
+    <span class="2xl:hidden xl:hidden lg:hidden nav:block h-[100vh]"><?php echo do_shortcode( '[URIS id=102]' ); ?></span>
     </div>
     <div class="table absolute w-full top-0 left-0 z-3">
         <div class="text-center 2xl:mt-[18%] xl:mt-[18%] lg:mt-[15%] nav:mt-[60%] md:mt-[30%] mt-[80%]">
@@ -15,8 +15,8 @@
             <span id="thirdAn"></span>
         </div>
          <div id="buttonMainMob" class="2xl:flex nav:grid justify-center text-white gap-[16px] 2xl:mt-[100px] xl:mt-[80px] md:mt-[50px] mt-[80px] opacity-0 ">
-           <a class="pulse" style="background: rgba(0, 104, 56, 0.9);" href="book-a-table"><button class="px-[65px] py-[15px]"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
-           <a class="pulse" style="background: rgba(0, 104, 56, 0.9);" href=""><button class="px-[65px] py-[15px] 2xl:mt-0 nav:mt-[5%] mt-0 "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
+           <a class="pulse 2xl:p-0  lg:p-[10px]" style="background: rgba(0, 104, 56, 0.9);" href="book-a-table"><button class="px-[65px] py-[15px]"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
+           <a class="pulse 2xl:p-0  lg:p-[10px]" style="background: rgba(0, 104, 56, 0.9);" href=""><button class="px-[65px] py-[15px] 2xl:mt-0 nav:mt-[5%] mt-0 "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
          </div>
     </div>
     </div>
@@ -64,7 +64,7 @@
 
     </div>
     <div> 
-        <div class="bgimg-2" style=" background-image: url('<?php the_field('about_us_image'); ?>');">
+        <div class="relative bg-fixed bg-center bg-no-repeat bg-cover min-h-[1000px]" style=" background-image: url('<?php the_field('about_us_image'); ?>');">
             
             <div>
                 <div style="background: rgba(0, 104, 56, 0.81);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </div>  
-        <div class="bgimg-3" style=" background-image: url('<?php the_field('restorant&food_image'); ?>');">
+        <div class="relative bg-fixed bg-center bg-no-repeat bg-cover min-h-[1000px]" style=" background-image: url('<?php the_field('restorant&food_image'); ?>');">
             <div>
                 <div style="background: rgba(0, 104, 56, 0.81);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
                 <p class="text-white 2xl:text-[43px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[25px] 2xl:mx-auto sm:mx-auto mx-[4%] cormorant text-center uppercase 2xl:mt-[38px] sm:mt-[35px] mt-[30px]"><?php the_field('restorant_first_line'); ?></p>
