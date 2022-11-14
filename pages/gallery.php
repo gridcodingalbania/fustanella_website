@@ -196,10 +196,9 @@
         updatePrevNext();
         document.getElementById("img01").src = currentImg.src; 
         document.getElementById("modal01").style.display = "block";
-    }
-
-    function openFullscreen() { 
-        currentImg.requestFullscreen(); 
+    }    function openFullscreen() { 
+       let tmp = $('table').find('img[src="'+currentImg.src+'"]')[0];
+            tmp.requestFullscreen(); 
     } 
     function updatePrevNext(){
         for (let i=9; i < ar.length - 8; i++) {
