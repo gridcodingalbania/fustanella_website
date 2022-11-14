@@ -196,7 +196,8 @@
         updatePrevNext();
         document.getElementById("img01").src = currentImg.src; 
         document.getElementById("modal01").style.display = "block";
-    }    function openFullscreen() { 
+    }    
+    function openFullscreen() { 
        let tmp = $('table').find('img[src="'+currentImg.src+'"]')[0];
             tmp.requestFullscreen(); 
     } 
