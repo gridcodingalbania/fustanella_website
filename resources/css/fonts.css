@@ -16,5 +16,13 @@
 .witter {
     font-family: 'WITTER', sans-serif;
 }
+@font-face {
+    font-family: 'VERAROUGH';
+    src: url(../fonts/VERAROUGH.OTF) format('truetype');
+    font-weight: 400;
+}
+.verarough {
+    font-family: 'VERAROUGH';
+}
 /* font-family: 'Cormorant', serif; */
 /* font-family: 'Red Hat Display', sans-serif; */
