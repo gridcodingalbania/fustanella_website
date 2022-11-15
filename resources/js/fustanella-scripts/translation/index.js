@@ -38,7 +38,7 @@ toggle_lang_dropdown.addEventListener('click', () => {
 
 var toggle_lang_dropdown1 = document.getElementById("select-lang1");
 // Get url 
-var sq_path1 = window.location.pathname.includes('sq1');
+var sq_path1 = window.location.pathname.includes('sq');
 let server_pathname1 = window.location.pathname;
 
 var drop_down_menu1 = document.getElementById('dropdown-language1');
