@@ -415,6 +415,13 @@
       color: #4d4d4d;
       opacity: 1;
   }
+  .lang-item.lang-item-2.lang-item-it.current-lang1.lang-item-first a, .lang-item.lang-item-4.lang-item-en.current-lang1 a {
+      font-weight: 500;
+      font-size: 15px;
+      /*letter-spacing: 0.2em;*/letter-spacing: 2.5px;
+      color: #4d4d4d;
+      opacity: 1;
+  }
   .lang-item.lang-item-4.lang-item-en::before {
       content: " | ";
       color: #4d4d4d;
