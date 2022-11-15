@@ -9,12 +9,12 @@
         <div class="2xl:hidden xl:hidden lg:hidden block">
             <!-- <img class="m-auto hidden" src="<?php the_field('fustanella_main_mobile_image'); ?>" alt=""> -->
         </div>
-        <div id="MobMain" class="text-white cormorant font-[600] 2xl:text-[70px] xl:text-[50px] nav:text-[60px] sm:text-[60px] text-[40px] 2xl:leading-[106px] xl:leading-[80px] md:leading-[70px] sm:leading-[70px] leading-[70px] 2xl:mt-[500px] nav:mt-[500px] md:mt-[400px] sm:mt-[100px] mt-[400px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[80px]">
+        <div id="MobMain" class="text-white verarough font-[500] 2xl:text-[100px] xl:text-[100px] nav:text-[70px] sm:text-[70px] text-[50px] 2xl:leading-[120px] xl:leading-[110px] md:leading-[100px] sm:leading-[70px] leading-[70px] 2xl:mt-[500px] nav:mt-[500px] md:mt-[400px] sm:mt-[100px] mt-[400px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[40px]">
             <span id="firstAn"></span> 
-            <span id="secondAn" class="ml-[35px] witter 2xl:text-[96px] lg:text-[80px] sm:text-[80px] text-[70px] font-[400] leading-[84px]" style="-webkit-text-stroke: 1px;"></span> 
+            <span id="secondAn" ></span> 
             <span id="thirdAn"></span>
         </div>
-         <div id="buttonMainMob" class="2xl:flex nav:grid justify-center text-white gap-[16px] 2xl:mt-[100px] xl:mt-[80px] md:mt-[50px] mt-[80px] opacity-0 ">
+         <div id="buttonMainMob" class="2xl:flex nav:grid justify-center text-white gap-[16px] 2xl:mt-[50px] xl:mt-[40px] md:mt-[30px] mt-[30px] opacity-0 ">
            <a class="pulse 2xl:p-0  lg:p-[10px]" style="background: rgba(0, 104, 56, 0.9);" href="book-a-table"><button class="px-[65px] py-[15px]"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
            <a class="pulse 2xl:p-0  lg:p-[10px]" style="background: rgba(0, 104, 56, 0.9);" href=""><button class="px-[65px] py-[15px] 2xl:mt-0 nav:mt-[5%] mt-0 "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
          </div>
