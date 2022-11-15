@@ -42,7 +42,8 @@
     <!-- -------------------------------------------------
                                                 MOBILE NAVBAR
                                      ------------------------------------------------- -->
-    <div id="navbar2" class="overflow-hidden z-20 2xl:hidden lg:hidden nav:flex mb-[30px]">
+ <div id="navbar2" class="overflow-hidden z-20 2xl:hidden lg:hidden nav:flex mb-[30px] justify-between">
+    <div class="overflow-hidden z-20 ">
         <div id="myLinks" class="hidden bg-gray94 w-full h-full fixed z-20">
             <div class="text-center">
                 <div>
@@ -60,12 +61,27 @@
                 </div>
             </div>
             <a href="javascript:void(0);" onclick="myFunction() ">
-                <img class="m-auto md:mt-[150px] sm:mt-[100px] mt-[80px]" src="<?php echo get_image('HamNavCloseIcon.png'); ?>">
+                <img class="m-auto md:mt-[150px] sm:mt-[100px] mt-[80px]" src="<?php echo get_image('HamNavCloseIcon.svg'); ?>">
             </a>
         </div>
         <a  class="z-[99999]" href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
             <div class="HAMNAVBAR"></div>
         </a>
+    </div>
+    <div class="my-auto  flex flex-col flex-wrap mt-[55px] mr-[40px] z-20">
+            <div class="flex flex-row focus:outline-none text-sm text-center items-center">
+                <img id="current-lang" src="<?php echo get_image('language-icons/en.svg') ?>">
+                <svg id="select-lang" class="ml-2 w-4 h-4 cursor-pointer " aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+            <!-- Dropdown menu -->
+            <div id="dropdown-language" class="hidden w-auto ml-auto text-center rounded h-0">
+                <a id="other-lang-slug" href="sq" class="z-[99999] mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                    <img id="other-lang-image" src="<?php echo get_image("language-icons/al.svg") ?>">
+                </a>
+            </div>
+    </div>
     </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     </head>
