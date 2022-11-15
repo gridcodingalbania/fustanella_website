@@ -71,7 +71,7 @@
   } 
   
     .bgimg-5{
-        min-height: 130vh;
+        min-height: 150vh;
     }
     @media only screen and (max-width:1000px) {
         .bgimg-5{
