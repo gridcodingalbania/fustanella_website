@@ -77,7 +77,7 @@
             </div>
             <!-- Dropdown menu -->
             <div id="dropdown-language1" class="hidden absolute z-40 mt-3 w-auto ml-[-1rem] text-center rounded h-0">
-                <a id="other-lang-slug1" href="sq1" class="z-[99999] mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                <a id="other-lang-slug1" href="sq" class="z-[99999] mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                     <img id="other-lang-image1" src="<?php echo get_image("language-icons/al.svg") ?>">
                 </a>
             </div>
