@@ -31,7 +31,7 @@
 
             <!-- Dropdown menu -->
             <div id="dropdown-language" class="hidden z-40 w-auto ml-auto text-center rounded h-0">
-                <a id="other-lang-slug" href="sq" class="mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                <a id="other-lang-slug" href="sq" class="mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white -translate-x-[18px]">
                     <img id="other-lang-image" src="<?php echo get_image("language-icons/al.svg") ?>">
                 </a>
             </div>
