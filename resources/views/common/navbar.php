@@ -5,11 +5,12 @@
     <!-- -------------------------------------------------
                                                 DESKTOP NAVBAR
                                      ------------------------------------------------- -->
-    <div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:pl-24 xl:pl-8 lg:pl-1.5 2xl:pr-8 xl:pr-2.5 lg:pr-1.5 pt-3  w-full z-30 pb-2">
+    <div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:px-14 xl:px-8 lg:px-1.5 pt-3  w-full z-30 pb-2">
         <div class="z-30">
             <a href="home"><img src="<?php echo get_image('NavbarMainImage2.svg'); ?>"></a>
         </div>
-        <div id="menuNav" class="m-auto 2xl:text-[22px] lg:text-[19px] font-semibold z-20">
+        <div id="menuNav" class="m-auto 2xl:text-[22px] xl:text-[21px] lg:text-[18px] font-semibold z-20">
+            <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="about-us" id="aboutUsA" onClick="toggleDiv('aboutUs')">About Us</a>
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="restaurant-food" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="events" id="eventsA" onClick="toggleDiv('events')">Events</a>
@@ -23,7 +24,8 @@
         </div>
         <div class="my-auto 2xl:ml-10  ml-8 z-30 flex flex-col flex-wrap">
             <div class="flex flex-row focus:outline-none text-sm text-center items-center">
-                <img id="current-lang" src="<?php echo get_image('language-icons/en.svg') ?>">
+                <!-- <img id="current-lang" src="<?php echo get_image('language-icons/en.svg') ?>">En -->
+                <h1 id="current-lang" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">En</h1>
                 <svg id="select-lang" class="ml-2 w-4 h-4 cursor-pointer" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
@@ -32,7 +34,8 @@
             <!-- Dropdown menu -->
             <div id="dropdown-language" class="hidden z-40 w-auto ml-auto text-center rounded h-0">
                 <a id="other-lang-slug" href="sq" class="mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white -translate-x-[18px]">
-                    <img id="other-lang-image" src="<?php echo get_image("language-icons/al.svg") ?>">
+                    <!-- <img id="other-lang-image" src="<?php echo get_image("language-icons/al.svg") ?>">Al -->
+                <h1 id="other-lang-image" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">Al</h1>
                 </a>
             </div>
         </div>
@@ -42,13 +45,14 @@
     <!-- -------------------------------------------------
                                                 MOBILE NAVBAR
                                      ------------------------------------------------- -->
- <div id="navbar2" class="overflow-hidden z-20 2xl:hidden lg:hidden nav:flex mb-[30px] justify-between">
+ <div id="navbar2" class="overflow-hidden z-20 2xl:hidden lg:hidden nav:flex mb-[30px] justify-between w-full">
     <div class="overflow-hidden z-20 ">
         <div id="myLinks" class="hidden bg-gray94 w-full h-full fixed z-20">
             <div class="text-center">
                 <div>
                     <ul class="hoverHamNav">
-                        <li class="pt-[50px] cormorant text-[20px] font-bold leading-[25px]"><a href="home" class="hover-target ">Home</a></li>
+                        <li class="pt-[50px] cormorant text-[20px] font-bold leading-[25px]"><a href="about-us" class="hover-target ">About Us</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="home" class="hover-target ">Home</a></li>
                         <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="farm-page" class="hover-target ">About us</a></li>
                         <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="restaurant-food" class="hover-target ">Restaurant & Food</a></li>
                         <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="events" class="hover-target ">Events</a></li>
@@ -70,7 +74,8 @@
     </div>
     <div class="my-auto  flex flex-col flex-wrap mt-[55px] mr-[40px] z-20">
             <div class="flex flex-row focus:outline-none text-sm text-center items-center">
-                <img id="current-lang1" src="<?php echo get_image('language-icons/en.svg') ?>">
+                <!-- <img id="current-lang1" src="<?php echo get_image('language-icons/en.svg') ?>"> -->
+                <h1 id="current-lang1" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">En</h1>
                 <svg id="select-lang1" class="ml-2 w-4 h-4 cursor-pointer " aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
@@ -78,7 +83,8 @@
             <!-- Dropdown menu -->
             <div id="dropdown-language1" class="hidden absolute z-40 mt-3 w-auto ml-[-1rem] text-center rounded h-0">
                 <a id="other-lang-slug1" href="sq" class="z-[99999] mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                    <img id="other-lang-image1" src="<?php echo get_image("language-icons/al.svg") ?>">
+                    <!-- <img id="other-lang-image1" src="<?php echo get_image("language-icons/al.svg") ?>"> -->
+                <h1 id="other-lang-image1" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">Al</h1>
                 </a>
             </div>
     </div>
