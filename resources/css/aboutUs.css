@@ -16,17 +16,17 @@
   } 
   @media only screen and (max-width:1000px) {
 	.bgimg-6{
-		min-height: 170vh!important;
+		min-height: 170vh;
 	}
 	.bgimg-7{
-		min-height: 170vh!important;
+		min-height: 170vh;
 	}
   }
   @media only screen and (max-width:340px) {
 	.bgimg-6{
-		min-height: 250vh!important;
+		min-height: 250vh;
 	}
 	.bgimg-7{
-		min-height: 250vh!important;
+		min-height: 250vh;
 	}
   }
