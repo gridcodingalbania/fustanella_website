@@ -1,0 +1,32 @@
+.bgimg-6 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150vh;
+  } 
+.bgimg-7 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150vh;
+  } 
+  @media only screen and (max-width:1000px) {
+	.bgimg-6{
+		min-height: 170vh;
+	}
+	.bgimg-7{
+		min-height: 170vh;
+	}
+  }
+  @media only screen and (max-width:340px) {
+	.bgimg-6{
+		min-height: 250vh;
+	}
+	.bgimg-7{
+		min-height: 250vh;
+	}
+  }
