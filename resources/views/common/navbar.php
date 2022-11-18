@@ -11,9 +11,9 @@
         </div>
         <div id="menuNav" class="m-auto 2xl:text-[22px] xl:text-[21px] lg:text-[18px] font-semibold z-20">
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="about-us" id="aboutUsA" onClick="toggleDiv('aboutUs')">About Us</a>
-            <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="restaurant-food" id="rfA" onClick="toggleDiv('r&f')">Restaurant & Food</a>
-            <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="events" id="eventsA" onClick="toggleDiv('events')">Events</a>
+            <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="farm-page" id="farmA" onClick="toggleDiv('farm')">Farm</a>
+            <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="events" id="eventsA" onClick="toggleDiv('events')"   >Events</a>
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="gallery" id="galleryA" onClick="toggleDiv('gallery')">Gallery</a>
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="contact" id="contactA" onClick="toggleDiv('contact')">Contact Us</a>
             <a class="2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] cormorant tracking-normal" href="work-with-us" id="wWsA" onClick="toggleDiv('wWs')">Work With Us</a>
@@ -51,9 +51,9 @@
             <div class="text-center">
                 <div>
                     <ul class="hoverHamNav">
-                        <li class="pt-[50px] cormorant text-[20px] font-bold leading-[25px]"><a href="about-us" class="hover-target ">About Us</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="home" class="hover-target ">Home</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="farm-page" class="hover-target ">About us</a></li>
+                        <li class="pt-[50px] cormorant text-[20px] font-bold leading-[25px]"><a href="home" class="hover-target ">Home</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="about-us" class="hover-target ">About Us</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="farm-page" class="hover-target ">Farm</a></li>
                         <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="restaurant-food" class="hover-target ">Restaurant & Food</a></li>
                         <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="events" class="hover-target ">Events</a></li>
                         <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="gallery" class="hover-target ">Gallery</a></li>
