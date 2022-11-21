@@ -69,7 +69,7 @@
             </a>
         </div>
         <a  class="z-[99999]" href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
-            <div class="HAMNAVBAR"></div>
+            <div class="HAMNAVBAR"><img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png'); ?>"></div>
         </a>
     </div>
     <div class="my-auto  flex flex-col flex-wrap mt-[55px] mr-[40px] z-20">
@@ -127,20 +127,20 @@
             //     }
             // }
         });
-        $(document).ready(function() {
-            if (window.location.pathname === ('/fustanella/')) {
-                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png'); ?>">')
-                if (!$('#navbar2').hasClass('absolute')) {
-                    $('#navbar2').addClass('absolute');
-                    $('#navbar2').removeClass('relative');
-                } else {
-                    $('#navbar2').addClass('relative');
-                    $('#navbar2').removeClass('absolute');
-                }
-            } else {
-                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png'); ?>">')
-            }
-        });
+        // $(document).ready(function() {
+        //     if (window.location.pathname === ('/fustanella/')) {
+        //         $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png'); ?>">')
+        //         if (!$('#navbar2').hasClass('absolute')) {
+        //             $('#navbar2').addClass('absolute');
+        //             $('#navbar2').removeClass('relative');
+        //         } else {
+        //             $('#navbar2').addClass('relative');
+        //             $('#navbar2').removeClass('absolute');
+        //         }
+        //     } else {
+        //         $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png'); ?>">')
+        //     }
+        // });
     </script>
     <style>
         .sp-buttons {

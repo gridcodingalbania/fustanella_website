@@ -64,7 +64,7 @@
 
     </div>
     <div> 
-        <div class="relative bg-fixed bg-center bg-no-repeat bg-cover min-h-[1000px]" style=" background-image: url('<?php the_field('about_us_image'); ?>');">
+        <div class="iphoneOrAndroid relative bg-fixed bg-center bg-no-repeat bg-cover min-h-[1000px]" style=" background-image: url('<?php the_field('about_us_image'); ?>');">
             
             <div>
                 <div style="background: rgba(0, 104, 56, 0.9);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </div>  
-        <div class="relative bg-fixed bg-center bg-no-repeat bg-cover min-h-[1000px]" style=" background-image: url('<?php the_field('restorant&food_image'); ?>');">
+        <div class="iphoneOrAndroid relative bg-fixed bg-center bg-no-repeat bg-cover min-h-[1000px]" style=" background-image: url('<?php the_field('restorant&food_image'); ?>');">
             <div>
                 <div style="background: rgba(0, 104, 56, 0.9);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
                 <p class="text-white 2xl:text-[43px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[25px] 2xl:mx-auto sm:mx-auto mx-[4%] cormorant text-center uppercase 2xl:mt-[38px] sm:mt-[35px] mt-[30px]"><?php the_field('restorant_first_line'); ?></p>
@@ -269,3 +269,13 @@
     }
 }
  </style>
+ <script>
+       var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isIOS) {
+                    $('.iphoneOrAndroid').addClass('bg-local');
+                    $('.iphoneOrAndroid').removeClass('bg-fixed'); 
+            } else {
+                $('.iphoneOrAndroid').removeClass('bg-local');
+                $('.iphoneOrAndroid').addClass('bg-fixed'); 
+        }
+</script>
