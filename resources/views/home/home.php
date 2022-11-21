@@ -67,7 +67,7 @@
         <div class="relative bg-fixed bg-center bg-no-repeat bg-cover min-h-[1000px]" style=" background-image: url('<?php the_field('about_us_image'); ?>');">
             
             <div>
-                <div style="background: rgba(0, 104, 56, 0.81);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
+                <div style="background: rgba(0, 104, 56, 0.9);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
                 <p class="text-white 2xl:text-[43px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[25px] 2xl:mx-auto sm:mx-auto mx-[4%] cormorant text-center uppercase 2xl:mt-[38px] sm:mt-[35px] mt-[30px]"><?php the_field('about_us_first_line'); ?></p>
                 <p class="text-white red-hat 2xl:text-[20px] sm:text-[20px] text-[16px] text-center 2xl:mt-[50px] md:mt-[50px] mt-[30px] 2xl:px-[70px] md:px-[30px] px-[25px] 2xl:leading-[32px] sm:leading-[32px] leading-[23px] 2xl:font-[400] md:font-[400] font-[300]"><?php the_field('about_us_paragraph'); ?></p>
                 <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] md:text-[22px] sm:text-[20px] text-[16px] 2xl:my-[60px] md:my-[50px] sm:my-[50px] my-[30px] hoverS">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
@@ -76,7 +76,7 @@
         </div>  
         <div class="relative bg-fixed bg-center bg-no-repeat bg-cover min-h-[1000px]" style=" background-image: url('<?php the_field('restorant&food_image'); ?>');">
             <div>
-                <div style="background: rgba(0, 104, 56, 0.81);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
+                <div style="background: rgba(0, 104, 56, 0.9);" class="absolute 2xl:mr-[60%] xl:mr-[50%] lg:mr-[40%]  md:mr-[20%] sm:mr-[10%] mr-[5%] text-white rounded-3xl 2xl:mt-[-72px] xl:mt-[-72px] lg:mt-[-72px] md:mt-[-150px] mt-[-95px] 2xl:ml-[80px] lg:ml-[70px] md:ml-[50px] ml-[5%]">
                 <p class="text-white 2xl:text-[43px] lg:text-[40px] md:text-[40px] sm:text-[30px] text-[25px] 2xl:mx-auto sm:mx-auto mx-[4%] cormorant text-center uppercase 2xl:mt-[38px] sm:mt-[35px] mt-[30px]"><?php the_field('restorant_first_line'); ?></p>
                 <p class="text-white red-hat 2xl:text-[20px] sm:text-[20px] text-[16px] text-center 2xl:mt-[50px] md:mt-[50px] mt-[30px] 2xl:px-[70px] md:px-[30px] px-[25px] 2xl:leading-[32px] sm:leading-[32px] leading-[23px] 2xl:font-[400] md:font-[400] font-[300]"><?php the_field('restorant_paragraph'); ?></p>
                 <a href=""><button class="flex m-auto red-hat 2xl:text-[22px] md:text-[22px] sm:text-[20px] text-[16px] 2xl:my-[60px] md:my-[50px] sm:my-[50px] my-[30px] hoverS">See more <img class="m-auto pl-[10px] " src="<?php the_field('see_more_image'); ?>" alt=""></button></a>
