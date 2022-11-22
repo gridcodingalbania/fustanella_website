@@ -45,8 +45,8 @@
     <!-- -------------------------------------------------
                                                 MOBILE NAVBAR
                                      ------------------------------------------------- -->
- <div id="navbar2" class="overflow-hidden z-20 2xl:hidden lg:hidden nav:flex mb-[30px] justify-between w-full">
-    <div class="overflow-hidden z-20 ">
+ <div id="navbar2" class="z-20 2xl:hidden lg:hidden nav:flex mb-[30px] justify-between w-full">
+    <div class="z-20 ">
         <div id="myLinks" class="hidden bg-gray94 w-full h-full fixed z-20">
             <div class="text-center">
                 <div>
