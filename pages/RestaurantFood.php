@@ -32,6 +32,16 @@
  </div>
 <?php get_footer(); ?>
 <script>
+       var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isIOS) {
+                    $('.bgimg-5').addClass('bg-local');
+                    $('.bgimg-5').removeClass('bg-fixed');  
+            } else {
+                $('.bgimg-5').removeClass('bg-local');
+                $('.bgimg-5').addClass('bg-fixed');  
+        }
+</script>
+<script>
     $('document').ready(function () {
         $('#rfA').css('color', 'green')
         $('#rfA').css('borderBottom', '1px solid green')

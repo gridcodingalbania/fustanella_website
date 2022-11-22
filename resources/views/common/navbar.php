@@ -45,8 +45,8 @@
     <!-- -------------------------------------------------
                                                 MOBILE NAVBAR
                                      ------------------------------------------------- -->
- <div id="navbar2" class="overflow-hidden z-20 2xl:hidden lg:hidden nav:flex mb-[30px] justify-between w-full">
-    <div class="overflow-hidden z-20 ">
+ <div id="navbar2" class="z-20 2xl:hidden lg:hidden nav:flex mb-[30px] justify-between w-full">
+    <div class="z-20 ">
         <div id="myLinks" class="hidden bg-gray94 w-full h-full fixed z-20">
             <div class="text-center">
                 <div>
@@ -69,7 +69,7 @@
             </a>
         </div>
         <a  class="z-[99999]" href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
-            <div class="HAMNAVBAR"><img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png'); ?>"></div>
+            <div class="HAMNAVBAR"></div>
         </a>
     </div>
     <div class="my-auto  flex flex-col flex-wrap mt-[55px] mr-[40px] z-20">
@@ -127,20 +127,20 @@
             //     }
             // }
         });
-        // $(document).ready(function() {
-        //     if (window.location.pathname === ('/fustanella/')) {
-        //         $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png'); ?>">')
-        //         if (!$('#navbar2').hasClass('absolute')) {
-        //             $('#navbar2').addClass('absolute');
-        //             $('#navbar2').removeClass('relative');
-        //         } else {
-        //             $('#navbar2').addClass('relative');
-        //             $('#navbar2').removeClass('absolute');
-        //         }
-        //     } else {
-        //         $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png'); ?>">')
-        //     }
-        // });
+        $(document).ready(function() {
+            if (window.location.pathname === ('/fustanella/')) {
+                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png'); ?>">')
+                if (!$('#navbar2').hasClass('absolute')) {
+                    $('#navbar2').addClass('absolute');
+                    $('#navbar2').removeClass('relative');
+                } else {
+                    $('#navbar2').addClass('relative');
+                    $('#navbar2').removeClass('absolute');
+                }
+            } else {
+                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png'); ?>">')
+            }
+        });
     </script>
     <style>
         .sp-buttons {

@@ -56,6 +56,16 @@
     })
 
 </script>
+<script>
+       var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isIOS) {
+                    $('.bgimg-4').addClass('bg-local');
+                    $('.bgimg-4').removeClass('bg-fixed');  
+            } else {
+                $('.bgimg-4').removeClass('bg-local');
+                $('.bgimg-4').addClass('bg-fixed');  
+        }
+</script>
 <style>
     .sp-arrow{
         margin-top: 26.55%!important;
