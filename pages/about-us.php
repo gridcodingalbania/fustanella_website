@@ -29,3 +29,17 @@
     })
 
 </script>
+<script>
+       var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isIOS) {
+                    $('.bgimg-6').addClass('bg-local');
+                    $('.bgimg-6').removeClass('bg-fixed'); 
+                    $('.bgimg-7').addClass('bg-local');
+                    $('.bgimg-7').removeClass('bg-fixed'); 
+            } else {
+                $('.bgimg-6').removeClass('bg-local');
+                $('.bgimg-6').addClass('bg-fixed'); 
+                $('.bgimg-7').removeClass('bg-local');
+                $('.bgimg-7').addClass('bg-fixed'); 
+        }
+</script>
