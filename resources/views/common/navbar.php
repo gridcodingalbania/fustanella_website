@@ -25,7 +25,7 @@
         <div class="my-auto 2xl:ml-2  -ml-1 z-30 flex flex-col flex-wrap">
             <div class="flex flex-row focus:outline-none text-sm text-center items-center">
                 <!-- <img id="current-lang" src="<?php echo get_image('language-icons/en.svg') ?>">En -->
-                <h1 id="current-lang" class="cormorant 2xl:text-[22px] xl:text-[21px] lg:text-[18px] font-[600] 2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] leading-[27px]">En</h1>
+                <h1 id="current-lang" class="cormorant 2xl:text-[22px] xl:text-[21px] lg:text-[18px] font-[600] 2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] leading-[27px]">EN</h1>
                 <svg id="select-lang" class="ml-2 w-4 h-4 cursor-pointer" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
@@ -35,7 +35,7 @@
             <div id="dropdown-language" class="hidden z-40 w-auto ml-auto text-center rounded h-0">
                 <a id="other-lang-slug" href="sq" class="mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                     <!-- <img id="other-lang-image" src="<?php echo get_image("language-icons/al.svg") ?>">Al -->
-                <h1 id="other-lang-image" class="cormorant text-[18px] font-[600] 2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] leading-[27px] -translate-x-[18px]">Al</h1>
+                <h1 id="other-lang-image" class="cormorant text-[18px] font-[600] 2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] leading-[27px] -translate-x-[18px]">AL</h1>
                 </a>
             </div>
         </div>
@@ -75,7 +75,7 @@
     <div class="my-auto  flex flex-col flex-wrap mt-[55px] mr-[40px] z-20">
             <div class="flex flex-row focus:outline-none text-sm text-center items-center">
                 <!-- <img id="current-lang1" src="<?php echo get_image('language-icons/en.svg') ?>"> -->
-                <h1 id="current-lang1" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">En</h1>
+                <h1 id="current-lang1" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">EN</h1>
                 <svg id="select-lang1" class="ml-2 w-4 h-4 cursor-pointer " aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
@@ -84,7 +84,7 @@
             <div id="dropdown-language1" class="hidden absolute z-40 mt-3 w-auto ml-[-1rem] text-center rounded h-0">
                 <a id="other-lang-slug1" href="sq" class="z-[99999] mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                     <!-- <img id="other-lang-image1" src="<?php echo get_image("language-icons/al.svg") ?>"> -->
-                <h1 id="other-lang-image1" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">Al</h1>
+                <h1 id="other-lang-image1" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">AL</h1>
                 </a>
             </div>
     </div>

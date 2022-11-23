@@ -9,7 +9,7 @@
                 <div class="2xl:hidden xl:hidden lg:hidden block">
                     <!-- <img class="m-auto hidden" src="<?php the_field('fustanella_main_mobile_image'); ?>" alt=""> -->
                 </div>
-                <div id="MobMain" class="text-white verarough font-[500] 2xl:text-[100px] xl:text-[100px] nav:text-[70px] sm:text-[70px] text-[50px] 2xl:leading-[120px] xl:leading-[110px] md:leading-[100px] sm:leading-[70px] leading-[70px] 2xl:mt-[500px] nav:mt-[500px] md:mt-[400px] sm:mt-[100px] mt-[400px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[40px]">
+                <div id="MobMain" class="text-white cormorant font-[500] 2xl:text-[100px] xl:text-[100px] nav:text-[70px] sm:text-[70px] text-[50px] 2xl:leading-[120px] xl:leading-[110px] md:leading-[100px] sm:leading-[70px] leading-[70px] 2xl:mt-[500px] nav:mt-[500px] md:mt-[400px] sm:mt-[100px] mt-[400px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[40px]">
                     <span id="firstAn"></span>
                     <span id="secondAn"></span>
                     <span id="thirdAn"></span>

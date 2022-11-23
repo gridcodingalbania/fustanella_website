@@ -33,7 +33,7 @@
         <div class="flex justify-between mt-10">
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterFBicon.svg');?>" /></a>
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterIGicon.svg');?>" /></a>
-            <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterWhatsappIcon.svg');?>" /></a>
+            <a href="https://api.whatsapp.com/send?phone=355694484000"><img class="m-auto footHover" src="<?php echo get_image('FooterWhatsappIcon.svg');?>" /></a>
         </div>
     </div>
     <p class="2xl:hidden lg:hidden nav:block text-[16px] red-hat mt-[50px] font-[400] mx-[-12%] ">Copyright gridcoding.com © 2022. <br>
