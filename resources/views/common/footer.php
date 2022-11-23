@@ -8,7 +8,7 @@
         <a class="text-base leading-7 red-hat font-[400]" href="">Careers</a>
         <a class="text-base leading-7 red-hat font-[400]" href="">Privacy Policy & Cookie</a>
         <div class="flex justify-between mt-10">
-            <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterDineImage.svg');?>" /></a>
+            <a href="book-a-table"><img class="m-auto footHover" src="<?php echo get_image('FooterDineImage.svg');?>" /></a>
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterStayImage.svg');?>" /></a>
         </div>
     </div>
@@ -21,7 +21,7 @@
         <a class="text-[18px] leading-[27px] font-[300] red-hat" href="">Careers</a>
         <a class="text-[18px] leading-[27px] font-[300] red-hat" href="">Privacy Policy & Cookie</a>
         <div class="flex justify-between mt-10">
-            <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterDineImage.svg');?>" /></a>
+            <a href="book-a-table"><img class="m-auto footHover" src="<?php echo get_image('FooterDineImage.svg');?>" /></a>
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterStayImage.svg');?>" /></a>
         </div>
     </div>
