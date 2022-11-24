@@ -139,9 +139,10 @@
                 </svg>
             </button>
        </div>
-        <div class="m-auto w-auto w3-animate-zoom">
+        <div class="m-auto w-auto w3-animate-zoom mt-[50px]">
             <!-- <img id="img01" class="m-auto" > -->
-            <img id="img01" class="m-auto 2xl:w-[1200px] lg:w-[1000px] sm:w-[1000px] w-[800px] 2xl:h-[750px] lg:h-[718px] sm:h-[718px] h-[490px] object-scale-down" >
+            <!-- <img id="img01" class="m-auto 2xl:w-[1200px] lg:w-[1000px] sm:w-[1000px] w-[800px] 2xl:h-[750px] lg:h-[718px] sm:h-[718px] h-[490px] object-scale-down" > -->
+            <img id="img01" class="m-auto max-w-[500px] 2xl:w-auto lg:w-auto sm:w-auto w-[800px] 2xl:auto lg:h-auto sm:h-auto h-[490px] object-scale-down" >
         </div>
             <div class="flex justify-between 2xl:ml-[88px] lg:ml-[70px] sm:ml-[70px] ml-[20px]  2xl:mr-[280px] lg:mr-[240px] sm:mr-[240px] mr-[20px] 2xl:mt-[-5%] sm:mt-[-5%] mt-[-9%]" >
                 <button onclick='callPrevious();' >
