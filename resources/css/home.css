@@ -89,21 +89,24 @@ iframe{
 	background-color:#081a25;
 	color:#fff;
 	display:table;
-    opacity: 80%;
+	height: 19vh;
+    opacity: 90%;
 	transform:rotateY(180deg);
 }
 .Box .Back div{
 	display:table-cell;
 	vertical-align:middle;
 	text-align:center;
-	padding:20px;
+	padding-left:20px;
+	padding-right:20px;
 }
 .Box .Back div h3{
-	font-size:22px;
+	font-size:16px;
+	margin-top: -20px;
 }
 .Box .Back div p{
-	font-size:17px;
-	margin-top:10px;
+	font-size:x-small;
+	margin-top:-2px;
 }
 .Box .Back div a{
 	color:#fff;
@@ -179,12 +182,13 @@ iframe{
 @media only screen and (max-width:1700px){
 	.Box .Back{ 
 		margin-top: -31%; 
+		height: 17vh;
 	}
 	.Box .Back div h3{
-		font-size:19px;
+		font-size:12px;
 	}
 	.Box .Back div p{
-		font-size: 13px;
+		font-size: 8px;
 	}
 }
 .fotofullscreen {
