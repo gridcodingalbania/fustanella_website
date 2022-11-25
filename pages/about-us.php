@@ -26,8 +26,8 @@
     $('document').ready(function () {
         $('#aboutUsA').css('color', 'green')
         $('#aboutUsA').css('borderBottom', '1px solid green')
+        $('#aboutUsB').css('color', 'green')
     })
-
 </script>
 <script>
        var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;

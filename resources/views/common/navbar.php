@@ -51,15 +51,15 @@
             <div class="text-center">
                 <div>
                     <ul class="hoverHamNav">
-                        <li class="pt-[50px] cormorant text-[20px] font-bold leading-[25px]"><a href="home" class="hover-target ">Home</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="about-us" class="hover-target ">About Us</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="farm-page" class="hover-target ">Farm</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="restaurant-food" class="hover-target ">Restaurant & Food</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="events" class="hover-target ">Events</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="gallery" class="hover-target ">Gallery</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="contact" class="hover-target ">Contact us </a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="work-with-us" class="hover-target ">Work With us</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="book-a-table" class="hover-target ">Book a Table</a></li>
+                        <li class="pt-[50px] cormorant text-[20px] font-bold leading-[25px]"><a href="home" class="hover-target" id="home">Home</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="about-us" class="hover-target" id="aboutUsB">About Us</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="farm-page" class="hover-target" id="farmB">Farm</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="restaurant-food" class="hover-target" id="rfB">Restaurant & Food</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="events" class="hover-target" id="eventsB">Events</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="gallery" class="hover-target" id="galleryB">Gallery</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="contact" class="hover-target" id="contactB">Contact us </a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="work-with-us" class="hover-target" id="wWsB">Work With us</a></li>
+                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="book-a-table" class="hover-target" id="BookTable">Book a Table</a></li>
                         <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="#" class="hover-target">Book a Room</a></li>
                     </ul>
                 </div>
