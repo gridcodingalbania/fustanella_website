@@ -44,5 +44,6 @@
     $('document').ready(function() {
         $('#eventsA').css('color', 'green')
         $('#eventsA').css('borderBottom', '1px solid green')
+        $('#eventsB').css('color', 'green')
     })
 </script>

@@ -75,3 +75,10 @@
 </div>
 
 <?php view('common.pop-up'); ?>
+<script>
+    $('document').ready(function () {
+        $('#contactA').css('color', 'green')
+        $('#contactA').css('borderBottom', '1px solid green')
+        $('#contactB').css('color', 'green')
+    })
+</script>

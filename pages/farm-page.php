@@ -48,6 +48,7 @@
     $('document').ready(function () {
         $('#farmA').css('color', 'green')
         $('#farmA').css('borderBottom', '1px solid green')
+        $('#farmB').css('color', 'green')
     
         setTimeout(() => {
             $('.sp-arrow').append('<div style="background: rgba(245, 245, 245, 0.45);" class="mt-[-29.078px] 2xl:ml-[-45px] md:ml-[-45px] sm:ml-[-35px] ml-[-35px] 2xl:w-[90px] md:w-[90px] sm:w-[75px] w-[75px] 2xl:h-[140px] md:h-[140px] sm:h-[127.59px] h-[127.59px]"></div>')

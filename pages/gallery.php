@@ -169,6 +169,7 @@
     $('document').ready(function () {
         $('#galleryA').css('color', 'green')
         $('#galleryA').css('borderBottom', '1px solid green')
+        $('#galleryB').css('color', 'green')
     
         setTimeout(() => {
             $('.sp-arrow').append('<div style="background: rgba(245, 245, 245, 0.3);" class="mt-[-29.078px] ml-[-45px] w-[90px] h-[140px]"></div>')

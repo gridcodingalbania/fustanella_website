@@ -42,3 +42,10 @@
         </div>
     </div>
 </div>
+<script>
+    $('document').ready(function () {
+        $('#wWsA').css('color', 'green')
+        $('#wWsA').css('borderBottom', '1px solid green')
+        $('#wWsB').css('color', 'green')
+    })
+</script>
