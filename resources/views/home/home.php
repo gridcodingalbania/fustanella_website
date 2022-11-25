@@ -160,7 +160,7 @@
     </div>
     <div class="mt-[215px] 2xl:block lg:block md:block sm:hidden hidden">
         <?php echo do_shortcode('[URIS id=88]'); ?>
-        <p class="absolute text-center mt-[-30%] left-auto right-auto w-full text-white witter 2xl:text-[96px] lg:text-[96px]  nav:text-[50px]" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">Some of our captured moments...</p>
+        <!-- <p class="absolute text-center mt-[-30%] left-auto right-auto w-full text-white witter 2xl:text-[96px] lg:text-[96px]  nav:text-[50px]" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">Some of our captured moments...</p> -->
     </div>
     <div class="mt-[100px] 2xl:hidden lg:hidden md:hidden sm:block block text-center">
         <p class="cormorant text-green-1000 lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] leading-[32px] font-[400]">Gallery</p>

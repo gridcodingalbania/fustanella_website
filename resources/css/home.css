@@ -72,13 +72,13 @@ iframe{
 }
 .Box .Back{
 	cursor:pointer;
-    margin-top: -30%;
+    margin-top: -45%;
 	transition:.5s;
 	backface-visibility:hidden;
 }
 @media only screen and (min-width:1925px) {
 	.Box .Back{ 
-		margin-top: -21%; 
+		margin-top: -40%; 
 	}
 }
 .Box .Front img{
@@ -89,8 +89,9 @@ iframe{
 	background-color:#081a25;
 	color:#fff;
 	display:table;
-	height: 19vh;
-    opacity: 90%;
+	height: 200px;
+    opacity: 95%;
+	width: 100%;
 	transform:rotateY(180deg);
 }
 .Box .Back div{
@@ -181,14 +182,20 @@ iframe{
 }
 @media only screen and (max-width:1700px){
 	.Box .Back{ 
-		margin-top: -31%; 
-		height: 17vh;
+		margin-top: -39%; 
+		height: 148px;
 	}
 	.Box .Back div h3{
 		font-size:12px;
 	}
 	.Box .Back div p{
 		font-size: 8px;
+	}
+}
+@media only screen and (max-width:1535px){
+	.Box .Back{ 
+		height: 155px;    
+		margin-top: -40%;
 	}
 }
 .fotofullscreen {
