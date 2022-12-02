@@ -84,10 +84,10 @@ iframe{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 40%;
+	height: 100%;
 	width: 100%;
-	opacity: 70%;
-	background-color:#081a25;
+	opacity: 85%;
+	background-color:black;
 	color:#fff;
 	width: 100%;
 	transform:rotateY(180deg);
@@ -100,14 +100,7 @@ iframe{
 .Box .Back div{
 	vertical-align:middle;
 	text-align:center;
-}
-.Box .Back div h3{
-	font-size:16px;
-}
-.Box .Back div p{
-	font-size:x-small;
-	margin-top:-2px;
-}
+} 
 .Box .Back div a{
 	color:#fff;
 	text-decoration:none;
@@ -181,10 +174,10 @@ iframe{
 }
 @media only screen and (max-width:1700px){
 	.Box .Back div h3{
-		font-size:12px;
+		font-size:15px;
 	}
 	.Box .Back div p{
-		font-size: 8px;
+		font-size: 14px;
 	}
 }
 .fotofullscreen {

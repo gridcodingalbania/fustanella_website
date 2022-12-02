@@ -115,10 +115,11 @@
                     <img src="<?php the_field('cheers_first_image'); ?>">
                 </div>
                 <div class="Back">
-                    <div>
-                        <h3>Lorem ipsum dolor sit.</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <div class="my-auto">
+                        <h3 class="cormorant font-[500] text-[24px] mb-[18px]">05.02.2023</h3>
+                        <h3 class="cormorant font-[500] text-[24px] mb-[26px]">Lorem ipsum</h3>
+                        <p class="red-hat font-[400] text-[20px] 2xl:mx-[80px] lg:mx-[50px] mx-[20px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,    
                         </p>
                     </div>
                 </div>
@@ -130,10 +131,11 @@
                     <img src="<?php the_field('cheers_second_image'); ?>">
                 </div>
                 <div class="Back">
-                    <div>
-                        <h3>Lorem ipsum dolor sit.</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <div class="my-auto">
+                        <h3 class="cormorant font-[500] text-[24px] mb-[18px]">05.02.2023</h3>
+                        <h3 class="cormorant font-[500] text-[24px] mb-[26px]">Lorem ipsum</h3>
+                        <p class="red-hat font-[400] text-[20px] 2xl:mx-[80px] lg:mx-[50px] mx-[20px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,    
                         </p>
                     </div>
                 </div>
@@ -145,10 +147,11 @@
                     <img src="<?php the_field('cheers_third_image'); ?>">
                 </div>
                 <div class="Back">
-                    <div>
-                        <h3>Lorem ipsum dolor sit.</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <div class="my-auto">
+                        <h3 class="cormorant font-[500] text-[24px] mb-[18px]">05.02.2023</h3>
+                        <h3 class="cormorant font-[500] text-[24px] mb-[26px]">Lorem ipsum</h3>
+                        <p class="red-hat font-[400] text-[20px] 2xl:mx-[80px] lg:mx-[50px] mx-[20px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,    
                         </p>
                     </div>
                 </div>
