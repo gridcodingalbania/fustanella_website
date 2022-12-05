@@ -30,7 +30,7 @@
         <a class="2xl:text-base sm:text-base text-[18px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300] mx-[-3%]" href=""> Phone: +355 69 448 4000</a>
         <a class="2xl:text-base sm:text-base text-[18px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300] mx-[-15%]" href="">Email: fustanellafarm@gmail.com</a>
         <a class="2xl:text-base sm:text-base text-[18px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300]" href="">Petrele, Tirana, Albania</a>
-        <div class="flex justify-evenly mt-10">
+        <div class="flex 2xl:justify-evenly sm:justify-evenly justify-between mt-10">
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterFBicon.svg');?>" /></a>
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterIGicon.svg');?>" /></a>
             <a href="https://api.whatsapp.com/send?phone=355694484000"><img class="m-auto footHover" src="<?php echo get_image('FooterWhatsappIcon.svg');?>" /></a>
