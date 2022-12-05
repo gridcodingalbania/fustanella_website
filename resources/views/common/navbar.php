@@ -129,7 +129,7 @@
         });
         $(document).ready(function() {
             if (window.location.pathname === ('/fustanella/')) {
-                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.png'); ?>">')
+                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.svg'); ?>">')
                 if (!$('#navbar2').hasClass('absolute')) {
                     $('#navbar2').addClass('absolute');
                     $('#navbar2').removeClass('relative');
@@ -138,7 +138,7 @@
                     $('#navbar2').removeClass('absolute');
                 }
             } else {
-                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.png'); ?>">')
+                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.svg'); ?>">')
             }
         });
     </script>
