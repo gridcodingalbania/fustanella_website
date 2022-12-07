@@ -141,10 +141,10 @@
        </div>
         <div class="m-auto w-auto w3-animate-zoom mt-[50px]">
             <!-- <img id="img01" class="m-auto" > -->
-            <img id="img01" class="m-auto 2xl:w-auto object-cover w-full lg:w-auto sm:w-auto 2xl:h-[750px] lg:h-[718px] sm:h-[718px] h-[490px]" >
+            <img id="img01" class="m-auto 2xl:w-auto 2xl:object-cover md:object-cover sm:object-contain object-contain w-full lg:w-auto sm:w-auto 2xl:h-[750px] lg:h-[718px] sm:h-[718px] h-[490px]" >
             <!-- <img id="img01" class="m-auto max-w-[500px] 2xl:w-auto lg:w-auto sm:w-auto w-[800px] 2xl:auto lg:h-auto sm:h-auto h-[490px] object-scale-down" > -->
         </div>
-            <div class="flex justify-between 2xl:ml-[88px] lg:ml-[70px] sm:ml-[70px] ml-[20px]  2xl:mr-[280px] lg:mr-[240px] sm:mr-[240px] mr-[20px] 2xl:mt-[-5%] sm:mt-[-5%] mt-[-9%]" >
+            <div class="2xl:flex sm:flex hidden justify-between 2xl:ml-[88px] lg:ml-[70px] sm:ml-[70px] ml-[20px]  2xl:mr-[280px] lg:mr-[240px] sm:mr-[240px] mr-[20px] 2xl:mt-[-5%] sm:mt-[-5%] mt-[-9%]" >
                 <button onclick='callPrevious();' >
                     <svg width="76" height="115" viewBox="0 0 76 115" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="74.448" height="114.229" transform="matrix(-1 0 0 1 75.2041 0.104004)" fill="white" fill-opacity="0.3"/>
