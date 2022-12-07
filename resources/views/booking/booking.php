@@ -96,7 +96,7 @@
             <div class="flex flex-col xs:w-full sm:w-full lg:w-1/2 mx-auto pb-5">
                 <label for="phone" class="mb-5 mt-5 uppercase text-[22px] cormorant">Phone</label>
                 <div class="flex flex-row">
-                    <input type="text" maxlength="4" required id="dial-code" placeholder="+355" class="w-[7%] text-center xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9|+]+" />
+                    <input type="text" maxlength="4" required id="dial-code" placeholder="+355" class="xs:w-[20%] sm:w-[20%] lg:w-[7%] text-center xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9|+]+" />
                     <input type="text" required id="phone" placeholder="Write your number" class="ml-2 w-[90%] xs:bg-transparent sm:bg-transparent lg:bg-[#F0F0F0] border-b border-black outline-none text-[16px]" pattern="[0-9]+" />
                 </div>
             </div>
@@ -114,7 +114,7 @@
 <script src="<?php echo get_fustanella_scripts("booking/booking.js"); ?>"></script>
 <script src="<?php echo get_fustanella_scripts("booking/validateBooking.js"); ?>"></script>
 <script>
-    $('document').ready(function () {
+    $('document').ready(function() {
         $('#BookTable').css('color', 'green')
     })
 </script>
