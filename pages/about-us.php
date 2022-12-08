@@ -33,13 +33,19 @@
        var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
             if (isIOS) {
                     $('.bgimg-6').addClass('bg-local');
+                    $('.bgimg-6').addClass('min-h-[250vh]');
                     $('.bgimg-6').removeClass('bg-fixed'); 
                     $('.bgimg-7').addClass('bg-local');
+                    $('.bgimg-7').addClass('min-h-[250vh]');
                     $('.bgimg-7').removeClass('bg-fixed'); 
             } else {
                 $('.bgimg-6').removeClass('bg-local');
                 $('.bgimg-6').addClass('bg-fixed'); 
+                $('.bgimg-6').removeClass('min-h-[250vh]');
+                $('.bgimg-6').addClass('bgimg-6');
                 $('.bgimg-7').removeClass('bg-local');
+                $('.bgimg-7').removeClass('min-h-[250vh]');
+                $('.bgimg-7').addClass('bgimg-7');
                 $('.bgimg-7').addClass('bg-fixed'); 
         }
 </script>
