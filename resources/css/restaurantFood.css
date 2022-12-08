@@ -1,0 +1,22 @@
+.bgimg-5 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  } 
+
+.bgimg-5{
+    min-height: 150vh;
+}
+@media only screen and (max-width:1000px) {
+    .bgimg-5{
+        min-height: 170vh!important;
+    }
+}
+@media only screen and (max-width:340px) {
+    .bgimg-5{
+        min-height: 250vh!important;
+    }
+}
