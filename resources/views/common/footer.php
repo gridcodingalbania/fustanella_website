@@ -27,9 +27,9 @@
     </div>
     <div class="grid w-fit">
         <a class="2xl:text-base sm:text-base text-[22px] leading-7 cormorant 2xl:font-[600] sm:font-[600] font-[400]" href="">FIND US</a>
-        <a class="2xl:text-base sm:text-base text-[18px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300] mx-[-3%]" href=""> Phone: +355 69 448 4000</a>
-        <a class="2xl:text-base sm:text-base text-[18px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300] mx-[-15%]" href="">Email: fustanellafarm@gmail.com</a>
-        <a class="2xl:text-base sm:text-base text-[18px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300]" href="">Petrele, Tirana, Albania</a>
+        <a class="2xl:text-base sm:text-base text-[17.5px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300] mx-[-3%]" href=""> Phone: +355 69 448 4000</a>
+        <a class="2xl:text-base sm:text-base text-[17.5px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300] mx-[-15%]" href="">Email: fustanellafarm@gmail.com</a>
+        <a class="2xl:text-base sm:text-base text-[17.5px] leading-7 red-hat 2xl:font-[400] sm:font-[400] font-[300]" href="">Petrele, Tirana, Albania</a>
         <div class="flex 2xl:justify-evenly sm:justify-evenly justify-between mt-10">
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterFBicon.svg');?>" /></a>
             <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterIGicon.svg');?>" /></a>
