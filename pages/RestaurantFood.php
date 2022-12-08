@@ -15,6 +15,7 @@
             <a href="book-a-table"><button class="2xl:px-[65px] sm:px-[65px] px-[69px] 2xl:py-[15px] sm:py-[15px] py-[16px] border  border-black pulse2"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px] font-semibold"><?php the_field('book_a_table_button'); ?></span></button></a>
             </div>
         </div>
+        <div id="bgimg4" class="h-[50vh] object-cover"></div>
     </div>
         <!-- <img src="<?php the_field('first_image_restaurant'); ?>" alt=""> -->
     </div>
@@ -33,12 +34,13 @@
 <?php get_footer(); ?>
 <script>
        var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-            if (isIOS) {
-                    $('.bgimg-5').addClass('bg-local');
-                    $('.bgimg-5').removeClass('bg-fixed');  
-            } else {
-                $('.bgimg-5').removeClass('bg-local');
-                $('.bgimg-5').addClass('bg-fixed');  
+       if (isIOS) { 
+                $('.bgimg-5').removeClass('bgimg-5');
+                $('#bgimg4').prepend('<img class="h-[50vh] object-cover" src="<?php the_field('first_image_restaurant'); ?>" />')
+
+            } else { 
+                $('#bgimg4').remove();
+                $('.bgimg-5').addClass('bgimg-5');
         }
 </script>
 <script>
