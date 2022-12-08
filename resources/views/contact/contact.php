@@ -48,7 +48,7 @@
                     <textarea required type="text" id="message" placeholder="Write your message" class="cormorant xs:bg-white sm:bg-white lg:bg-[#f0f0f0] border-b border-black outline-none text-[16px]"></textarea>
                 </div>
                 <div class="text-center items-end">
-                    <button class="uppercase cormorant h-[50px] text-white cursor-pointer bg-egreen text-center xs:w-full sm:w-full lg:w-[90%] xl:w-[95%] 2xl:w-full mx-auto mt-10 hover:bg-[#f0f0f0] hover:text-egreen hover:transition-all">Send</button>
+                    <button class="uppercase cormorant h-[50px] text-white cursor-pointer bg-egreen text-center xs:w-full sm:w-full lg:w-[90%] xl:w-[95%] 2xl:w-full mx-auto mt-10 hover:bg-[#f0f0f0] hover:border-headingColor hover:border-2 hover:text-egreen hover:transition-all">Send</button>
                 </div>
             </form>
             <img src="<?php the_field('contact_banner'); ?>" class="xs:w-3/4 sm:w-auto lg:w-[380px] 2xl:w-[450px] xs:mx-auto sm:mx-auto lg:mx-0 lg:mr-auto object-cover" />
