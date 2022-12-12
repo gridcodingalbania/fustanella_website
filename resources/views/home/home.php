@@ -1,6 +1,6 @@
 <div style="background: #F5F5F5;">
     <div>
-        <div class="fotofullscreencontent">
+        <div class="fotofullscreencontent" style="height:auto!important">
             <span class="2xl:block nav:hidden fotofullscreen"><span><?php echo do_shortcode('[URIS id=65]'); ?></span></span>
             <span class="2xl:hidden xl:hidden lg:hidden nav:block h-[100vh]"><?php echo do_shortcode('[URIS id=102]'); ?></span>
         </div>
