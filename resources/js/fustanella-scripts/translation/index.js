@@ -39,12 +39,12 @@ if (sq_path) {
     // other_language_image.src = url_origin + '/fustanella/wp-content/themes/fustanella/resources/images/language-icons/en.svg';
 
     current_language.innerText = 'AL';
-    
+
     // if user wants to go to english 
-    
+
     other_language_slug.setAttribute('href', english_url);
     other_language_text.innerText = 'EN';
-    
+
     // Mobile
 
     current_language_mobile.innerText = 'AL';
@@ -53,13 +53,26 @@ if (sq_path) {
 }
 
 //Desktop toggle
+let toggler = false;
 
 toggle_lang_dropdown.addEventListener('click', () => {
-    drop_down_menu.classList.remove('hidden');
+    toggler = !toggler;
+    if (toggler) {
+        drop_down_menu.classList.remove('hidden');
+    } else {
+        drop_down_menu.classList.add('hidden');
+    }
+
 })
 
 //Mobile toggle
 
 toggle_lang_dropdown_mobile.addEventListener('click', () => {
-    drop_down_menu_mobile.classList.remove('hidden');
+    toggler = !toggler;
+    if (toggler) {
+        drop_down_menu_mobile.classList.remove('hidden');
+    } else {
+        drop_down_menu_mobile.classList.add('hidden');
+    }
+
 })
