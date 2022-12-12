@@ -52,20 +52,20 @@
                 <div>
                     <ul class="hoverHamNav">
                         <li class="pt-[50px] cormorant text-[20px] font-bold leading-[25px]"><a href="home" class="hover-target" id="home">Home</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="about-us" class="hover-target" id="aboutUsB">About Us</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="farm-page" class="hover-target" id="farmB">Farm</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="restaurant-food" class="hover-target" id="rfB">Restaurant & Food</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="events" class="hover-target" id="eventsB">Events</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="gallery" class="hover-target" id="galleryB">Gallery</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="contact" class="hover-target" id="contactB">Contact us </a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px]"><a href="work-with-us" class="hover-target" id="wWsB">Work With us</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="book-a-table" class="hover-target" id="BookTable">Book a Table</a></li>
-                        <li class="pt-[23px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="#" class="hover-target">Book a Room</a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="about-us" class="hover-target" id="aboutUsB">About Us</a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="farm-page" class="hover-target" id="farmB">Farm</a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="restaurant-food" class="hover-target" id="rfB">Restaurant & Food</a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="events" class="hover-target" id="eventsB">Events</a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="gallery" class="hover-target" id="galleryB">Gallery</a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="contact" class="hover-target" id="contactB">Contact us </a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="work-with-us" class="hover-target" id="wWsB">Work With us</a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="book-a-table" class="hover-target" id="BookTable">Book a Table</a></li>
+                        <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="#" class="hover-target">Book a Room</a></li>
                     </ul>
                 </div>
             </div>
             <a href="javascript:void(0);" onclick="myFunction() ">
-                <img class="m-auto md:mt-[150px] sm:mt-[100px] mt-[80px]" src="<?php echo get_image('HamNavCloseIcon.svg'); ?>">
+                <img class="m-auto md:mt-[150px] sm:mt-[100px] mt-[40px]" src="<?php echo get_image('HamNavCloseIcon.svg'); ?>">
             </a>
         </div>
         <a  class="z-[99999]" href="javascript:void(0);" id="navv" class="icon" onclick="myFunction()">
