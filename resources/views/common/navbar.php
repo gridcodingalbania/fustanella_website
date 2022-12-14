@@ -1,10 +1,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 
-<div class="navbar">
-    <!-- -------------------------------------------------
-                                                DESKTOP NAVBAR
-                                     ------------------------------------------------- -->
+<div class="page">
     <div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:px-14 xl:px-8 lg:px-1.5 pt-3  w-full z-30 pb-2">
         <div class="z-30">
             <a href="home"><img class="2xl:w-full lg:w-[87%] md:w-[80%] m-auto" src="<?php echo get_image('NavbarMainImage2.svg'); ?>"></a>
@@ -24,17 +21,14 @@
         </div>
         <div class="my-auto 2xl:ml-2  -ml-1 z-30 flex flex-col flex-wrap">
             <div class="flex flex-row focus:outline-none text-sm text-center items-center">
-                <!-- <img id="current-lang" src="<?php echo get_image('language-icons/en.svg') ?>">En -->
                 <h1 id="current-lang" class="cormorant 2xl:text-[22px] xl:text-[21px] lg:text-[18px] font-[600] 2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] leading-[27px]">EN</h1>
                 <svg id="select-lang" class="ml-2 w-4 h-4 cursor-pointer" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </div>
 
-            <!-- Dropdown menu -->
             <div id="dropdown-language" class="hidden z-40 w-auto ml-auto text-center rounded h-0">
                 <a id="other-lang-slug" href="sq" class="mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                    <!-- <img id="other-lang-image" src="<?php echo get_image("language-icons/al.svg") ?>">Al -->
                 <h1 id="other-lang-image" class="cormorant text-[18px] font-[600] 2xl:ml-[40px] xl:ml-[30px] lg:ml-[16px] leading-[27px] -translate-x-[18px]">AL</h1>
                 </a>
             </div>
@@ -42,9 +36,6 @@
 
     </div>
 
-    <!-- -------------------------------------------------
-                                                MOBILE NAVBAR
-                                     ------------------------------------------------- -->
  <div id="navbar2" class="z-20 2xl:hidden lg:hidden nav:flex mb-[30px] justify-between w-full">
     <div class="z-20 ">
         <div id="myLinks" class="hidden bg-gray94 w-full h-full fixed z-20">
@@ -74,16 +65,13 @@
     </div>
     <div class="my-auto  flex flex-col flex-wrap mt-[55px] mr-[40px] z-20">
             <div class="flex flex-row focus:outline-none text-sm text-center items-center">
-                <!-- <img id="current-lang1" src="<?php echo get_image('language-icons/en.svg') ?>"> -->
                 <h1 id="current-lang1" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">EN</h1>
                 <svg id="select-lang1" class="ml-2 w-4 h-4 cursor-pointer " aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </div>
-            <!-- Dropdown menu -->
             <div id="dropdown-language1" class="hidden absolute z-40 mt-3 w-auto ml-[-1rem] text-center rounded h-0">
                 <a id="other-lang-slug1" href="sq" class="z-[99999] mt-3 bg-white flex py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                    <!-- <img id="other-lang-image1" src="<?php echo get_image("language-icons/al.svg") ?>"> -->
                 <h1 id="other-lang-image1" class="font-[600] 2xl:text-[22px] xl:text-[21px] lg:text-[18px] leading-[27px]">AL</h1>
                 </a>
             </div>
@@ -104,44 +92,6 @@
             <img class="m-auto" src="<?php echo get_image('TreeRotateImage.png'); ?>" />
         </div>
     </div>
-    <script type="text/javascript">
-        $(window).load(function() {
-            $('#preloader').delay(500).fadeOut('slow');
-            $('body').delay(500).css({
-                'overflow': 'visible'
-            });
-        })
-        $(document).ready(function() {
-            setTimeout(() => {
-                $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
-            }, 1000);
-
-            // if(window.location.pathname === ('/fustanella/') || window.location.pathname === ('/fustanella/gallery')) {
-            //     if(!$('#navbar').hasClass('absolute')) {
-            //         $('#navbar').addClass('absolute');
-            //         $('#navbar').removeClass('relative');
-            //     }
-            //     else {
-            //         $('#navbar').addClass('relative');
-            //         $('#navbar').removeClass('absolute');
-            //     }
-            // }
-        });
-        $(document).ready(function() {
-            if (window.location.pathname === ('/fustanella/')) {
-                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.svg'); ?>">')
-                if (!$('#navbar2').hasClass('absolute')) {
-                    $('#navbar2').addClass('absolute');
-                    $('#navbar2').removeClass('relative');
-                } else {
-                    $('#navbar2').addClass('relative');
-                    $('#navbar2').removeClass('absolute');
-                }
-            } else {
-                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.svg'); ?>">')
-            }
-        });
-    </script>
     <style>
         .sp-buttons {
             margin-top: -4.5% !important;

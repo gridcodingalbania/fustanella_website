@@ -33,11 +33,6 @@ if (sq_path) {
 
     // let url_origin = window.location.origin;
 
-    // Swap Icons when url change (flags)
-    // if url origin doesnt contain fustanella, remove it 
-    // current_language_src.src = url_origin + '/fustanella/wp-content/themes/fustanella/resources/images/language-icons/al.svg';
-    // other_language_image.src = url_origin + '/fustanella/wp-content/themes/fustanella/resources/images/language-icons/en.svg';
-
     current_language.innerText = 'AL';
 
     // if user wants to go to english 
@@ -50,6 +45,16 @@ if (sq_path) {
     current_language_mobile.innerText = 'AL';
     other_language_mobile_slug.setAttribute('href', english_url);
     other_language_mobile_text.innerText = 'EN';
+
+
+    if (window.location.pathname !== "/fustanella/sq" && window.location.pathname === "/restaurant-food/sq" ||
+        window.location.pathname === "/about-us/sq" || window.location.pathname === "/farm-page/sq" ||
+        window.location.pathname === "/events/sq" || window.location.pathname === "/gallery/sq" ||
+        window.location.pathname === "/contact/sq" || window.location.pathname === "/work-with-us/sq" ||
+        window.location.pathname === "/book-a-table/sq") {
+        location.replace(window.location.origin + "/sq" + window.location.pathname.replace('/sq', ""));
+    }
+
 }
 
 //Desktop toggle

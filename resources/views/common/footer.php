@@ -1,6 +1,4 @@
-                                        <!-- -------------------------------------------------
-                                                    DESKTOP FOOTER
-                                         ------------------------------------------------- -->
+
 <div class="2xl:flex xl:flex lg:flex nav:grid bg-green-1000 justify-evenly p-20 text-center text-white ">
     <div class="2xl:grid lg:grid nav:hidden">
         <a class="text-base leading-7 cormorant font-[600]" href="">CUSTOMER SERVICE</a>
