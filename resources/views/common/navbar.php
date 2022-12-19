@@ -1,5 +1,20 @@
 <script src="https://cdn.tailwindcss.com"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<style>
+    #preloader {
+        background-color: #F0F0F0;
+    }
 
+    .sp-buttons {
+        margin-top: -4.5% !important;
+    }
+
+    @media only screen and (max-width:700px) {
+        .sp-buttons {
+            margin-top: -15% !important;
+        }
+    }
+</style>
 
 <div class="page">
     <div id="navbar" class="2xl:flex lg:flex nav:hidden 2xl:px-14 xl:px-8 lg:px-1.5 pt-3  w-full z-30 pb-2">
@@ -77,13 +92,7 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    </head>
-    <style>
-        #preloader {
-            background-color: #F0F0F0;
-        }
-    </style>
+
     <div id="preloader">
         <div class="status">
             <img style="margin-top:-35px" class="m-auto rotating" id="preload-animation-b" style="z-index:10000;" src="<?php echo get_image('RotateImage.png'); ?>" />
@@ -92,55 +101,48 @@
             <img class="m-auto" src="<?php echo get_image('TreeRotateImage.png'); ?>" />
         </div>
     </div>
-    <script type="text/javascript">
-        $(window).load(function() {
-            $('#preloader').fadeOut('slow');
-            $('body').css({
-                'overflow': 'visible'
-            });
-        })
-        $(document).ready(function() {
-            setTimeout(() => {
-                $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
-            }, 1000);
-        });
-        $(document).ready(function() {
-            if (window.location.pathname === ('/')) {
-                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.svg'); ?>">')
-                if (!$('#navbar2').hasClass('absolute')) {
-                    $('#navbar2').addClass('absolute');
-                    $('#navbar2').removeClass('relative');
-                } else {
-                    $('#navbar2').addClass('relative');
-                    $('#navbar2').removeClass('absolute');
-                }
-            } else {
-                $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.svg'); ?>">')
-            }
-        });
-    </script>
-    <style>
-        .sp-buttons {
-            margin-top: -4.5% !important;
-        }
 
-        @media only screen and (max-width:700px) {
-            .sp-buttons {
-                margin-top: -15% !important;
-            }
-        }
-    </style>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            var y = document.getElementById("navv");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-                y.style.display = "block";
+</div>
+<script type="text/javascript">
 
+    $(document).ready(function() {
+
+        setTimeout(() => {
+            $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
+        }, 1000);
+
+        $('#preloader').delay(400).fadeOut('slow');
+        $('body').css({
+            'overflow': 'visible'
+        });
+
+        if (window.location.pathname === ('/')) {
+
+            $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.svg'); ?>">')
+
+            if (!$('#navbar2').hasClass('absolute')) {
+                $('#navbar2').addClass('absolute');
+                $('#navbar2').removeClass('relative');
             } else {
-                x.style.display = "block";
-                y.style.display = "none";
+                $('#navbar2').addClass('relative');
+                $('#navbar2').removeClass('absolute');
             }
+
+        } else {
+            $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.svg'); ?>">')
         }
-    </script>
+    }); 
+    function myFunction() {
+
+        var x = document.getElementById("myLinks");
+        var y = document.getElementById("navv");
+
+        if (x.style.display === "block") {
+            x.style.display = "none";
+            y.style.display = "block";
+        } else {
+            x.style.display = "block";
+            y.style.display = "none";
+        }
+    }
+</script>
