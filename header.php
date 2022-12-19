@@ -11,10 +11,4 @@
     </head>
     <body>
         <div id="app">
-        <?php
-            $args = [
-                'var1' => 'test',
-                'var2' => 'asdasdas'
-            ]
-        ?>
           <?php view('common.navbar', $args); ?>
