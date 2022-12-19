@@ -1,20 +1,23 @@
 <div style="background: #F5F5F5;">
-    <div class="fotofullscreencontent" style="height:auto!important">
-        <span class="2xl:block nav:hidden fotofullscreen"><span><?php echo do_shortcode('[URIS id=65]'); ?></span></span>
-        <span class="2xl:hidden xl:hidden lg:hidden nav:block h-[100vh]"><?php echo do_shortcode('[URIS id=102]'); ?></span>
-    </div>
-    <div class="table absolute w-full top-0 left-0 z-3">
-        <div class="text-center 2xl:mt-[18%] xl:mt-[18%] lg:mt-[15%] nav:mt-[60%] md:mt-[30%] mt-[80%]">
-            <div class="2xl:hidden xl:hidden lg:hidden block">
-            </div>
-            <div id="MobMain" class="text-white cormorant font-[500] 2xl:text-[100px] xl:text-[100px] nav:text-[70px] sm:text-[70px] text-[50px] 2xl:leading-[120px] xl:leading-[110px] md:leading-[100px] sm:leading-[70px] leading-[70px] 2xl:mt-[500px] nav:mt-[500px] md:mt-[400px] sm:mt-[100px] mt-[400px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[40px]">
-                <span id="firstAn"></span>
-                <span id="secondAn"></span>
-                <span id="thirdAn"></span>
-            </div>
-            <div id="buttonMainMob" class="2xl:flex nav:grid justify-center text-white gap-[16px] 2xl:mt-[50px] xl:mt-[40px] md:mt-[30px] mt-[30px] opacity-0 ">
-                <a class="pulse 2xl:p-0  lg:p-[10px]" style="background: rgba(0, 104, 56, 0.9);" href="book-a-table"><button class="px-[65px] py-[15px]"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
-                <a class="pulse 2xl:p-0  lg:p-[10px]" style="background: rgba(0, 104, 56, 0.9);" href=""><button class="px-[65px] py-[15px] 2xl:mt-0 nav:mt-[5%] mt-0 "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
+    <div>
+        <div class="fotofullscreencontent" style="height:auto!important">
+            <span class="2xl:block nav:hidden fotofullscreen"><span><?php echo do_shortcode('[URIS id=65]'); ?></span></span>
+            <span class="2xl:hidden xl:hidden lg:hidden nav:block h-[100vh]"><?php echo do_shortcode('[URIS id=102]'); ?></span>
+        </div>
+        <div class="table absolute w-full top-0 left-0 z-3">
+            <div class="text-center 2xl:mt-[18%] xl:mt-[18%] lg:mt-[15%] nav:mt-[60%] md:mt-[30%] mt-[80%]">
+                <div class="2xl:hidden xl:hidden lg:hidden block">
+                    <!-- <img class="m-auto hidden" src="<?php the_field('fustanella_main_mobile_image'); ?>" alt=""> -->
+                </div>
+                <div id="MobMain" class="text-white cormorant font-[500] 2xl:text-[100px] xl:text-[100px] nav:text-[70px] sm:text-[70px] text-[50px] 2xl:leading-[120px] xl:leading-[110px] md:leading-[100px] sm:leading-[70px] leading-[70px] 2xl:mt-[500px] nav:mt-[500px] md:mt-[230px] sm:mt-[100px] mt-[400px] 2xl:mx-0 md:mx-[20%] sm:mx-[20%] mx-[40px]">
+                    <span id="firstAn"></span>
+                    <span id="secondAn"></span>
+                    <span id="thirdAn"></span>
+                </div>
+                <div id="buttonMainMob" class="2xl:flex nav:grid justify-center text-white gap-[16px] 2xl:mt-[50px] xl:mt-[40px] md:mt-[30px] mt-[30px] opacity-0 ">
+                    <a class="pulse 2xl:p-0  lg:p-[10px]" style="background: rgba(0, 104, 56, 0.9);" href="book-a-table"><button class="px-[65px] py-[15px]"> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_table_button'); ?></span></button></a>
+                    <a class="pulse 2xl:p-0  lg:p-[10px]" style="background: rgba(0, 104, 56, 0.9);" href=""><button class="px-[65px] py-[15px] 2xl:mt-0 nav:mt-[5%] mt-0 "> <span class="uppercase cormorant  2xl:text-[24px] sm:text-[24px] text-[18px]"><?php the_field('book_a_room_button'); ?></span></button></a>
+                </div>
             </div>
         </div>
     </div>
