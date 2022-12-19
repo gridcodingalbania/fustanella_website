@@ -140,13 +140,19 @@
 
         var x = document.getElementById("myLinks");
         var y = document.getElementById("navv");
+        var z = document.getElementById("current-lang1");
+        var o = document.getElementById("select-lang1");
 
         if (x.style.display === "block") {
             x.style.display = "none";
             y.style.display = "block";
+            z.style.display = "block";
+            o.style.display = "flex";
         } else {
             x.style.display = "block";
+            z.style.display = "none";
             y.style.display = "none";
+            o.style.display = "none";
         }
     }
 </script>
