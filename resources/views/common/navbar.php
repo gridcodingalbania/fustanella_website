@@ -106,8 +106,8 @@
     </div>
     <script type="text/javascript">
         $(window).load(function() {
-            $('#preloader').delay(300).fadeOut('slow');
-            $('body').delay(300).css({
+            $('#preloader').fadeOut('slow');
+            $('body').css({
                 'overflow': 'visible'
             });
         })
