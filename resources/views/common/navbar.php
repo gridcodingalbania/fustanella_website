@@ -104,17 +104,13 @@
 
 </div>
 <script type="text/javascript">
-
     $(document).ready(function() {
 
         setTimeout(() => {
             $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
         }, 1000);
 
-        $('#preloader').delay(400).fadeOut('slow');
-        $('body').css({
-            'overflow': 'visible'
-        });
+
 
         if (window.location.pathname === ('/')) {
 
@@ -131,7 +127,15 @@
         } else {
             $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.svg'); ?>">')
         }
-    }); 
+    });
+
+    $(window).load(() => {
+        $('#preloader').fadeOut('slow');
+        $('body').css({
+            'overflow': 'visible'
+        });
+    })
+
     function myFunction() {
 
         var x = document.getElementById("myLinks");
