@@ -5,11 +5,11 @@
         </script>
         <script type="text/javascript">
             $(window).load(function() {
-                $('#preloader').delay(500).fadeOut('slow');
-                $('body').delay(500).css({
+                $('#preloader').fadeOut('slow');
+                $('body').css({
                     'overflow': 'visible'
                 });
-            })
+            }).
             $(document).ready(function() {
                 setTimeout(() => {
                     $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
