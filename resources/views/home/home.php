@@ -20,8 +20,8 @@
                 </div>
             </div>
         </div>
-
     </div>
+
     <div class="mt-[100px] mb-[184px] mx-[50px]" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">
         <p class="2xl:text-green-2000 md:text-green-2000 text-green-1000 witter 2x:text-[64px] md:text-[64px] sm:text-[30px] text-[30px] font-[400] 2xl:leading-[73px] md:leading-[73px] sm:leading-[34px] leading-[34px] text-center">Testimonials</p>
 
@@ -84,24 +84,6 @@
             </div>
         </div>
     </div>
-    <!-- <div>
-        <div style="background: rgba(0, 104, 56, 0.9);" class="absolute mr-[51%] text-white rounded-3xl   mt-[-72px] ml-[170px]">
-            <p class="text-white text-[45px] cormorant text-center uppercase mt-[80px]"><?php the_field('about_us_first_line'); ?></p>
-            <p class="text-white red-hat text-[22px] text-center mt-[70px] px-[70px] leading-[32px]"><?php the_field('about_us_paragraph'); ?></p>
-            <button class="flex m-auto red-hat text-[22px] my-[80px]">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image'); ?>" alt=""></button>
-        </div>
-        <div>
-            <img src="<?php the_field('about_us_image'); ?>" alt="">
-        </div>
-        <div style="background: rgba(0, 104, 56, 0.9);" class="absolute mr-[51%] text-white rounded-3xl   mt-[-72px] ml-[170px]">
-            <p class="text-white text-[45px] cormorant text-center uppercase mt-[80px]"><?php the_field('restorant_first_line'); ?></p>
-            <p class="text-white red-hat text-[22px] text-center mt-[70px] px-[70px] leading-[32px]"><?php the_field('restorant_paragraph'); ?></p>
-            <button class="flex m-auto red-hat text-[22px] my-[80px]">See more <img class="m-auto pl-[10px]" src="<?php the_field('see_more_image'); ?>" alt=""></button>
-        </div>
-        <div class="mt-[-2px]">
-            <img src="<?php the_field('restorant&food_image'); ?>" alt="">
-        </div>
-    </div>  -->
     <div class="mt-[50px] text-center">
         <p style="color:#90B03E;" class="witter text-[55px] font-[400] leading-[48px] mr-[140px] 2xl:block sm:block hidden"><?php the_field('cheers_word'); ?></p>
         <p class="cormorant text-green-1000 2xl:text-[45px] lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] 2xl:leading-[39px] sm:leading-[39px] leading-[25px] 2xl:font-[500] sm:font-[500] font-[400] uppercase"><?php the_field('our_events_word'); ?></p>
@@ -119,7 +101,7 @@
                         <h3 class="cormorant font-[500] text-[24px] mb-[18px]">05.02.2023</h3>
                         <h3 class="cormorant font-[500] text-[24px] mb-[26px]">Lorem ipsum</h3>
                         <p class="red-hat font-[400] text-[20px] 2xl:mx-[80px] lg:mx-[50px] mx-[20px]">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         </p>
                     </div>
                 </div>
@@ -135,7 +117,7 @@
                         <h3 class="cormorant font-[500] text-[24px] mb-[18px]">05.02.2023</h3>
                         <h3 class="cormorant font-[500] text-[24px] mb-[26px]">Lorem ipsum</h3>
                         <p class="red-hat font-[400] text-[20px] 2xl:mx-[80px] lg:mx-[50px] mx-[20px]">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         </p>
                     </div>
                 </div>
@@ -151,7 +133,7 @@
                         <h3 class="cormorant font-[500] text-[24px] mb-[18px]">05.02.2023</h3>
                         <h3 class="cormorant font-[500] text-[24px] mb-[26px]">Lorem ipsum</h3>
                         <p class="red-hat font-[400] text-[20px] 2xl:mx-[80px] lg:mx-[50px] mx-[20px]">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         </p>
                     </div>
                 </div>
@@ -163,7 +145,6 @@
     </div>
     <div class="mt-[215px] 2xl:block lg:block md:block sm:hidden hidden">
         <?php echo do_shortcode('[URIS id=88]'); ?>
-        <!-- <p class="absolute text-center mt-[-30%] left-auto right-auto w-full text-white witter 2xl:text-[96px] lg:text-[96px]  nav:text-[50px]" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">Some of our captured moments...</p> -->
     </div>
     <div class="mt-[100px] 2xl:hidden lg:hidden md:hidden sm:block block text-center">
         <p class="cormorant text-green-1000 lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] leading-[32px] font-[400]">Gallery</p>
@@ -185,10 +166,9 @@
 <script>
     setTimeout(() => {
         $('.sp-arrow').append('<div style="background: rgba(245, 245, 245, 0.45);" class="mt-[-10px] 2xl:ml-[-45px] lg:ml-[-45px] md:ml-[-30px] ml-[-30px] 2xl:w-[100px] lg:w-[100px] md:w-[80px] w-[80px] 2xl:h-[100px] lg:h-[100px] md:h-[102px] h-[80px]"></div>')
-        console.log($('.sp-previous-arrow.sp-arrow'));
     }, 100);
 
-    var string = "<?php the_field('main_text_first_line'); ?>"; /* type your text here */
+    var string = "<?php the_field('main_text_first_line'); ?>";
     var al_string = "<?php the_field('main_text_al'); ?>";
     var sq_path = location.pathname.includes('sq');
     var array = string.split("");
@@ -224,7 +204,7 @@
 
     }, 1200);
 
-    var string2 = "<?php the_field('main_text_second_line_first_word'); ?>"; /* type your text here */
+    var string2 = "<?php the_field('main_text_second_line_first_word'); ?>";
     var array2 = string2.split("");
     var timer2;
 
@@ -308,7 +288,7 @@
     }
 </script>
 <script>
-    $('document').ready(function () {
+    $('document').ready(function() {
         $('#home').css('color', 'green')
     })
 </script>

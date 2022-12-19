@@ -1,4 +1,3 @@
-<!-- <div class="grid xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xs:gap-4 sm:gap-6 lg:gap-12 xl:gap-12 2xl:gap-auto justify-items-center"> -->
 <div class="lg:flex lg:flex-row flex-wrap items-center lg:justify-center xs:grid sm:grid xs:grid-cols-2 sm:grid-cols-2 xs:justify-items-center xs:gap-4 sm:gap-6 lg:gap-12">
     <?php if (have_rows('open_vacancies')) : ?>
         <?php while (have_rows('open_vacancies')) : the_row();

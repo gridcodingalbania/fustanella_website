@@ -31,12 +31,6 @@ if (sq_path) {
 
     let english_url = window.location.pathname.replace('/sq/', "/");
 
-    // let url_origin = window.location.origin;
-
-    // Swap Icons when url change (flags)
-    // if url origin doesnt contain fustanella, remove it 
-    // current_language_src.src = url_origin + '/fustanella/wp-content/themes/fustanella/resources/images/language-icons/al.svg';
-    // other_language_image.src = url_origin + '/fustanella/wp-content/themes/fustanella/resources/images/language-icons/en.svg';
 
     current_language.innerText = 'AL';
 
@@ -50,9 +44,47 @@ if (sq_path) {
     current_language_mobile.innerText = 'AL';
     other_language_mobile_slug.setAttribute('href', english_url);
     other_language_mobile_text.innerText = 'EN';
+
+    if(window.location.pathname === "/about-us/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/about-us"
+    }
+    
+    if(window.location.pathname === "/restaurant-food/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/restaurant-food"
+    }
+    
+    if(window.location.pathname === "/farm-page/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/farm-page"
+    }
+    
+    if(window.location.pathname === "/events/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/events"
+    }
+    
+    if(window.location.pathname === "/gallery/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/gallery"
+    }
+    
+    if(window.location.pathname === "/contact/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/contact"
+    }
+    
+    if(window.location.pathname === "/work-with-us/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/work-with-us"
+    }
+    
+    if(window.location.pathname === "/book-a-table/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/book-a-table"
+    }
+
+    if(window.location.pathname === "/privacypolicy/sq"){
+        document.location.href = "https://fustanellafarm.al/sq/privacypolicy"
+    }
+
 }
 
 //Desktop toggle
+
 let toggler = false;
 
 toggle_lang_dropdown.addEventListener('click', () => {
