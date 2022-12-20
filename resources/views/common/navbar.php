@@ -32,7 +32,7 @@
         </div>
         <div class="flex my-auto z-30">
             <a href="book-a-table"><img class="hoverEffect 2xl:w-full lg:w-[87%] md:w-[80%] m-auto" src="<?php echo get_image('NavbarDineImage.svg'); ?>"></a>
-            <a class="2xl:ml-[31px] lg:ml-2" href=""><img class="hoverEffect 2xl:w-full lg:w-[87%] md:w-[80%] m-auto" src="<?php echo get_image('NavbarStayImage.svg'); ?>"></a>
+            <a class="2xl:ml-[31px] lg:ml-2" href="farm#stay"><img class="hoverEffect 2xl:w-full lg:w-[87%] md:w-[80%] m-auto" src="<?php echo get_image('NavbarStayImage.svg'); ?>"></a>
         </div>
         <div class="my-auto 2xl:ml-2  -ml-1 z-30 flex flex-col flex-wrap">
             <div class="flex flex-row focus:outline-none text-sm text-center items-center">
