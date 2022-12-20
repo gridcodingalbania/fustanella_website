@@ -7,7 +7,7 @@
         <a class="text-base leading-7 red-hat font-[400]" href="privacypolicy">Privacy Policy</a>
         <div class="flex justify-evenly mt-10">
             <a href="book-a-table"><img class="m-auto footHover" src="<?php echo get_image('FooterDineImage.svg');?>" /></a>
-            <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterStayImage.svg');?>" /></a>
+            <a href="farm#stay"><img class="m-auto footHover" src="<?php echo get_image('FooterStayImage.svg');?>" /></a>
         </div>
     </div>
     <div>
@@ -20,7 +20,7 @@
         <a class="text-[18px] leading-[27px] font-[300] red-hat" href="privacypolicy">Privacy Policy</a>
         <div class="flex justify-evenly mt-10">
             <a href="book-a-table"><img class="m-auto footHover" src="<?php echo get_image('FooterDineImage.svg');?>" /></a>
-            <a href=""><img class="m-auto footHover" src="<?php echo get_image('FooterStayImage.svg');?>" /></a>
+            <a href="farm#stay"><img class="m-auto footHover" src="<?php echo get_image('FooterStayImage.svg');?>" /></a>
         </div>
     </div>
     <div class="grid w-fit">
