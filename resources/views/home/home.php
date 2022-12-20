@@ -151,7 +151,7 @@
         <p class="mt-[5px] mb-[20px] text-black witter text-28px font-[400]" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1000">some of our captured moments...</p>
         <?php echo do_shortcode('[URIS id=261]'); ?>
     </div>
-    <div class="mt-[50px] text-center">
+    <div class="mt-[80px] text-center">
         <p style="color:#90B03E;" class="witter text-[55px] font-[400] leading-[48px] mr-[140px] 2xl:block sm:block hidden"><?php the_field('you_re_welcome_word'); ?></p>
         <p class="cormorant text-green-1000 2xl:text-[45px] lg:text-[45px] md:text-[35px] sm:text-[35px] text-[28px] 2xl:leading-[39px] sm:leading-[39px] leading-[25px] 2xl:font-[500] sm:font-[500] font-[400] uppercase"><?php the_field('direction_word'); ?></p>
         <p style="color:#90B03E;" class="witter text-[24px] font-[400] leading-[35px] ml-[140px] 2xl:hidden sm:hidden block"><?php the_field('you_re_welcome_word'); ?></p>
