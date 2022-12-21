@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 
 use App\Base\Singleton;
@@ -27,7 +28,13 @@ class ApplicationForm extends Singleton
                     ]
                 );
                 $id = $wpdb->insert_id;
-                if($id){
+                if ($id) {
+                    $person_name = $data['name'];
+                    $person_phone = $data['phone'];
+                    $position = $data['position'];
+
+                    $this->sendApplicationToAdmin("greit@gridcoding.com", $person_name, $person_phone, $position);
+                    
                     wp_send_json_success([
                         'message' => 'for your application!'
                     ]);
@@ -46,13 +53,29 @@ class ApplicationForm extends Singleton
         }
         foreach ($_FILES as $file) {
             try {
-                require_once( ABSPATH . 'wp-admin/includes/image.php' );
-                require_once( ABSPATH . 'wp-admin/includes/file.php' );
-                require_once( ABSPATH . 'wp-admin/includes/media.php' );
+                require_once(ABSPATH . 'wp-admin/includes/image.php');
+                require_once(ABSPATH . 'wp-admin/includes/file.php');
+                require_once(ABSPATH . 'wp-admin/includes/media.php');
                 $attachment = \wp_handle_upload($file, ['test_form' => false]);
                 return $attachment['url'];
-            } catch (\Exception $e) { }
+            } catch (\Exception $e) {
+            }
         }
         return 0;
+    }
+
+    public function sendApplicationToAdmin($to, $name, $phone_no, $position)
+    {
+        $email_subject = "[Fustanella] New Application";
+
+        $email_message =
+            "Name: " . $name .
+            "\nPhone Number: " . $phone_no .
+            "\nPosition: " . $position .
+            "\n\n\n Please visit admin dashboard to download CV. fustanellafarm.al/wp-admin/admin.php?page=applications";
+
+        $email_headers = 'From: ' . $to;
+
+        wp_mail($to, $email_subject, $email_message, $email_headers);
     }
 }
