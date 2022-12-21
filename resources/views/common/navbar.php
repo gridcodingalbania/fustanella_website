@@ -66,7 +66,7 @@
                             <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="contact" class="hover-target" id="contactB">Contact us </a></li>
                             <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px]"><a href="work-with-us" class="hover-target" id="wWsB">Work With us</a></li>
                             <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="book-a-table" class="hover-target" id="BookTable">Book a Table</a></li>
-                            <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="#" class="hover-target">Book a Room</a></li>
+                            <li class="2xl:pt-[23px] sm:pt-[23px] pt-[18px] cormorant text-[20px] font-bold leading-[25px] underline underline-offset-8"><a href="farm#stay1" class="hover-target">Book a Room</a></li>
                         </ul>
                     </div>
                 </div>
