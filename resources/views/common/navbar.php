@@ -101,6 +101,7 @@
             <img class="m-auto" src="<?php echo get_image('TreeRotateImage.png'); ?>" />
         </div>
     </div>
+    <?php view('common.goToTopButton'); ?>
 
 </div>
 <script type="text/javascript">
