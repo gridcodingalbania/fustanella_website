@@ -93,14 +93,14 @@
         </div>
     </div>
 
-    <!-- <div id="preloader">
+    <div id="preloader">
         <div class="status">
             <img style="margin-top:-35px" class="m-auto rotating" id="preload-animation-b" style="z-index:10000;" src="<?php echo get_image('RotateImage.png'); ?>" />
         </div>
         <div class="status">
             <img class="m-auto" src="<?php echo get_image('TreeRotateImage.png'); ?>" />
         </div>
-    </div> -->
+    </div>
 
 </div>
 <script type="text/javascript">
@@ -129,12 +129,12 @@
         }
     });
 
-    // $(window).load(() => {
-    //     $('#preloader').fadeOut('slow');
-    //     $('body').css({
-    //         'overflow': 'visible'
-    //     });
-    // })
+    $(window).load(() => {
+        $('#preloader').fadeOut('slow');
+        $('body').css({
+            'overflow': 'visible'
+        });
+    })
 
     function myFunction() {
 
