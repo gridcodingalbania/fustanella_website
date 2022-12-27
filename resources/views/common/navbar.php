@@ -105,55 +105,7 @@
 
 </div>
 <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function(){setTimeout(()=>{$(".sp-button").append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')},1e3),"/"===window.location.pathname?($(".HAMNAVBAR").append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.svg'); ?>">'),$("#navbar2").hasClass("absolute")?($("#navbar2").addClass("relative"),$("#navbar2").removeClass("absolute")):($("#navbar2").addClass("absolute"),$("#navbar2").removeClass("relative"))):$(".HAMNAVBAR").append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.svg'); ?>">')});
 
-        setTimeout(() => {
-            $('.sp-button').append('<div style="background-color: #ffff!important;width: 20px;height:4px!important;z-index:100;border: 1px solid #fff !important;margin-top:-3px;margin-left:-2px;"></div>')
-        }, 1000);
-
-
-
-        if (window.location.pathname === ('/')) {
-
-            $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIcon.svg'); ?>">')
-
-            if (!$('#navbar2').hasClass('absolute')) {
-                $('#navbar2').addClass('absolute');
-                $('#navbar2').removeClass('relative');
-            } else {
-                $('#navbar2').addClass('relative');
-                $('#navbar2').removeClass('absolute');
-            }
-
-        } else {
-            $('.HAMNAVBAR').append('<img class="mt-[55px] ml-[40px]" src="<?php echo get_image('HamNavLineIconBlack.svg'); ?>">')
-        }
-    });
-
-    $(window).load(() => {
-        $('#preloader').fadeOut('slow');
-        $('body').css({
-            'overflow': 'visible'
-        });
-    })
-
-    function myFunction() {
-
-        var x = document.getElementById("myLinks");
-        var y = document.getElementById("navv");
-        var z = document.getElementById("current-lang1");
-        var o = document.getElementById("select-lang1");
-
-        if (x.style.display === "block") {
-            x.style.display = "none";
-            y.style.display = "block";
-            z.style.display = "block";
-            o.style.display = "flex";
-        } else {
-            x.style.display = "block";
-            z.style.display = "none";
-            y.style.display = "none";
-            o.style.display = "none";
-        }
-    }
+    $(window).load(()=>{$("#preloader").fadeOut("slow"),$("body").css({overflow:"visible"})});function myFunction(){var l=document.getElementById("myLinks"),e=document.getElementById("navv"),y=document.getElementById("current-lang1"),s=document.getElementById("select-lang1");"block"===l.style.display?(l.style.display="none",e.style.display="block",y.style.display="block",s.style.display="flex"):(l.style.display="block",y.style.display="none",e.style.display="none",s.style.display="none")}
 </script>
