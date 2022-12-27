@@ -64,7 +64,7 @@
 
     <div class="2xl:hidden sm:hidden block">
         <h1 class="text-center font-semibold text-[28px] leading-[24.5px] cormorant text-green-1000 uppercase">Gallery</h1>
-        <p class="mt-[12px] mb-[24px] text-center text-green-2000 witter text-[32px] font-[400] leading-[36px]">some of our captured moments...</p>
+        <p class="mt-[12px] mb-[24px] text-center text-green-2000 witter text-[32px] font-[400] leading-[36px] mx-[30px]">some of our captured moments...</p>
         <div class="border-separate border-spacing-y-[22px] mb-[22px]">
             <div>
                 <img onclick="onClick(this)" class="w-full" src="<?php the_field('table_1_first_image') ?>">
